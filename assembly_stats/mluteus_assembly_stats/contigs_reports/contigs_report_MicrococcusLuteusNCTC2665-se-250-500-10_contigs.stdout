@@ -1,0 +1,1091 @@
+Aligning contigs to reference...
+	Running Nucmer
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome.]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 2501097
+Analyzing contigs...
+CONTIG: NODE_42_length_4441_cov_3.1662_ID_83 (4441bp)
+Top Length: 4441  Top ID: 99.95
+		Marking as insignificant: 1564647 1564766 | 4441 4322 | 120 120 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_42_length_4441_cov_3.1662_ID_83
+		Marking as insignificant: 1102668 1102788 | 4321 4441 | 121 121 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_42_length_4441_cov_3.1662_ID_83
+		Marking as insignificant: 52307 52427 | 4321 4441 | 121 121 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_42_length_4441_cov_3.1662_ID_83
+		Marking as insignificant: 535696 535821 | 4441 4316 | 126 126 | 99.21 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_42_length_4441_cov_3.1662_ID_83
+		Marking as insignificant: 1574806 1574932 | 4441 4315 | 127 127 | 99.21 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_42_length_4441_cov_3.1662_ID_83
+		Marking as insignificant: 510867 510993 | 4315 4441 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_42_length_4441_cov_3.1662_ID_83
+		One align captures most of this contig: 340393 344833 | 4441 1 | 4441 4441 | 99.95 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_42_length_4441_cov_3.1662_ID_83
+
+CONTIG: NODE_36_length_7281_cov_3.2038_ID_71 (7281bp)
+Top Length: 7281  Top ID: 99.99
+		Marking as insignificant: 712091 712217 | 7281 7155 | 127 127 | 97.64 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_36_length_7281_cov_3.2038_ID_71
+		Marking as insignificant: 712091 712217 | 1 127 | 127 127 | 97.64 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_36_length_7281_cov_3.2038_ID_71
+		Marking as insignificant: 210033 210159 | 127 1 | 127 127 | 98.43 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_36_length_7281_cov_3.2038_ID_71
+		Marking as insignificant: 210033 210159 | 7155 7281 | 127 127 | 98.43 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_36_length_7281_cov_3.2038_ID_71
+		Marking as insignificant: 2462572 2462698 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_36_length_7281_cov_3.2038_ID_71
+		Marking as insignificant: 2462572 2462698 | 7155 7281 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_36_length_7281_cov_3.2038_ID_71
+		Marking as insignificant: 2338370 2338496 | 7281 7155 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_36_length_7281_cov_3.2038_ID_71
+		Marking as insignificant: 2338370 2338496 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_36_length_7281_cov_3.2038_ID_71
+		Marking as insignificant: 1642754 1642880 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_36_length_7281_cov_3.2038_ID_71
+		Marking as insignificant: 1633408 1633534 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_36_length_7281_cov_3.2038_ID_71
+		Marking as insignificant: 1633408 1633534 | 7155 7281 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_36_length_7281_cov_3.2038_ID_71
+		Marking as insignificant: 1623378 1623504 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_36_length_7281_cov_3.2038_ID_71
+		Marking as insignificant: 1616224 1616350 | 7281 7155 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_36_length_7281_cov_3.2038_ID_71
+		Marking as insignificant: 713032 713158 | 7281 7155 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_36_length_7281_cov_3.2038_ID_71
+		Marking as insignificant: 713032 713159 | 1 128 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_36_length_7281_cov_3.2038_ID_71
+		Marking as insignificant: 1642752 1642880 | 7153 7281 | 129 129 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_36_length_7281_cov_3.2038_ID_71
+		One align captures most of this contig: 1616224 1623504 | 1 7281 | 7281 7281 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_36_length_7281_cov_3.2038_ID_71
+
+CONTIG: NODE_22_length_36998_cov_3.39649_ID_43 (36998bp)
+Top Length: 30120  Top ID: 99.97
+		Skipping redundant alignment 577466 577715 | 1 250 | 250 250 | 98.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_22_length_36998_cov_3.39649_ID_43
+		Skipping redundant alignment 1558042 1558279 | 240 1 | 238 240 | 97.08 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_22_length_36998_cov_3.39649_ID_43
+		Skipping redundant alignment 335537 335775 | 36760 36998 | 239 239 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_22_length_36998_cov_3.39649_ID_43
+		Skipping redundant alignment 46954 47190 | 36762 36998 | 237 237 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_22_length_36998_cov_3.39649_ID_43
+		Skipping redundant alignment 1759616 1759852 | 36998 36762 | 237 237 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_22_length_36998_cov_3.39649_ID_43
+		Skipping redundant alignment 2225248 2225484 | 36762 36998 | 237 237 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_22_length_36998_cov_3.39649_ID_43
+		Skipping redundant alignment 30959 31180 | 36777 36998 | 222 222 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_22_length_36998_cov_3.39649_ID_43
+		Skipping redundant alignment 228214 228435 | 36998 36777 | 222 222 | 96.85 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_22_length_36998_cov_3.39649_ID_43
+		Skipping redundant alignment 46395 46616 | 36998 36777 | 222 222 | 96.4 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_22_length_36998_cov_3.39649_ID_43
+		Skipping redundant alignment 1313075 1313296 | 36777 36998 | 222 222 | 96.4 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_22_length_36998_cov_3.39649_ID_43
+		This contig is misassembled. 12 total aligns.
+			Real Alignment 1: 2304357 2334476 | 1 30120 | 30120 30120 | 99.97 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_22_length_36998_cov_3.39649_ID_43
+			  Extensive misassembly ( relocation, inconsistency = -1028825 ) between these two alignments
+			Real Alignment 2: 1304147 1312529 | 36998 28616 | 8383 8383 | 99.96 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_22_length_36998_cov_3.39649_ID_43
+
+CONTIG: NODE_23_length_32594_cov_3.04469_ID_45 (32594bp)
+Top Length: 32594  Top ID: 100.0
+		Marking as insignificant: 987820 987946 | 32468 32594 | 127 127 | 99.21 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_23_length_32594_cov_3.04469_ID_45
+		Marking as insignificant: 1283175 1283301 | 32468 32594 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_23_length_32594_cov_3.04469_ID_45
+		Marking as insignificant: 1125215 1125341 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_23_length_32594_cov_3.04469_ID_45
+		Marking as insignificant: 704237 704363 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_23_length_32594_cov_3.04469_ID_45
+		Marking as insignificant: 1530173 1530300 | 1 128 | 128 128 | 99.22 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_23_length_32594_cov_3.04469_ID_45
+		Marking as insignificant: 1756605 1756732 | 128 1 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_23_length_32594_cov_3.04469_ID_45
+		One align captures most of this contig: 1960955 1993548 | 32594 1 | 32594 32594 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_23_length_32594_cov_3.04469_ID_45
+
+CONTIG: NODE_56_length_1065_cov_3.29638_ID_111 (1065bp)
+Top Length: 1065  Top ID: 99.91
+		One align captures most of this contig: 90262 91326 | 1065 1 | 1065 1065 | 99.91 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_56_length_1065_cov_3.29638_ID_111
+
+CONTIG: NODE_19_length_41018_cov_3.15421_ID_37 (41018bp)
+Top Length: 41018  Top ID: 99.99
+		Marking as insignificant: 1574799 1574925 | 41018 40892 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_19_length_41018_cov_3.15421_ID_37
+		Marking as insignificant: 1102669 1102795 | 40892 41018 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_19_length_41018_cov_3.15421_ID_37
+		Marking as insignificant: 52308 52434 | 40892 41018 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_19_length_41018_cov_3.15421_ID_37
+		Marking as insignificant: 1564640 1564767 | 41018 40891 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_19_length_41018_cov_3.15421_ID_37
+		Marking as insignificant: 2303466 2303597 | 132 1 | 132 132 | 99.24 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_19_length_41018_cov_3.15421_ID_37
+		Marking as insignificant: 510868 511000 | 40886 41018 | 133 133 | 99.25 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_19_length_41018_cov_3.15421_ID_37
+		Marking as insignificant: 340386 340518 | 41018 40886 | 133 133 | 99.25 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_19_length_41018_cov_3.15421_ID_37
+		One align captures most of this contig: 535689 576706 | 41018 1 | 41018 41018 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_19_length_41018_cov_3.15421_ID_37
+
+CONTIG: NODE_31_length_13180_cov_2.87336_ID_61 (13180bp)
+Top Length: 13180  Top ID: 99.98
+		Marking as insignificant: 2226557 2226672 | 1 116 | 116 116 | 99.14 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 2218655 2218770 | 116 1 | 116 116 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 1758428 1758543 | 116 1 | 116 116 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 1314369 1314484 | 1 116 | 116 116 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 1302959 1303074 | 116 1 | 116 116 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 592274 592389 | 116 1 | 116 116 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 336848 336963 | 1 116 | 116 116 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 227025 227141 | 117 1 | 117 117 | 99.15 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 48263 48379 | 1 117 | 117 117 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 45206 45322 | 117 1 | 117 117 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 368783 368902 | 120 1 | 120 120 | 99.17 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 2226447 2226672 | 13180 12955 | 226 226 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 2218655 2218880 | 12955 13180 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 1758428 1758653 | 12955 13180 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 1314259 1314484 | 13180 12955 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 1302959 1303184 | 12955 13180 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 592274 592499 | 12955 13180 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 368787 369012 | 12955 13180 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 336738 336963 | 13180 12955 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 48153 48379 | 13180 12954 | 227 227 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 32143 32369 | 13180 12954 | 227 227 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		Marking as insignificant: 227021 227251 | 12950 13180 | 231 231 | 99.13 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+		One align captures most of this contig: 32253 45432 | 1 13180 | 13180 13180 | 99.98 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_13180_cov_2.87336_ID_61
+
+CONTIG: NODE_39_length_5850_cov_3.07793_ID_77 (5850bp)
+Top Length: 5850  Top ID: 100.0
+		Marking as insignificant: 2463409 2463516 | 20 127 | 108 108 | 99.07 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_39_length_5850_cov_3.07793_ID_77
+		Marking as insignificant: 2337552 2337659 | 127 20 | 108 108 | 99.07 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_39_length_5850_cov_3.07793_ID_77
+		Marking as insignificant: 1643591 1643698 | 20 127 | 108 108 | 99.07 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_39_length_5850_cov_3.07793_ID_77
+		Marking as insignificant: 1634245 1634352 | 20 127 | 108 108 | 99.07 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_39_length_5850_cov_3.07793_ID_77
+		Marking as insignificant: 712214 712321 | 127 20 | 108 108 | 99.07 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_39_length_5850_cov_3.07793_ID_77
+		Marking as insignificant: 1615403 1615513 | 130 20 | 111 111 | 98.2 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_39_length_5850_cov_3.07793_ID_77
+		Marking as insignificant: 1624215 1624326 | 20 131 | 112 112 | 98.21 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_39_length_5850_cov_3.07793_ID_77
+		Marking as insignificant: 1757918 1758039 | 5850 5729 | 122 122 | 99.18 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_39_length_5850_cov_3.07793_ID_77
+		Marking as insignificant: 1528866 1528987 | 5729 5850 | 122 122 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_39_length_5850_cov_3.07793_ID_77
+		Marking as insignificant: 1123908 1124029 | 5729 5850 | 122 122 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_39_length_5850_cov_3.07793_ID_77
+		Marking as insignificant: 1994734 1994856 | 5850 5728 | 123 123 | 99.19 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_39_length_5850_cov_3.07793_ID_77
+		Marking as insignificant: 210852 210978 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_39_length_5850_cov_3.07793_ID_77
+		One align captures most of this contig: 705549 711398 | 5850 1 | 5850 5850 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_39_length_5850_cov_3.07793_ID_77
+
+CONTIG: NODE_49_length_2233_cov_3.50047_ID_97 (2233bp)
+Top Length: 2233  Top ID: 100.0
+		Marking as insignificant: 989150 989276 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_49_length_2233_cov_3.50047_ID_97
+		Marking as insignificant: 1959623 1959751 | 129 1 | 129 129 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_49_length_2233_cov_3.50047_ID_97
+		One align captures most of this contig: 1284505 1286737 | 1 2233 | 2233 2233 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_49_length_2233_cov_3.50047_ID_97
+
+CONTIG: NODE_33_length_10237_cov_3.26489_ID_65 (10237bp)
+Top Length: 10237  Top ID: 99.98
+		One align captures most of this contig: 1108769 1119005 | 10237 1 | 10237 10237 | 99.98 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_33_length_10237_cov_3.26489_ID_65
+
+CONTIG: NODE_40_length_5532_cov_3.71267_ID_79 (5532bp)
+Top Length: 5532  Top ID: 99.98
+		Marking as insignificant: 228324 228450 | 1 127 | 127 127 | 98.43 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_40_length_5532_cov_3.71267_ID_79
+		Marking as insignificant: 46505 46631 | 1 127 | 127 127 | 99.21 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_40_length_5532_cov_3.71267_ID_79
+		Marking as insignificant: 1765481 1765607 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_40_length_5532_cov_3.71267_ID_79
+		Marking as insignificant: 593572 593698 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_40_length_5532_cov_3.71267_ID_79
+		Marking as insignificant: 370085 370211 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_40_length_5532_cov_3.71267_ID_79
+		Marking as insignificant: 1313059 1313186 | 128 1 | 128 128 | 99.22 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_40_length_5532_cov_3.71267_ID_79
+		Marking as insignificant: 1313075 1313296 | 5311 5532 | 222 222 | 96.4 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_40_length_5532_cov_3.71267_ID_79
+		Marking as insignificant: 46395 46616 | 5532 5311 | 222 222 | 96.4 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_40_length_5532_cov_3.71267_ID_79
+		Marking as insignificant: 228214 228435 | 5532 5311 | 222 222 | 96.85 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_40_length_5532_cov_3.71267_ID_79
+		Marking as insignificant: 30959 31180 | 5311 5532 | 222 222 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_40_length_5532_cov_3.71267_ID_79
+		Marking as insignificant: 1304147 1304383 | 5532 5296 | 237 237 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_40_length_5532_cov_3.71267_ID_79
+		Marking as insignificant: 1759616 1759853 | 5532 5295 | 238 238 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_40_length_5532_cov_3.71267_ID_79
+		Marking as insignificant: 46953 47190 | 5295 5532 | 238 238 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_40_length_5532_cov_3.71267_ID_79
+		Marking as insignificant: 335532 335775 | 5288 5532 | 244 245 | 99.18 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_40_length_5532_cov_3.71267_ID_79
+		One align captures most of this contig: 2219953 2225484 | 1 5532 | 5532 5532 | 99.98 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_40_length_5532_cov_3.71267_ID_79
+
+CONTIG: NODE_50_length_2120_cov_3.67787_ID_99 (2120bp)
+Top Length: 1993  Top ID: 99.95
+		Skipping redundant alignment 2382157 2382286 | 130 1 | 130 130 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_50_length_2120_cov_3.67787_ID_99
+		Skipping redundant alignment 2212810 2212937 | 1 128 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_50_length_2120_cov_3.67787_ID_99
+		Skipping redundant alignment 2126150 2126276 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_50_length_2120_cov_3.67787_ID_99
+		Skipping redundant alignment 512144 512276 | 2120 1986 | 133 135 | 98.52 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_50_length_2120_cov_3.67787_ID_99
+		Skipping redundant alignment 1573523 1573655 | 1986 2120 | 133 135 | 98.52 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_50_length_2120_cov_3.67787_ID_99
+		Skipping redundant alignment 1563369 1563496 | 1993 2120 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_50_length_2120_cov_3.67787_ID_99
+		Skipping redundant alignment 53578 53704 | 2120 1994 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_50_length_2120_cov_3.67787_ID_99
+		Skipping redundant alignment 339116 339242 | 1994 2120 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_50_length_2120_cov_3.67787_ID_99
+		Skipping redundant alignment 534419 534545 | 1994 2120 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_50_length_2120_cov_3.67787_ID_99
+		This contig is misassembled. 11 total aligns.
+			Real Alignment 1: 1764529 1765607 | 1 1079 | 1079 1079 | 98.7 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_50_length_2120_cov_3.67787_ID_99
+			  Extensive misassembly ( relocation, inconsistency = -660717 ) between these two alignments
+			Real Alignment 2: 1103939 1105931 | 2120 128 | 1993 1993 | 99.95 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_50_length_2120_cov_3.67787_ID_99
+
+CONTIG: NODE_14_length_72129_cov_3.15823_ID_27 (72129bp)
+Top Length: 72129  Top ID: 99.99
+		Marking as insignificant: 228324 228450 | 1 127 | 127 127 | 98.43 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_14_length_72129_cov_3.15823_ID_27
+		Marking as insignificant: 1313060 1313186 | 127 1 | 127 127 | 99.21 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_14_length_72129_cov_3.15823_ID_27
+		Marking as insignificant: 46505 46631 | 1 127 | 127 127 | 99.21 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_14_length_72129_cov_3.15823_ID_27
+		Marking as insignificant: 2219953 2220079 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_14_length_72129_cov_3.15823_ID_27
+		Marking as insignificant: 593572 593698 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_14_length_72129_cov_3.15823_ID_27
+		Marking as insignificant: 370085 370219 | 1 136 | 135 136 | 98.53 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_14_length_72129_cov_3.15823_ID_27
+		One align captures most of this contig: 1765481 1837609 | 1 72129 | 72129 72129 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_14_length_72129_cov_3.15823_ID_27
+
+CONTIG: NODE_10_length_110933_cov_3.08624_ID_19 (110933bp)
+Top Length: 110933  Top ID: 99.99
+		Marking as insignificant: 1313060 1313186 | 110807 110933 | 127 127 | 99.21 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_10_length_110933_cov_3.08624_ID_19
+		Marking as insignificant: 46505 46631 | 110933 110807 | 127 127 | 99.21 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_10_length_110933_cov_3.08624_ID_19
+		Marking as insignificant: 228324 228451 | 110933 110806 | 128 128 | 98.44 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_10_length_110933_cov_3.08624_ID_19
+		Marking as insignificant: 2219953 2220079 | 110933 110807 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_10_length_110933_cov_3.08624_ID_19
+		Marking as insignificant: 1765481 1765607 | 110933 110807 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_10_length_110933_cov_3.08624_ID_19
+		Marking as insignificant: 370085 370211 | 110933 110807 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_10_length_110933_cov_3.08624_ID_19
+		Marking as insignificant: 1530032 1530299 | 1 268 | 268 268 | 98.88 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_10_length_110933_cov_3.08624_ID_19
+		Marking as insignificant: 1993422 1993689 | 268 1 | 268 268 | 99.25 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_10_length_110933_cov_3.08624_ID_19
+		Marking as insignificant: 1756606 1756873 | 268 1 | 268 268 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_10_length_110933_cov_3.08624_ID_19
+		Marking as insignificant: 1125074 1125341 | 1 268 | 268 268 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_10_length_110933_cov_3.08624_ID_19
+		One align captures most of this contig: 593572 704504 | 110933 1 | 110933 110933 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_10_length_110933_cov_3.08624_ID_19
+
+CONTIG: NODE_1_length_193471_cov_3.2078_ID_1 (193471bp)
+Top Length: 193471  Top ID: 99.99
+		Marking as insignificant: 227026 227791 | 766 1 | 766 766 | 99.87 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_1_length_193471_cov_3.2078_ID_1
+		Marking as insignificant: 1758428 1759193 | 766 1 | 766 766 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_1_length_193471_cov_3.2078_ID_1
+		Marking as insignificant: 368787 369552 | 766 1 | 766 766 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_1_length_193471_cov_3.2078_ID_1
+		Marking as insignificant: 47613 48378 | 1 766 | 766 766 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_1_length_193471_cov_3.2078_ID_1
+		Marking as insignificant: 45207 45972 | 766 1 | 766 766 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_1_length_193471_cov_3.2078_ID_1
+		Marking as insignificant: 31603 32368 | 1 766 | 766 766 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_1_length_193471_cov_3.2078_ID_1
+		Marking as insignificant: 1302958 1303724 | 767 1 | 767 767 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_1_length_193471_cov_3.2078_ID_1
+		Marking as insignificant: 592273 593039 | 767 1 | 767 767 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_1_length_193471_cov_3.2078_ID_1
+		Marking as insignificant: 2218653 2219420 | 768 1 | 768 768 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_1_length_193471_cov_3.2078_ID_1
+		Marking as insignificant: 336198 336967 | 1 770 | 770 770 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_1_length_193471_cov_3.2078_ID_1
+		Marking as insignificant: 2225907 2226682 | 1 774 | 776 774 | 99.61 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_1_length_193471_cov_3.2078_ID_1
+		One align captures most of this contig: 1313719 1507189 | 1 193471 | 193471 193471 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_1_length_193471_cov_3.2078_ID_1
+
+CONTIG: NODE_25_length_30226_cov_3.38403_ID_49 (30226bp)
+Top Length: 28374  Top ID: 99.96
+		Skipping redundant alignment 1563362 1563496 | 134 1 | 135 134 | 98.52 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+		Skipping redundant alignment 512144 512271 | 1 128 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+		Skipping redundant alignment 1573528 1573655 | 128 1 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+		Skipping redundant alignment 339116 339242 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+		Skipping redundant alignment 534419 534545 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+		Skipping redundant alignment 1103939 1104065 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+		Skipping redundant alignment 714731 717666 | 20436 23372 | 2936 2937 | 96.02 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+		Skipping redundant alignment 1314265 1314492 | 30226 29997 | 228 230 | 97.39 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+		Skipping redundant alignment 336744 336969 | 30226 30002 | 226 225 | 97.79 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+		Skipping redundant alignment 592273 592493 | 30006 30226 | 221 221 | 98.19 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+		Skipping redundant alignment 1302958 1303178 | 30006 30226 | 221 221 | 98.19 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+		Skipping redundant alignment 2218654 2218874 | 30006 30226 | 221 221 | 98.19 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+		Skipping redundant alignment 227026 227245 | 30007 30226 | 220 220 | 98.64 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+		Skipping redundant alignment 32149 32368 | 30226 30007 | 220 220 | 98.18 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+		Skipping redundant alignment 45207 45426 | 30007 30226 | 220 220 | 98.18 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+		Skipping redundant alignment 48159 48378 | 30226 30007 | 220 220 | 98.18 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+		Skipping redundant alignment 368787 369006 | 30007 30226 | 220 220 | 98.18 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+		Skipping redundant alignment 1758428 1758647 | 30007 30226 | 220 220 | 98.18 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+		This contig is misassembled. 20 total aligns.
+			Real Alignment 1: 53578 56935 | 1 3358 | 3358 3358 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+			  Extensive misassembly ( relocation, inconsistency = 2171023 ) between these two alignments
+			Real Alignment 2: 2226453 2254826 | 30226 1853 | 28374 28374 | 99.96 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_30226_cov_3.38403_ID_49
+
+CONTIG: NODE_27_length_24394_cov_3.13133_ID_53 (24394bp)
+Top Length: 24394  Top ID: 99.88
+		Marking as insignificant: 2226447 2226672 | 1 226 | 226 226 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_27_length_24394_cov_3.13133_ID_53
+		Marking as insignificant: 227026 227251 | 226 1 | 226 226 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_27_length_24394_cov_3.13133_ID_53
+		Marking as insignificant: 2218655 2218880 | 226 1 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_27_length_24394_cov_3.13133_ID_53
+		Marking as insignificant: 1314259 1314484 | 1 226 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_27_length_24394_cov_3.13133_ID_53
+		Marking as insignificant: 1302959 1303184 | 226 1 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_27_length_24394_cov_3.13133_ID_53
+		Marking as insignificant: 592274 592499 | 226 1 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_27_length_24394_cov_3.13133_ID_53
+		Marking as insignificant: 336738 336963 | 1 226 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_27_length_24394_cov_3.13133_ID_53
+		Marking as insignificant: 48153 48378 | 1 226 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_27_length_24394_cov_3.13133_ID_53
+		Marking as insignificant: 45207 45432 | 226 1 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_27_length_24394_cov_3.13133_ID_53
+		Marking as insignificant: 1758427 1758653 | 227 1 | 227 227 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_27_length_24394_cov_3.13133_ID_53
+		Marking as insignificant: 32143 32372 | 1 230 | 230 230 | 99.57 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_27_length_24394_cov_3.13133_ID_53
+		Marking as insignificant: 1558490 1559170 | 24394 23714 | 681 681 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_27_length_24394_cov_3.13133_ID_53
+		One align captures most of this contig: 344619 369012 | 24394 1 | 24394 24394 | 99.88 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_27_length_24394_cov_3.13133_ID_53
+
+CONTIG: NODE_2_length_156731_cov_3.20961_ID_3 (156731bp)
+Top Length: 156015  Top ID: 99.99
+		Marking as insignificant: 1126596 1126741 | 1 146 | 146 146 | 98.63 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_156731_cov_3.20961_ID_3
+		Marking as insignificant: 987820 987971 | 156580 156731 | 152 152 | 99.34 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_156731_cov_3.20961_ID_3
+		Marking as insignificant: 1960930 1961081 | 156731 156580 | 152 152 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_156731_cov_3.20961_ID_3
+		Marking as insignificant: 1125342 1127457 | 2116 1 | 2116 2116 | 99.91 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_156731_cov_3.20961_ID_3
+		One align captures most of this contig: 1127312 1283326 | 717 156731 | 156015 156015 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_156731_cov_3.20961_ID_3
+
+CONTIG: NODE_34_length_9338_cov_3.10401_ID_67 (9338bp)
+Top Length: 9338  Top ID: 99.99
+		Marking as insignificant: 711268 711379 | 9208 9319 | 112 112 | 98.21 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_34_length_9338_cov_3.10401_ID_67
+		Marking as insignificant: 210871 210982 | 9319 9207 | 112 113 | 98.23 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_34_length_9338_cov_3.10401_ID_67
+		Marking as insignificant: 712092 712218 | 1 127 | 127 127 | 97.64 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_34_length_9338_cov_3.10401_ID_67
+		Marking as insignificant: 1642754 1642879 | 126 1 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_34_length_9338_cov_3.10401_ID_67
+		Marking as insignificant: 1623378 1623503 | 126 1 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_34_length_9338_cov_3.10401_ID_67
+		Marking as insignificant: 1616225 1616350 | 1 126 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_34_length_9338_cov_3.10401_ID_67
+		Marking as insignificant: 1615407 1615532 | 9213 9338 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_34_length_9338_cov_3.10401_ID_67
+		Marking as insignificant: 713033 713158 | 1 126 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_34_length_9338_cov_3.10401_ID_67
+		Marking as insignificant: 2462571 2462697 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_34_length_9338_cov_3.10401_ID_67
+		Marking as insignificant: 2338371 2338497 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_34_length_9338_cov_3.10401_ID_67
+		Marking as insignificant: 1643572 1643698 | 9338 9212 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_34_length_9338_cov_3.10401_ID_67
+		Marking as insignificant: 1634226 1634352 | 9338 9212 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_34_length_9338_cov_3.10401_ID_67
+		Marking as insignificant: 210029 210158 | 130 1 | 130 130 | 98.46 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_34_length_9338_cov_3.10401_ID_67
+		Marking as insignificant: 2463390 2463517 | 9338 9211 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_34_length_9338_cov_3.10401_ID_67
+		Marking as insignificant: 2337551 2337678 | 9211 9338 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_34_length_9338_cov_3.10401_ID_67
+		Marking as insignificant: 712213 712340 | 9211 9338 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_34_length_9338_cov_3.10401_ID_67
+		One align captures most of this contig: 1624196 1633533 | 9338 1 | 9338 9338 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_34_length_9338_cov_3.10401_ID_67
+
+CONTIG: NODE_3_length_141576_cov_3.32588_ID_5 (141576bp)
+Top Length: 141576  Top ID: 99.96
+		Marking as insignificant: 1564640 1564766 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_3_length_141576_cov_3.32588_ID_5
+		Marking as insignificant: 1102668 1102795 | 128 1 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_3_length_141576_cov_3.32588_ID_5
+		Marking as insignificant: 52307 52434 | 128 1 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_3_length_141576_cov_3.32588_ID_5
+		Marking as insignificant: 535689 535821 | 1 133 | 133 133 | 99.25 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_3_length_141576_cov_3.32588_ID_5
+		Marking as insignificant: 340386 340519 | 1 134 | 134 134 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_3_length_141576_cov_3.32588_ID_5
+		Marking as insignificant: 1574799 1574935 | 1 137 | 137 137 | 99.27 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_3_length_141576_cov_3.32588_ID_5
+		Marking as insignificant: 2219294 2220079 | 141576 140791 | 786 786 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_3_length_141576_cov_3.32588_ID_5
+		Marking as insignificant: 592913 593698 | 141576 140791 | 786 786 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_3_length_141576_cov_3.32588_ID_5
+		Marking as insignificant: 1564767 1566664 | 89808 91705 | 1898 1898 | 99.79 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_3_length_141576_cov_3.32588_ID_5
+		Marking as insignificant: 1559218 1563370 | 85665 89816 | 4153 4152 | 99.88 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_3_length_141576_cov_3.32588_ID_5
+		One align captures most of this contig: 369426 511000 | 141576 1 | 141575 141576 | 99.96 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_3_length_141576_cov_3.32588_ID_5
+
+CONTIG: NODE_47_length_2792_cov_2.60638_ID_93 (2792bp)
+Top Length: 2792  Top ID: 99.89
+		Marking as insignificant: 1762692 1762818 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_47_length_2792_cov_2.60638_ID_93
+		One align captures most of this contig: 1106275 1109066 | 1 2792 | 2792 2792 | 99.89 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_47_length_2792_cov_2.60638_ID_93
+
+CONTIG: NODE_17_length_51536_cov_3.1851_ID_33 (51536bp)
+Top Length: 51535  Top ID: 99.98
+		Marking as insignificant: 989150 989276 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_17_length_51536_cov_3.1851_ID_33
+		Marking as insignificant: 1284505 1284633 | 1 129 | 129 129 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_17_length_51536_cov_3.1851_ID_33
+		Marking as insignificant: 1078088 1079211 | 50411 51535 | 1124 1125 | 96.89 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_17_length_51536_cov_3.1851_ID_33
+		One align captures most of this contig: 1908217 1959751 | 51535 1 | 51535 51535 | 99.98 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_17_length_51536_cov_3.1851_ID_33
+
+CONTIG: NODE_8_length_113645_cov_3.12487_ID_15 (113645bp)
+Top Length: 113645  Top ID: 99.99
+		Marking as insignificant: 1108861 1108937 | 4523 4447 | 77 77 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_8_length_113645_cov_3.12487_ID_15
+		Marking as insignificant: 1564641 1564766 | 1 126 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_8_length_113645_cov_3.12487_ID_15
+		Marking as insignificant: 535690 535815 | 1 126 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_8_length_113645_cov_3.12487_ID_15
+		Marking as insignificant: 1959625 1959751 | 113519 113645 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_8_length_113645_cov_3.12487_ID_15
+		Marking as insignificant: 1574800 1574926 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_8_length_113645_cov_3.12487_ID_15
+		Marking as insignificant: 1284505 1284631 | 113645 113519 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_8_length_113645_cov_3.12487_ID_15
+		Marking as insignificant: 510873 510999 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_8_length_113645_cov_3.12487_ID_15
+		Marking as insignificant: 340387 340513 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_8_length_113645_cov_3.12487_ID_15
+		Marking as insignificant: 52307 52433 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_8_length_113645_cov_3.12487_ID_15
+		Marking as insignificant: 1907961 1909341 | 23328 24707 | 1381 1380 | 96.45 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_8_length_113645_cov_3.12487_ID_15
+		One align captures most of this contig: 989150 1102794 | 113645 1 | 113645 113645 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_8_length_113645_cov_3.12487_ID_15
+
+CONTIG: NODE_7_length_130301_cov_3.18685_ID_13 (130301bp)
+Top Length: 130301  Top ID: 99.99
+		Marking as insignificant: 2383519 2383645 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_7_length_130301_cov_3.18685_ID_13
+		Marking as insignificant: 2211451 2211577 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_7_length_130301_cov_3.18685_ID_13
+		Marking as insignificant: 1763170 1763296 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_7_length_130301_cov_3.18685_ID_13
+		Marking as insignificant: 1528866 1529104 | 130063 130301 | 239 239 | 99.58 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_7_length_130301_cov_3.18685_ID_13
+		Marking as insignificant: 1123908 1124146 | 130063 130301 | 239 239 | 99.58 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_7_length_130301_cov_3.18685_ID_13
+		Marking as insignificant: 705432 705671 | 130301 130062 | 240 240 | 99.58 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_7_length_130301_cov_3.18685_ID_13
+		Marking as insignificant: 1757801 1758039 | 130301 130063 | 239 239 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_7_length_130301_cov_3.18685_ID_13
+		One align captures most of this contig: 1994617 2124917 | 130301 1 | 130301 130301 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_7_length_130301_cov_3.18685_ID_13
+
+CONTIG: NODE_16_length_65786_cov_3.16694_ID_31 (65786bp)
+Top Length: 48521  Top ID: 99.98
+		Skipping redundant alignment 576575 577167 | 65194 65786 | 593 593 | 99.83 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_16_length_65786_cov_3.16694_ID_31
+		Skipping redundant alignment 344707 345299 | 65786 65194 | 593 593 | 95.29 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_16_length_65786_cov_3.16694_ID_31
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 1507185 1525386 | 1 18202 | 18202 18202 | 99.97 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_16_length_65786_cov_3.16694_ID_31
+			  Extensive misassembly ( relocation, inconsistency = 731089 ) between these two alignments
+			Real Alignment 2: 2255531 2304050 | 17258 65778 | 48520 48521 | 99.98 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_16_length_65786_cov_3.16694_ID_31
+
+CONTIG: NODE_32_length_10753_cov_2.8163_ID_63 (10753bp)
+Top Length: 10753  Top ID: 99.99
+		Marking as insignificant: 2124791 2124917 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_32_length_10753_cov_2.8163_ID_63
+		Marking as insignificant: 1763170 1763296 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_32_length_10753_cov_2.8163_ID_63
+		Marking as insignificant: 59080 59206 | 10753 10627 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_32_length_10753_cov_2.8163_ID_63
+		Marking as insignificant: 2383519 2383650 | 1 132 | 132 132 | 99.24 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_32_length_10753_cov_2.8163_ID_63
+		One align captures most of this contig: 2200825 2211577 | 10753 1 | 10753 10753 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_32_length_10753_cov_2.8163_ID_63
+
+CONTIG: NODE_46_length_3381_cov_3.14413_ID_91 (3381bp)
+Top Length: 3381  Top ID: 100.0
+		Marking as insignificant: 711272 711379 | 3255 3362 | 108 108 | 99.07 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_46_length_3381_cov_3.14413_ID_91
+		Marking as insignificant: 210871 210978 | 3362 3255 | 108 108 | 99.07 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_46_length_3381_cov_3.14413_ID_91
+		Marking as insignificant: 1615407 1615532 | 3256 3381 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_46_length_3381_cov_3.14413_ID_91
+		Marking as insignificant: 1634226 1634352 | 3381 3255 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_46_length_3381_cov_3.14413_ID_91
+		Marking as insignificant: 1624196 1624323 | 3381 3254 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_46_length_3381_cov_3.14413_ID_91
+		Marking as insignificant: 2463390 2463518 | 3381 3253 | 129 129 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_46_length_3381_cov_3.14413_ID_91
+		Marking as insignificant: 712212 712340 | 3253 3381 | 129 129 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_46_length_3381_cov_3.14413_ID_91
+		Marking as insignificant: 1643572 1643702 | 3381 3251 | 131 131 | 99.24 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_46_length_3381_cov_3.14413_ID_91
+		Marking as insignificant: 1311025 1311203 | 179 1 | 179 179 | 99.44 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_46_length_3381_cov_3.14413_ID_91
+		One align captures most of this contig: 2334298 2337678 | 1 3381 | 3381 3381 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_46_length_3381_cov_3.14413_ID_91
+
+CONTIG: NODE_11_length_108112_cov_3.29762_ID_21 (108112bp)
+Top Length: 108112  Top ID: 99.99
+		Marking as insignificant: 1313075 1313296 | 107891 108112 | 222 222 | 96.4 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_108112_cov_3.29762_ID_21
+		Marking as insignificant: 46395 46616 | 108112 107891 | 222 222 | 96.4 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_108112_cov_3.29762_ID_21
+		Marking as insignificant: 228214 228435 | 108112 107891 | 222 222 | 96.85 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_108112_cov_3.29762_ID_21
+		Marking as insignificant: 30959 31180 | 107891 108112 | 222 222 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_108112_cov_3.29762_ID_21
+		Marking as insignificant: 1759616 1759852 | 108112 107876 | 237 237 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_108112_cov_3.29762_ID_21
+		Marking as insignificant: 46954 47190 | 107876 108112 | 237 237 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_108112_cov_3.29762_ID_21
+		Marking as insignificant: 1304147 1304385 | 108112 107874 | 239 239 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_108112_cov_3.29762_ID_21
+		Marking as insignificant: 2225240 2225484 | 107869 108112 | 245 244 | 99.18 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_108112_cov_3.29762_ID_21
+		Marking as insignificant: 1759067 1759761 | 1 695 | 695 695 | 99.86 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_108112_cov_3.29762_ID_21
+		Marking as insignificant: 369426 370211 | 1 786 | 786 786 | 95.67 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_108112_cov_3.29762_ID_21
+		Marking as insignificant: 2225263 2226033 | 771 1 | 771 771 | 99.09 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_108112_cov_3.29762_ID_21
+		Marking as insignificant: 1303598 1304368 | 1 771 | 771 771 | 99.09 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_108112_cov_3.29762_ID_21
+		Marking as insignificant: 335554 336324 | 771 1 | 771 771 | 99.09 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_108112_cov_3.29762_ID_21
+		Marking as insignificant: 46969 47739 | 771 1 | 771 771 | 99.09 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_108112_cov_3.29762_ID_21
+		Marking as insignificant: 30944 31729 | 786 1 | 786 786 | 99.11 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_108112_cov_3.29762_ID_21
+		Marking as insignificant: 45846 46631 | 1 786 | 786 786 | 99.62 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_108112_cov_3.29762_ID_21
+		Marking as insignificant: 1313056 1313845 | 790 1 | 790 790 | 99.49 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_108112_cov_3.29762_ID_21
+		One align captures most of this contig: 227665 335775 | 1 108112 | 108111 108112 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_108112_cov_3.29762_ID_21
+
+CONTIG: NODE_57_length_944_cov_22.8764_ID_113 (944bp)
+Top Length: 944  Top ID: 100.0
+		Marking as insignificant: 711273 712217 | 1 944 | 945 944 | 95.03 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_57_length_944_cov_22.8764_ID_113
+		Marking as insignificant: 210033 210977 | 944 1 | 945 944 | 95.77 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_57_length_944_cov_22.8764_ID_113
+		This contig has 7 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 712215 713158 | 1 944 | 944 944 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_57_length_944_cov_22.8764_ID_113
+		Skipping alignment  1623378 1624321 | 944 1 | 944 944 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_57_length_944_cov_22.8764_ID_113
+		Skipping alignment  1633408 1634351 | 944 1 | 944 944 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_57_length_944_cov_22.8764_ID_113
+		Skipping alignment  1642754 1643697 | 944 1 | 944 944 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_57_length_944_cov_22.8764_ID_113
+		Skipping alignment  2462572 2463515 | 944 1 | 944 944 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_57_length_944_cov_22.8764_ID_113
+		Skipping alignment  1615407 1616350 | 1 944 | 944 944 | 99.47 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_57_length_944_cov_22.8764_ID_113
+		Skipping alignment  2337553 2338496 | 1 944 | 944 944 | 99.47 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_57_length_944_cov_22.8764_ID_113
+
+CONTIG: NODE_24_length_31042_cov_3.2087_ID_47 (31042bp)
+Top Length: 31042  Top ID: 99.99
+		Marking as insignificant: 2225263 2225364 | 102 1 | 102 102 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_24_length_31042_cov_3.2087_ID_47
+		Marking as insignificant: 1759736 1759837 | 1 102 | 102 102 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_24_length_31042_cov_3.2087_ID_47
+		Marking as insignificant: 1304267 1304368 | 1 102 | 102 102 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_24_length_31042_cov_3.2087_ID_47
+		Marking as insignificant: 335554 335655 | 102 1 | 102 102 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_24_length_31042_cov_3.2087_ID_47
+		Marking as insignificant: 46969 47070 | 102 1 | 102 102 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_24_length_31042_cov_3.2087_ID_47
+		One align captures most of this contig: 19 31060 | 31042 1 | 31042 31042 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_24_length_31042_cov_3.2087_ID_47
+
+CONTIG: NODE_28_length_22401_cov_3.06712_ID_55 (22401bp)
+Top Length: 22401  Top ID: 99.99
+		Marking as insignificant: 1563370 1563495 | 126 1 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_28_length_22401_cov_3.06712_ID_55
+		Marking as insignificant: 1573529 1573655 | 22275 22401 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_28_length_22401_cov_3.06712_ID_55
+		Marking as insignificant: 1563370 1563496 | 22275 22401 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_28_length_22401_cov_3.06712_ID_55
+		Marking as insignificant: 1103939 1104065 | 22401 22275 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_28_length_22401_cov_3.06712_ID_55
+		Marking as insignificant: 53579 53705 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_28_length_22401_cov_3.06712_ID_55
+		Marking as insignificant: 53578 53704 | 22401 22275 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_28_length_22401_cov_3.06712_ID_55
+		Marking as insignificant: 1103940 1104073 | 1 132 | 134 132 | 98.51 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_28_length_22401_cov_3.06712_ID_55
+		Marking as insignificant: 1573523 1573654 | 132 1 | 132 132 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_28_length_22401_cov_3.06712_ID_55
+		Marking as insignificant: 339109 339242 | 22268 22401 | 134 134 | 98.51 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_28_length_22401_cov_3.06712_ID_55
+		Marking as insignificant: 534408 534544 | 137 1 | 137 137 | 97.81 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_28_length_22401_cov_3.06712_ID_55
+		Marking as insignificant: 339107 339241 | 135 1 | 135 135 | 99.26 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_28_length_22401_cov_3.06712_ID_55
+		Marking as insignificant: 512144 512281 | 22401 22264 | 138 138 | 97.83 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_28_length_22401_cov_3.06712_ID_55
+		One align captures most of this contig: 512145 534545 | 1 22401 | 22401 22401 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_28_length_22401_cov_3.06712_ID_55
+
+CONTIG: NODE_54_length_1397_cov_23.0024_ID_107 (1397bp)
+Top Length: 1397  Top ID: 100.0
+		This contig has 7 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 52308 53704 | 1 1397 | 1397 1397 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_54_length_1397_cov_23.0024_ID_107
+		Skipping alignment  339116 340512 | 1397 1 | 1397 1397 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_54_length_1397_cov_23.0024_ID_107
+		Skipping alignment  510874 512270 | 1 1397 | 1397 1397 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_54_length_1397_cov_23.0024_ID_107
+		Skipping alignment  534419 535815 | 1397 1 | 1397 1397 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_54_length_1397_cov_23.0024_ID_107
+		Skipping alignment  1102669 1104065 | 1 1397 | 1397 1397 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_54_length_1397_cov_23.0024_ID_107
+		Skipping alignment  1563370 1564766 | 1397 1 | 1397 1397 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_54_length_1397_cov_23.0024_ID_107
+		Skipping alignment  1573529 1574925 | 1397 1 | 1397 1397 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_54_length_1397_cov_23.0024_ID_107
+
+CONTIG: NODE_52_length_1486_cov_11.7263_ID_103 (1486bp)
+Top Length: 1486  Top ID: 100.0
+		This contig has 4 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 1763170 1764655 | 1 1486 | 1486 1486 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_52_length_1486_cov_11.7263_ID_103
+		Skipping alignment  2124791 2126276 | 1 1486 | 1486 1486 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_52_length_1486_cov_11.7263_ID_103
+		Skipping alignment  2211451 2212936 | 1 1486 | 1486 1486 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_52_length_1486_cov_11.7263_ID_103
+		Skipping alignment  2382160 2383645 | 1486 1 | 1486 1486 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_52_length_1486_cov_11.7263_ID_103
+
+CONTIG: NODE_37_length_7117_cov_2.94664_ID_73 (7117bp)
+Top Length: 7117  Top ID: 100.0
+		Marking as insignificant: 1563370 1563490 | 6997 7117 | 121 121 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_37_length_7117_cov_2.94664_ID_73
+		Marking as insignificant: 534419 534539 | 6997 7117 | 121 121 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_37_length_7117_cov_2.94664_ID_73
+		Marking as insignificant: 53584 53705 | 7117 6996 | 122 122 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_37_length_7117_cov_2.94664_ID_73
+		Marking as insignificant: 1103945 1104073 | 7117 6991 | 129 127 | 98.45 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_37_length_7117_cov_2.94664_ID_73
+		Marking as insignificant: 339110 339236 | 6991 7117 | 127 127 | 99.21 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_37_length_7117_cov_2.94664_ID_73
+		Marking as insignificant: 512150 512276 | 7117 6991 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_37_length_7117_cov_2.94664_ID_73
+		Marking as insignificant: 419297 419428 | 132 1 | 132 132 | 99.24 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_37_length_7117_cov_2.94664_ID_73
+		One align captures most of this contig: 1566533 1573649 | 1 7117 | 7117 7117 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_37_length_7117_cov_2.94664_ID_73
+
+CONTIG: NODE_43_length_4292_cov_3.71597_ID_85 (4292bp)
+Top Length: 4292  Top ID: 99.98
+		Marking as insignificant: 535679 535815 | 1 137 | 137 137 | 99.27 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_43_length_4292_cov_3.71597_ID_85
+		Marking as insignificant: 1574789 1574926 | 1 138 | 138 138 | 99.28 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_43_length_4292_cov_3.71597_ID_85
+		Marking as insignificant: 1102668 1102805 | 138 1 | 138 138 | 99.28 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_43_length_4292_cov_3.71597_ID_85
+		Marking as insignificant: 510873 511010 | 138 1 | 138 138 | 99.28 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_43_length_4292_cov_3.71597_ID_85
+		Marking as insignificant: 340376 340513 | 1 138 | 138 138 | 99.28 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_43_length_4292_cov_3.71597_ID_85
+		Marking as insignificant: 1564630 1564772 | 1 144 | 143 144 | 98.61 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_43_length_4292_cov_3.71597_ID_85
+		Marking as insignificant: 2226447 2226672 | 4292 4067 | 226 226 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_43_length_4292_cov_3.71597_ID_85
+		Marking as insignificant: 2218655 2218880 | 4067 4292 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_43_length_4292_cov_3.71597_ID_85
+		Marking as insignificant: 1758428 1758653 | 4067 4292 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_43_length_4292_cov_3.71597_ID_85
+		Marking as insignificant: 1314259 1314484 | 4292 4067 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_43_length_4292_cov_3.71597_ID_85
+		Marking as insignificant: 1302959 1303184 | 4067 4292 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_43_length_4292_cov_3.71597_ID_85
+		Marking as insignificant: 592274 592499 | 4067 4292 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_43_length_4292_cov_3.71597_ID_85
+		Marking as insignificant: 368787 369012 | 4067 4292 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_43_length_4292_cov_3.71597_ID_85
+		Marking as insignificant: 336738 336963 | 4292 4067 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_43_length_4292_cov_3.71597_ID_85
+		Marking as insignificant: 227025 227251 | 4066 4292 | 227 227 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_43_length_4292_cov_3.71597_ID_85
+		Marking as insignificant: 45206 45432 | 4066 4292 | 227 227 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_43_length_4292_cov_3.71597_ID_85
+		Marking as insignificant: 32143 32369 | 4292 4066 | 227 227 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_43_length_4292_cov_3.71597_ID_85
+		One align captures most of this contig: 48153 52444 | 4292 1 | 4292 4292 | 99.98 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_43_length_4292_cov_3.71597_ID_85
+
+CONTIG: NODE_45_length_3680_cov_3.61835_ID_89 (3680bp)
+Top Length: 3680  Top ID: 100.0
+		Marking as insignificant: 2211451 2211576 | 3555 3680 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_45_length_3680_cov_3.61835_ID_89
+		Marking as insignificant: 2124791 2124916 | 3555 3680 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_45_length_3680_cov_3.61835_ID_89
+		Marking as insignificant: 2383520 2383646 | 3680 3554 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_45_length_3680_cov_3.61835_ID_89
+		Marking as insignificant: 1313075 1313296 | 222 1 | 222 222 | 96.4 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_45_length_3680_cov_3.61835_ID_89
+		Marking as insignificant: 46395 46616 | 1 222 | 222 222 | 96.4 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_45_length_3680_cov_3.61835_ID_89
+		Marking as insignificant: 228214 228435 | 1 222 | 222 222 | 96.85 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_45_length_3680_cov_3.61835_ID_89
+		Marking as insignificant: 30959 31180 | 222 1 | 222 222 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_45_length_3680_cov_3.61835_ID_89
+		Marking as insignificant: 1304147 1304383 | 1 237 | 237 237 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_45_length_3680_cov_3.61835_ID_89
+		Marking as insignificant: 335539 335775 | 237 1 | 237 237 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_45_length_3680_cov_3.61835_ID_89
+		Marking as insignificant: 2225247 2225484 | 238 1 | 238 238 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_45_length_3680_cov_3.61835_ID_89
+		Marking as insignificant: 46953 47190 | 238 1 | 238 238 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_45_length_3680_cov_3.61835_ID_89
+		Marking as insignificant: 1105921 1106401 | 3557 3077 | 481 481 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_45_length_3680_cov_3.61835_ID_89
+		One align captures most of this contig: 1759616 1763295 | 1 3680 | 3680 3680 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_45_length_3680_cov_3.61835_ID_89
+
+CONTIG: NODE_38_length_6071_cov_3.81511_ID_75 (6071bp)
+Top Length: 6071  Top ID: 99.98
+		Marking as insignificant: 2126150 2126276 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_38_length_6071_cov_3.81511_ID_75
+		Marking as insignificant: 2382159 2382286 | 128 1 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_38_length_6071_cov_3.81511_ID_75
+		Marking as insignificant: 1764529 1764656 | 1 128 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_38_length_6071_cov_3.81511_ID_75
+		Marking as insignificant: 227026 227251 | 5846 6071 | 226 226 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_38_length_6071_cov_3.81511_ID_75
+		Marking as insignificant: 1758428 1758653 | 5846 6071 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_38_length_6071_cov_3.81511_ID_75
+		Marking as insignificant: 368787 369012 | 5846 6071 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_38_length_6071_cov_3.81511_ID_75
+		Marking as insignificant: 48153 48378 | 6071 5846 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_38_length_6071_cov_3.81511_ID_75
+		Marking as insignificant: 45207 45432 | 5846 6071 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_38_length_6071_cov_3.81511_ID_75
+		Marking as insignificant: 32143 32368 | 6071 5846 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_38_length_6071_cov_3.81511_ID_75
+		Marking as insignificant: 2226447 2226673 | 6071 5845 | 227 227 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_38_length_6071_cov_3.81511_ID_75
+		Marking as insignificant: 1302958 1303184 | 5845 6071 | 227 227 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_38_length_6071_cov_3.81511_ID_75
+		Marking as insignificant: 592273 592499 | 5845 6071 | 227 227 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_38_length_6071_cov_3.81511_ID_75
+		Marking as insignificant: 1314259 1314486 | 6071 5844 | 228 228 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_38_length_6071_cov_3.81511_ID_75
+		Marking as insignificant: 336738 336965 | 6071 5844 | 228 228 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_38_length_6071_cov_3.81511_ID_75
+		One align captures most of this contig: 2212810 2218880 | 1 6071 | 6071 6071 | 99.98 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_38_length_6071_cov_3.81511_ID_75
+
+CONTIG: NODE_13_length_79180_cov_3.21477_ID_25 (79180bp)
+Top Length: 79180  Top ID: 99.99
+		Marking as insignificant: 712091 712219 | 79180 79052 | 129 129 | 97.67 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_13_length_79180_cov_3.21477_ID_25
+		Marking as insignificant: 210032 210159 | 79053 79180 | 128 128 | 98.44 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_13_length_79180_cov_3.21477_ID_25
+		Marking as insignificant: 2124791 2124917 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_13_length_79180_cov_3.21477_ID_25
+		Marking as insignificant: 1642754 1642880 | 79054 79180 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_13_length_79180_cov_3.21477_ID_25
+		Marking as insignificant: 1623378 1623504 | 79054 79180 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_13_length_79180_cov_3.21477_ID_25
+		Marking as insignificant: 1616224 1616350 | 79180 79054 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_13_length_79180_cov_3.21477_ID_25
+		Marking as insignificant: 713032 713158 | 79180 79054 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_13_length_79180_cov_3.21477_ID_25
+		Marking as insignificant: 2338370 2338497 | 79180 79053 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_13_length_79180_cov_3.21477_ID_25
+		Marking as insignificant: 1763169 1763296 | 128 1 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_13_length_79180_cov_3.21477_ID_25
+		Marking as insignificant: 1633407 1633534 | 79053 79180 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_13_length_79180_cov_3.21477_ID_25
+		Marking as insignificant: 2211446 2211577 | 132 1 | 132 132 | 99.24 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_13_length_79180_cov_3.21477_ID_25
+		One align captures most of this contig: 2383519 2462698 | 1 79180 | 79180 79180 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_13_length_79180_cov_3.21477_ID_25
+
+CONTIG: NODE_18_length_43916_cov_3.32922_ID_35 (43916bp)
+Top Length: 43916  Top ID: 99.99
+		Marking as insignificant: 712092 712218 | 43916 43790 | 127 127 | 97.64 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_18_length_43916_cov_3.32922_ID_35
+		Marking as insignificant: 210032 210158 | 43790 43916 | 127 127 | 98.43 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_18_length_43916_cov_3.32922_ID_35
+		Marking as insignificant: 1642754 1642879 | 43791 43916 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_18_length_43916_cov_3.32922_ID_35
+		Marking as insignificant: 1623378 1623503 | 43791 43916 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_18_length_43916_cov_3.32922_ID_35
+		Marking as insignificant: 1616225 1616350 | 43916 43791 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_18_length_43916_cov_3.32922_ID_35
+		Marking as insignificant: 713033 713158 | 43916 43791 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_18_length_43916_cov_3.32922_ID_35
+		Marking as insignificant: 2462571 2462697 | 43790 43916 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_18_length_43916_cov_3.32922_ID_35
+		Marking as insignificant: 1633407 1633533 | 43790 43916 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_18_length_43916_cov_3.32922_ID_35
+		Marking as insignificant: 2212810 2212937 | 1 128 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_18_length_43916_cov_3.32922_ID_35
+		Marking as insignificant: 1764529 1764658 | 1 130 | 130 130 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_18_length_43916_cov_3.32922_ID_35
+		Marking as insignificant: 2126150 2126280 | 1 131 | 131 131 | 99.24 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_18_length_43916_cov_3.32922_ID_35
+		One align captures most of this contig: 2338371 2382286 | 43916 1 | 43916 43916 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_18_length_43916_cov_3.32922_ID_35
+
+CONTIG: NODE_4_length_140660_cov_3.15605_ID_7 (140660bp)
+Top Length: 140660  Top ID: 99.99
+		One align captures most of this contig: 716363 857022 | 140660 1 | 140660 140660 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_4_length_140660_cov_3.15605_ID_7
+
+CONTIG: NODE_41_length_5153_cov_3.32272_ID_81 (5153bp)
+Top Length: 5153  Top ID: 100.0
+		Marking as insignificant: 1994617 1994855 | 5153 4915 | 239 239 | 99.58 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_41_length_5153_cov_3.32272_ID_81
+		Marking as insignificant: 1757801 1758039 | 5153 4915 | 239 239 | 99.58 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_41_length_5153_cov_3.32272_ID_81
+		Marking as insignificant: 705432 705670 | 5153 4915 | 239 239 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_41_length_5153_cov_3.32272_ID_81
+		Marking as insignificant: 1528865 1529104 | 4914 5153 | 240 240 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_41_length_5153_cov_3.32272_ID_81
+		One align captures most of this contig: 1118994 1124146 | 1 5153 | 5153 5153 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_41_length_5153_cov_3.32272_ID_81
+
+CONTIG: NODE_44_length_4155_cov_3.93545_ID_87 (4155bp)
+Top Length: 4155  Top ID: 100.0
+		Marking as insignificant: 1994617 1994855 | 1 239 | 239 239 | 99.58 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_44_length_4155_cov_3.93545_ID_87
+		Marking as insignificant: 1757801 1758039 | 1 239 | 239 239 | 99.58 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_44_length_4155_cov_3.93545_ID_87
+		Marking as insignificant: 705432 705670 | 1 239 | 239 239 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_44_length_4155_cov_3.93545_ID_87
+		Marking as insignificant: 1123907 1124146 | 240 1 | 240 240 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_44_length_4155_cov_3.93545_ID_87
+		Marking as insignificant: 2256038 2256474 | 4155 3719 | 437 437 | 99.08 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_44_length_4155_cov_3.93545_ID_87
+		One align captures most of this contig: 1524950 1529104 | 4155 1 | 4155 4155 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_44_length_4155_cov_3.93545_ID_87
+
+CONTIG: NODE_48_length_2504_cov_3.25326_ID_95 (2504bp)
+Top Length: 2504  Top ID: 99.96
+		Marking as insignificant: 1563370 1563496 | 2378 2504 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_48_length_2504_cov_3.25326_ID_95
+		Marking as insignificant: 1103939 1104065 | 2504 2378 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_48_length_2504_cov_3.25326_ID_95
+		Marking as insignificant: 53578 53704 | 2504 2378 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_48_length_2504_cov_3.25326_ID_95
+		Marking as insignificant: 1573523 1573655 | 2372 2504 | 133 133 | 99.25 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_48_length_2504_cov_3.25326_ID_95
+		Marking as insignificant: 534412 534545 | 2371 2504 | 134 134 | 98.51 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_48_length_2504_cov_3.25326_ID_95
+		Marking as insignificant: 512144 512279 | 2504 2369 | 136 136 | 99.26 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_48_length_2504_cov_3.25326_ID_95
+		Marking as insignificant: 227026 227250 | 225 1 | 225 225 | 99.11 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_48_length_2504_cov_3.25326_ID_95
+		Marking as insignificant: 1758428 1758652 | 225 1 | 225 225 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_48_length_2504_cov_3.25326_ID_95
+		Marking as insignificant: 368787 369011 | 225 1 | 225 225 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_48_length_2504_cov_3.25326_ID_95
+		Marking as insignificant: 48154 48378 | 1 225 | 225 225 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_48_length_2504_cov_3.25326_ID_95
+		Marking as insignificant: 45207 45431 | 225 1 | 225 225 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_48_length_2504_cov_3.25326_ID_95
+		Marking as insignificant: 32144 32368 | 1 225 | 225 225 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_48_length_2504_cov_3.25326_ID_95
+		Marking as insignificant: 1302958 1303183 | 226 1 | 226 226 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_48_length_2504_cov_3.25326_ID_95
+		Marking as insignificant: 592273 592498 | 226 1 | 226 226 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_48_length_2504_cov_3.25326_ID_95
+		Marking as insignificant: 2218653 2218879 | 227 1 | 227 227 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_48_length_2504_cov_3.25326_ID_95
+		Marking as insignificant: 1314260 1314488 | 1 229 | 229 229 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_48_length_2504_cov_3.25326_ID_95
+		Marking as insignificant: 2226448 2226677 | 1 231 | 230 231 | 98.7 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_48_length_2504_cov_3.25326_ID_95
+		One align captures most of this contig: 336739 339242 | 1 2504 | 2504 2504 | 99.96 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_48_length_2504_cov_3.25326_ID_95
+
+CONTIG: NODE_21_length_37613_cov_3.26637_ID_41 (37613bp)
+Top Length: 37613  Top ID: 99.99
+		Marking as insignificant: 711272 711379 | 37487 37594 | 108 108 | 99.07 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_21_length_37613_cov_3.26637_ID_41
+		Marking as insignificant: 210871 210978 | 37594 37487 | 108 108 | 99.07 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_21_length_37613_cov_3.26637_ID_41
+		Marking as insignificant: 1615407 1615532 | 37488 37613 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_21_length_37613_cov_3.26637_ID_41
+		Marking as insignificant: 1643572 1643698 | 37613 37487 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_21_length_37613_cov_3.26637_ID_41
+		Marking as insignificant: 1634226 1634352 | 37613 37487 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_21_length_37613_cov_3.26637_ID_41
+		Marking as insignificant: 1624196 1624323 | 37613 37486 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_21_length_37613_cov_3.26637_ID_41
+		Marking as insignificant: 2337550 2337678 | 37485 37613 | 129 129 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_21_length_37613_cov_3.26637_ID_41
+		Marking as insignificant: 712211 712340 | 37484 37613 | 130 130 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_21_length_37613_cov_3.26637_ID_41
+		One align captures most of this contig: 2463390 2501002 | 37613 1 | 37613 37613 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_21_length_37613_cov_3.26637_ID_41
+
+CONTIG: NODE_6_length_130945_cov_3.20205_ID_11 (130945bp)
+Top Length: 130945  Top ID: 99.99
+		Marking as insignificant: 1960930 1961081 | 130945 130794 | 152 152 | 99.34 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_6_length_130945_cov_3.20205_ID_11
+		Marking as insignificant: 1283175 1283326 | 130794 130945 | 152 152 | 99.34 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_6_length_130945_cov_3.20205_ID_11
+		One align captures most of this contig: 857027 987971 | 1 130945 | 130945 130945 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_6_length_130945_cov_3.20205_ID_11
+
+CONTIG: NODE_29_length_16451_cov_3.1711_ID_57 (16451bp)
+Top Length: 16451  Top ID: 99.98
+		Marking as insignificant: 227026 227251 | 16226 16451 | 226 226 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_29_length_16451_cov_3.1711_ID_57
+		Marking as insignificant: 1758428 1758653 | 16226 16451 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_29_length_16451_cov_3.1711_ID_57
+		Marking as insignificant: 368787 369012 | 16226 16451 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_29_length_16451_cov_3.1711_ID_57
+		Marking as insignificant: 48153 48378 | 16451 16226 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_29_length_16451_cov_3.1711_ID_57
+		Marking as insignificant: 45207 45432 | 16226 16451 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_29_length_16451_cov_3.1711_ID_57
+		Marking as insignificant: 32143 32368 | 16451 16226 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_29_length_16451_cov_3.1711_ID_57
+		Marking as insignificant: 2226447 2226673 | 16451 16225 | 227 227 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_29_length_16451_cov_3.1711_ID_57
+		Marking as insignificant: 2218654 2218880 | 16225 16451 | 227 227 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_29_length_16451_cov_3.1711_ID_57
+		Marking as insignificant: 1314259 1314485 | 16451 16225 | 227 227 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_29_length_16451_cov_3.1711_ID_57
+		Marking as insignificant: 592273 592499 | 16225 16451 | 227 227 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_29_length_16451_cov_3.1711_ID_57
+		Marking as insignificant: 336738 336964 | 16451 16225 | 227 227 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_29_length_16451_cov_3.1711_ID_57
+		One align captures most of this contig: 1286734 1303184 | 1 16451 | 16451 16451 | 99.98 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_29_length_16451_cov_3.1711_ID_57
+
+CONTIG: NODE_30_length_14934_cov_2.99676_ID_59 (14934bp)
+Top Length: 14934  Top ID: 100.0
+		Marking as insignificant: 227026 227151 | 14809 14934 | 126 126 | 99.21 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_30_length_14934_cov_2.99676_ID_59
+		Marking as insignificant: 2226547 2226673 | 14934 14808 | 127 127 | 99.21 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_30_length_14934_cov_2.99676_ID_59
+		Marking as insignificant: 1758428 1758553 | 14809 14934 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_30_length_14934_cov_2.99676_ID_59
+		Marking as insignificant: 368787 368912 | 14809 14934 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_30_length_14934_cov_2.99676_ID_59
+		Marking as insignificant: 48253 48378 | 14934 14809 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_30_length_14934_cov_2.99676_ID_59
+		Marking as insignificant: 45207 45332 | 14809 14934 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_30_length_14934_cov_2.99676_ID_59
+		Marking as insignificant: 32243 32368 | 14934 14809 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_30_length_14934_cov_2.99676_ID_59
+		Marking as insignificant: 2218654 2218780 | 14808 14934 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_30_length_14934_cov_2.99676_ID_59
+		Marking as insignificant: 1314359 1314485 | 14934 14808 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_30_length_14934_cov_2.99676_ID_59
+		Marking as insignificant: 1302958 1303084 | 14808 14934 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_30_length_14934_cov_2.99676_ID_59
+		Marking as insignificant: 336838 336964 | 14934 14808 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_30_length_14934_cov_2.99676_ID_59
+		Marking as insignificant: 1558042 1558279 | 240 1 | 238 240 | 96.67 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_30_length_14934_cov_2.99676_ID_59
+		Marking as insignificant: 2304357 2304606 | 1 250 | 250 250 | 95.6 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_30_length_14934_cov_2.99676_ID_59
+		One align captures most of this contig: 577466 592399 | 1 14934 | 14934 14934 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_30_length_14934_cov_2.99676_ID_59
+
+CONTIG: NODE_55_length_1181_cov_15.297_ID_109 (1181bp)
+Top Length: 1181  Top ID: 100.0
+		This contig has 5 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 1528978 1530158 | 1 1181 | 1181 1181 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_55_length_1181_cov_15.297_ID_109
+		Skipping alignment  704378 705558 | 1181 1 | 1181 1181 | 99.92 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_55_length_1181_cov_15.297_ID_109
+		Skipping alignment  1124020 1125200 | 1 1181 | 1181 1181 | 99.83 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_55_length_1181_cov_15.297_ID_109
+		Skipping alignment  1756747 1757927 | 1181 1 | 1181 1181 | 99.83 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_55_length_1181_cov_15.297_ID_109
+		Skipping alignment  1993563 1994743 | 1181 1 | 1181 1181 | 99.83 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_55_length_1181_cov_15.297_ID_109
+
+CONTIG: NODE_20_length_40734_cov_3.16771_ID_39 (40734bp)
+Top Length: 40734  Top ID: 99.99
+		Marking as insignificant: 210871 210977 | 40714 40608 | 107 107 | 99.07 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_20_length_40734_cov_3.16771_ID_39
+		Marking as insignificant: 711269 711379 | 40604 40714 | 111 111 | 98.2 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_20_length_40734_cov_3.16771_ID_39
+		Marking as insignificant: 1564641 1564766 | 1 126 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_20_length_40734_cov_3.16771_ID_39
+		Marking as insignificant: 535690 535815 | 1 126 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_20_length_40734_cov_3.16771_ID_39
+		Marking as insignificant: 2463389 2463515 | 40734 40608 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_20_length_40734_cov_3.16771_ID_39
+		Marking as insignificant: 2337553 2337679 | 40608 40734 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_20_length_40734_cov_3.16771_ID_39
+		Marking as insignificant: 1643571 1643697 | 40734 40608 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_20_length_40734_cov_3.16771_ID_39
+		Marking as insignificant: 1634225 1634351 | 40734 40608 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_20_length_40734_cov_3.16771_ID_39
+		Marking as insignificant: 1624195 1624321 | 40734 40608 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_20_length_40734_cov_3.16771_ID_39
+		Marking as insignificant: 1102668 1102794 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_20_length_40734_cov_3.16771_ID_39
+		Marking as insignificant: 712215 712341 | 40608 40734 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_20_length_40734_cov_3.16771_ID_39
+		Marking as insignificant: 52307 52433 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_20_length_40734_cov_3.16771_ID_39
+		Marking as insignificant: 340387 340519 | 1 133 | 133 133 | 99.25 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_20_length_40734_cov_3.16771_ID_39
+		Marking as insignificant: 510864 510999 | 136 1 | 136 136 | 99.26 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_20_length_40734_cov_3.16771_ID_39
+		One align captures most of this contig: 1574800 1615533 | 1 40734 | 40734 40734 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_20_length_40734_cov_3.16771_ID_39
+
+CONTIG: NODE_5_length_135944_cov_3.26404_ID_9 (135944bp)
+Top Length: 135944  Top ID: 99.99
+		Marking as insignificant: 2218655 2218880 | 135719 135944 | 226 226 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+		Marking as insignificant: 1758428 1758653 | 135719 135944 | 226 226 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+		Marking as insignificant: 1314259 1314484 | 135944 135719 | 226 226 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+		Marking as insignificant: 1302959 1303184 | 135719 135944 | 226 226 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+		Marking as insignificant: 592274 592499 | 135719 135944 | 226 226 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+		Marking as insignificant: 368787 369012 | 135719 135944 | 226 226 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+		Marking as insignificant: 336738 336963 | 135944 135719 | 226 226 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+		Marking as insignificant: 2226447 2226672 | 135944 135719 | 226 226 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+		Marking as insignificant: 48153 48379 | 135944 135718 | 227 227 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+		Marking as insignificant: 32143 32369 | 135944 135718 | 227 227 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+		Marking as insignificant: 45202 45432 | 135714 135944 | 231 231 | 99.13 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+		Marking as insignificant: 711272 712145 | 119671 118798 | 874 874 | 98.05 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+		Marking as insignificant: 1615407 1616350 | 119670 118726 | 944 945 | 95.87 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+		Marking as insignificant: 1642754 1643698 | 118726 119671 | 945 946 | 95.77 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+		Marking as insignificant: 2462571 2463516 | 118725 119671 | 946 947 | 95.78 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+		Marking as insignificant: 2337552 2338497 | 119671 118725 | 946 947 | 95.88 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+		Marking as insignificant: 1623378 1624327 | 118726 119675 | 950 950 | 95.69 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+		Marking as insignificant: 1633404 1634354 | 118722 119673 | 951 952 | 95.8 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+		Marking as insignificant: 712214 713169 | 119671 118717 | 956 955 | 95.51 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+		One align captures most of this contig: 91308 227251 | 1 135944 | 135944 135944 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_135944_cov_3.26404_ID_9
+
+CONTIG: NODE_26_length_28248_cov_3.11575_ID_51 (28248bp)
+Top Length: 28248  Top ID: 99.99
+		Marking as insignificant: 577466 577705 | 1 238 | 240 238 | 96.67 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_26_length_28248_cov_3.11575_ID_51
+		Marking as insignificant: 1125074 1125341 | 28248 27981 | 268 268 | 98.88 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_26_length_28248_cov_3.11575_ID_51
+		Marking as insignificant: 704237 704504 | 27981 28248 | 268 268 | 98.88 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_26_length_28248_cov_3.11575_ID_51
+		Marking as insignificant: 1993421 1993689 | 27980 28248 | 269 269 | 99.63 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_26_length_28248_cov_3.11575_ID_51
+		Marking as insignificant: 1756595 1756873 | 27970 28248 | 279 279 | 97.85 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_26_length_28248_cov_3.11575_ID_51
+		One align captures most of this contig: 1530032 1558279 | 28248 1 | 28248 28248 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_26_length_28248_cov_3.11575_ID_51
+
+CONTIG: NODE_53_length_1432_cov_9.22682_ID_105 (1432bp)
+Top Length: 1432  Top ID: 100.0
+		This contig has 3 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 987845 989276 | 1 1432 | 1432 1432 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_53_length_1432_cov_9.22682_ID_105
+		Skipping alignment  1283200 1284631 | 1 1432 | 1432 1432 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_53_length_1432_cov_9.22682_ID_105
+		Skipping alignment  1959625 1961056 | 1432 1 | 1432 1432 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_53_length_1432_cov_9.22682_ID_105
+
+CONTIG: NODE_35_length_8655_cov_3.21822_ID_69 (8655bp)
+Top Length: 8655  Top ID: 100.0
+		Marking as insignificant: 711272 711379 | 127 20 | 108 108 | 99.07 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_35_length_8655_cov_3.21822_ID_69
+		Marking as insignificant: 210871 210980 | 20 129 | 110 110 | 99.09 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_35_length_8655_cov_3.21822_ID_69
+		Marking as insignificant: 712091 712217 | 8655 8529 | 127 127 | 97.64 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_35_length_8655_cov_3.21822_ID_69
+		Marking as insignificant: 210033 210159 | 8529 8655 | 127 127 | 98.43 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_35_length_8655_cov_3.21822_ID_69
+		Marking as insignificant: 1615407 1615532 | 126 1 | 126 126 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_35_length_8655_cov_3.21822_ID_69
+		Marking as insignificant: 2463390 2463516 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_35_length_8655_cov_3.21822_ID_69
+		Marking as insignificant: 2462572 2462698 | 8529 8655 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_35_length_8655_cov_3.21822_ID_69
+		Marking as insignificant: 2338370 2338496 | 8655 8529 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_35_length_8655_cov_3.21822_ID_69
+		Marking as insignificant: 2337552 2337678 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_35_length_8655_cov_3.21822_ID_69
+		Marking as insignificant: 1643572 1643698 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_35_length_8655_cov_3.21822_ID_69
+		Marking as insignificant: 1633408 1633534 | 8529 8655 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_35_length_8655_cov_3.21822_ID_69
+		Marking as insignificant: 1624196 1624322 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_35_length_8655_cov_3.21822_ID_69
+		Marking as insignificant: 1616224 1616350 | 8655 8529 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_35_length_8655_cov_3.21822_ID_69
+		Marking as insignificant: 713032 713158 | 8655 8529 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_35_length_8655_cov_3.21822_ID_69
+		Marking as insignificant: 712214 712340 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_35_length_8655_cov_3.21822_ID_69
+		Marking as insignificant: 1623376 1623504 | 8527 8655 | 129 129 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_35_length_8655_cov_3.21822_ID_69
+		One align captures most of this contig: 1634226 1642880 | 1 8655 | 8655 8655 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_35_length_8655_cov_3.21822_ID_69
+
+CONTIG: NODE_12_length_105773_cov_3.20153_ID_23 (105773bp)
+Top Length: 74802  Top ID: 99.99
+		Skipping redundant alignment 2382156 2382286 | 131 1 | 131 131 | 99.24 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_12_length_105773_cov_3.20153_ID_23
+		Skipping redundant alignment 1764529 1764655 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_12_length_105773_cov_3.20153_ID_23
+		Skipping redundant alignment 2212810 2212936 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_12_length_105773_cov_3.20153_ID_23
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 2126150 2200951 | 1 74802 | 74802 74802 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_12_length_105773_cov_3.20153_ID_23
+			  Extensive misassembly ( relocation, inconsistency = -2141745 ) between these two alignments
+			Real Alignment 2: 57780 90177 | 73376 105773 | 32398 32398 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_12_length_105773_cov_3.20153_ID_23
+
+CONTIG: NODE_9_length_113303_cov_3.06332_ID_17 (113303bp)
+Top Length: 113303  Top ID: 99.99
+		Marking as insignificant: 711272 711379 | 113176 113283 | 108 108 | 99.07 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_9_length_113303_cov_3.06332_ID_17
+		Marking as insignificant: 210871 210978 | 113283 113176 | 108 108 | 99.07 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_9_length_113303_cov_3.06332_ID_17
+		Marking as insignificant: 1615407 1615533 | 113177 113303 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_9_length_113303_cov_3.06332_ID_17
+		Marking as insignificant: 2463389 2463516 | 113303 113176 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_9_length_113303_cov_3.06332_ID_17
+		Marking as insignificant: 1634225 1634352 | 113303 113176 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_9_length_113303_cov_3.06332_ID_17
+		Marking as insignificant: 1624195 1624322 | 113303 113176 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_9_length_113303_cov_3.06332_ID_17
+		Marking as insignificant: 712214 712341 | 113176 113303 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_9_length_113303_cov_3.06332_ID_17
+		Marking as insignificant: 2337548 2337679 | 113172 113303 | 132 132 | 99.24 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_9_length_113303_cov_3.06332_ID_17
+		Marking as insignificant: 1993421 1993689 | 269 1 | 269 269 | 99.26 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_9_length_113303_cov_3.06332_ID_17
+		Marking as insignificant: 1125074 1125341 | 1 268 | 268 268 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_9_length_113303_cov_3.06332_ID_17
+		Marking as insignificant: 704237 704504 | 268 1 | 268 268 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_9_length_113303_cov_3.06332_ID_17
+		Marking as insignificant: 1530032 1530310 | 1 279 | 279 279 | 97.85 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_9_length_113303_cov_3.06332_ID_17
+		One align captures most of this contig: 1643571 1756873 | 113303 1 | 113303 113303 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_9_length_113303_cov_3.06332_ID_17
+
+CONTIG: NODE_51_length_2061_cov_3.44881_ID_101 (2061bp)
+Top Length: 2061  Top ID: 100.0
+		Marking as insignificant: 2462572 2462698 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_51_length_2061_cov_3.44881_ID_101
+		Marking as insignificant: 2338370 2338496 | 1 127 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_51_length_2061_cov_3.44881_ID_101
+		Marking as insignificant: 1642754 1642880 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_51_length_2061_cov_3.44881_ID_101
+		Marking as insignificant: 1633408 1633534 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_51_length_2061_cov_3.44881_ID_101
+		Marking as insignificant: 1623378 1623504 | 127 1 | 127 127 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_51_length_2061_cov_3.44881_ID_101
+		Marking as insignificant: 1616224 1616351 | 1 128 | 128 128 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_51_length_2061_cov_3.44881_ID_101
+		Marking as insignificant: 712091 712221 | 1 132 | 131 132 | 96.97 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_51_length_2061_cov_3.44881_ID_101
+		Marking as insignificant: 210024 210159 | 138 1 | 136 138 | 96.38 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_51_length_2061_cov_3.44881_ID_101
+		Marking as insignificant: 2235882 2236243 | 2061 1700 | 362 362 | 95.3 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_51_length_2061_cov_3.44881_ID_101
+		One align captures most of this contig: 713032 715092 | 1 2061 | 2061 2061 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_51_length_2061_cov_3.44881_ID_101
+
+CONTIG: NODE_15_length_70743_cov_3.16942_ID_29 (70743bp)
+Top Length: 70743  Top ID: 99.99
+		One align captures most of this contig: 1837587 1908329 | 1 70743 | 70743 70743 | 99.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_15_length_70743_cov_3.16942_ID_29
+
+Analyzing coverage...
+Writing SNPs into /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-500-10_contigs.used_snps
+	Reference ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome.: 62 total alignments. 1 total regions.
+		Region: 1 to 2501097 (2501097 bp)
+			START in gap: 1 to 19 (18 bp)
+			Align 1: 19 31060 NODE_24_length_31042_cov_3.2087_ID_47 31042 1
+				Gap between this and next alignment: 31060 to 32253 (1192 bp)
+				Next Alignment: 32253 45432 NODE_31_length_13180_cov_2.87336_ID_61 1 13180
+
+			Align 2: 32253 45432 NODE_31_length_13180_cov_2.87336_ID_61 1 13180
+				Gap between this and next alignment: 45432 to 48153 (2720 bp)
+				Next Alignment: 48153 52444 NODE_43_length_4292_cov_3.71597_ID_85 4292 1
+
+			Align 3: 48153 52444 NODE_43_length_4292_cov_3.71597_ID_85 4292 1
+				Negative gap (overlap) between this and next alignment: 52444 to 52308 (-136 bp)
+				Next Alignment: 52308 53704 NODE_54_length_1397_cov_23.0024_ID_107 1 1397
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 138.
+			Align 4: 52445 53704 NODE_54_length_1397_cov_23.0024_ID_107 138 1397
+				Negative gap (overlap) between this and next alignment: 53704 to 53578 (-126 bp)
+				Next Alignment: 53578 56935 NODE_25_length_30226_cov_3.38403_ID_49 1 3358
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 128.
+			Align 5: 53705 56935 NODE_25_length_30226_cov_3.38403_ID_49 128 3358
+				Gap between this and next alignment: 56935 to 57780 (844 bp)
+				Next Alignment: 57780 90177 NODE_12_length_105773_cov_3.20153_ID_23 73376 105773
+
+			Align 6: 57780 90177 NODE_12_length_105773_cov_3.20153_ID_23 73376 105773
+				Gap between this and next alignment: 90177 to 90262 (84 bp)
+				Next Alignment: 90262 91326 NODE_56_length_1065_cov_3.29638_ID_111 1065 1
+
+			Align 7: 90262 91326 NODE_56_length_1065_cov_3.29638_ID_111 1065 1
+				Negative gap (overlap) between this and next alignment: 91326 to 91308 (-18 bp)
+				Next Alignment: 91308 227251 NODE_5_length_135944_cov_3.26404_ID_9 1 135944
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 20.
+			Align 8: 91327 227251 NODE_5_length_135944_cov_3.26404_ID_9 20 135944
+				Gap between this and next alignment: 227251 to 227665 (413 bp)
+				Next Alignment: 227665 335775 NODE_11_length_108112_cov_3.29762_ID_21 1 108112
+
+			Align 9: 227665 335775 NODE_11_length_108112_cov_3.29762_ID_21 1 108112
+				Gap between this and next alignment: 335775 to 336739 (963 bp)
+				Next Alignment: 336739 339242 NODE_48_length_2504_cov_3.25326_ID_95 1 2504
+
+			Align 10: 336739 339242 NODE_48_length_2504_cov_3.25326_ID_95 1 2504
+				Gap between this and next alignment: 339242 to 340393 (1150 bp)
+				Next Alignment: 340393 344833 NODE_42_length_4441_cov_3.1662_ID_83 4441 1
+
+			Align 11: 340393 344833 NODE_42_length_4441_cov_3.1662_ID_83 4441 1
+				Negative gap (overlap) between this and next alignment: 344833 to 344619 (-214 bp)
+				Next Alignment: 344619 369012 NODE_27_length_24394_cov_3.13133_ID_53 24394 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 24394 to 24179.
+			Align 12: 344834 369012 NODE_27_length_24394_cov_3.13133_ID_53 24179 1
+				Gap between this and next alignment: 369012 to 369426 (413 bp)
+				Next Alignment: 369426 511000 NODE_3_length_141576_cov_3.32588_ID_5 141576 1
+
+			Align 13: 369426 511000 NODE_3_length_141576_cov_3.32588_ID_5 141576 1
+				Gap between this and next alignment: 511000 to 512145 (1144 bp)
+				Next Alignment: 512145 534545 NODE_28_length_22401_cov_3.06712_ID_55 1 22401
+
+			Align 14: 512145 534545 NODE_28_length_22401_cov_3.06712_ID_55 1 22401
+				Gap between this and next alignment: 534545 to 535689 (1143 bp)
+				Next Alignment: 535689 576706 NODE_19_length_41018_cov_3.15421_ID_37 41018 1
+
+			Align 15: 535689 576706 NODE_19_length_41018_cov_3.15421_ID_37 41018 1
+				Gap between this and next alignment: 576706 to 577466 (759 bp)
+				Next Alignment: 577466 592399 NODE_30_length_14934_cov_2.99676_ID_59 1 14934
+
+			Align 16: 577466 592399 NODE_30_length_14934_cov_2.99676_ID_59 1 14934
+				Gap between this and next alignment: 592399 to 593572 (1172 bp)
+				Next Alignment: 593572 704504 NODE_10_length_110933_cov_3.08624_ID_19 110933 1
+
+			Align 17: 593572 704504 NODE_10_length_110933_cov_3.08624_ID_19 110933 1
+				Gap between this and next alignment: 704504 to 705549 (1044 bp)
+				Next Alignment: 705549 711398 NODE_39_length_5850_cov_3.07793_ID_77 5850 1
+
+			Align 18: 705549 711398 NODE_39_length_5850_cov_3.07793_ID_77 5850 1
+				Gap between this and next alignment: 711398 to 712215 (816 bp)
+				Next Alignment: 712215 713158 NODE_57_length_944_cov_22.8764_ID_113 1 944
+
+			Align 19: 712215 713158 NODE_57_length_944_cov_22.8764_ID_113 1 944
+				Negative gap (overlap) between this and next alignment: 713158 to 713032 (-126 bp)
+				Next Alignment: 713032 715092 NODE_51_length_2061_cov_3.44881_ID_101 1 2061
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 128.
+			Align 20: 713159 715092 NODE_51_length_2061_cov_3.44881_ID_101 128 2061
+				Gap between this and next alignment: 715092 to 716363 (1270 bp)
+				Next Alignment: 716363 857022 NODE_4_length_140660_cov_3.15605_ID_7 140660 1
+
+			Align 21: 716363 857022 NODE_4_length_140660_cov_3.15605_ID_7 140660 1
+				Gap between this and next alignment: 857022 to 857027 (4 bp)
+				Next Alignment: 857027 987971 NODE_6_length_130945_cov_3.20205_ID_11 1 130945
+
+			Align 22: 857027 987971 NODE_6_length_130945_cov_3.20205_ID_11 1 130945
+				Negative gap (overlap) between this and next alignment: 987971 to 987845 (-126 bp)
+				Next Alignment: 987845 989276 NODE_53_length_1432_cov_9.22682_ID_105 1 1432
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 128.
+			Align 23: 987972 989276 NODE_53_length_1432_cov_9.22682_ID_105 128 1432
+				Negative gap (overlap) between this and next alignment: 989276 to 989150 (-126 bp)
+				Next Alignment: 989150 1102794 NODE_8_length_113645_cov_3.12487_ID_15 113645 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 113645 to 113518.
+			Align 24: 989277 1102794 NODE_8_length_113645_cov_3.12487_ID_15 113518 1
+				Gap between this and next alignment: 1102794 to 1103939 (1144 bp)
+				Next Alignment: 1103939 1105931 NODE_50_length_2120_cov_3.67787_ID_99 2120 128
+
+			Align 25: 1103939 1105931 NODE_50_length_2120_cov_3.67787_ID_99 2120 128
+				Gap between this and next alignment: 1105931 to 1106275 (343 bp)
+				Next Alignment: 1106275 1109066 NODE_47_length_2792_cov_2.60638_ID_93 1 2792
+
+			Align 26: 1106275 1109066 NODE_47_length_2792_cov_2.60638_ID_93 1 2792
+				Negative gap (overlap) between this and next alignment: 1109066 to 1108769 (-297 bp)
+				Next Alignment: 1108769 1119005 NODE_33_length_10237_cov_3.26489_ID_65 10237 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 10237 to 9939.
+			Align 27: 1109067 1119005 NODE_33_length_10237_cov_3.26489_ID_65 9939 1
+				Negative gap (overlap) between this and next alignment: 1119005 to 1118994 (-11 bp)
+				Next Alignment: 1118994 1124146 NODE_41_length_5153_cov_3.32272_ID_81 1 5153
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 13.
+			Align 28: 1119006 1124146 NODE_41_length_5153_cov_3.32272_ID_81 13 5153
+				Gap between this and next alignment: 1124146 to 1127312 (3165 bp)
+				Next Alignment: 1127312 1283326 NODE_2_length_156731_cov_3.20961_ID_3 717 156731
+
+			Align 29: 1127312 1283326 NODE_2_length_156731_cov_3.20961_ID_3 717 156731
+				Gap between this and next alignment: 1283326 to 1284505 (1178 bp)
+				Next Alignment: 1284505 1286737 NODE_49_length_2233_cov_3.50047_ID_97 1 2233
+
+			Align 30: 1284505 1286737 NODE_49_length_2233_cov_3.50047_ID_97 1 2233
+				Negative gap (overlap) between this and next alignment: 1286737 to 1286734 (-3 bp)
+				Next Alignment: 1286734 1303184 NODE_29_length_16451_cov_3.1711_ID_57 1 16451
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 5.
+			Align 31: 1286738 1303184 NODE_29_length_16451_cov_3.1711_ID_57 5 16451
+				Gap between this and next alignment: 1303184 to 1304147 (962 bp)
+				Next Alignment: 1304147 1312529 NODE_22_length_36998_cov_3.39649_ID_43 36998 28616
+
+			Align 32: 1304147 1312529 NODE_22_length_36998_cov_3.39649_ID_43 36998 28616
+				Gap between this and next alignment: 1312529 to 1313719 (1189 bp)
+				Next Alignment: 1313719 1507189 NODE_1_length_193471_cov_3.2078_ID_1 1 193471
+
+			Align 33: 1313719 1507189 NODE_1_length_193471_cov_3.2078_ID_1 1 193471
+				Negative gap (overlap) between this and next alignment: 1507189 to 1507185 (-4 bp)
+				Next Alignment: 1507185 1525386 NODE_16_length_65786_cov_3.16694_ID_31 1 18202
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 6.
+			Align 34: 1507190 1525386 NODE_16_length_65786_cov_3.16694_ID_31 6 18202
+				Negative gap (overlap) between this and next alignment: 1525386 to 1524950 (-436 bp)
+				Next Alignment: 1524950 1529104 NODE_44_length_4155_cov_3.93545_ID_87 4155 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 4155 to 3718.
+			Align 35: 1525387 1529104 NODE_44_length_4155_cov_3.93545_ID_87 3718 1
+				Negative gap (overlap) between this and next alignment: 1529104 to 1528978 (-126 bp)
+				Next Alignment: 1528978 1530158 NODE_55_length_1181_cov_15.297_ID_109 1 1181
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 128.
+			Align 36: 1529105 1530158 NODE_55_length_1181_cov_15.297_ID_109 128 1181
+				Negative gap (overlap) between this and next alignment: 1530158 to 1530032 (-126 bp)
+				Next Alignment: 1530032 1558279 NODE_26_length_28248_cov_3.11575_ID_51 28248 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 28248 to 28121.
+			Align 37: 1530159 1558279 NODE_26_length_28248_cov_3.11575_ID_51 28121 1
+				Gap between this and next alignment: 1558279 to 1566533 (8253 bp)
+				Next Alignment: 1566533 1573649 NODE_37_length_7117_cov_2.94664_ID_73 1 7117
+
+			Align 38: 1566533 1573649 NODE_37_length_7117_cov_2.94664_ID_73 1 7117
+				Gap between this and next alignment: 1573649 to 1574800 (1150 bp)
+				Next Alignment: 1574800 1615533 NODE_20_length_40734_cov_3.16771_ID_39 1 40734
+
+			Align 39: 1574800 1615533 NODE_20_length_40734_cov_3.16771_ID_39 1 40734
+				Gap between this and next alignment: 1615533 to 1616224 (690 bp)
+				Next Alignment: 1616224 1623504 NODE_36_length_7281_cov_3.2038_ID_71 1 7281
+
+			Align 40: 1616224 1623504 NODE_36_length_7281_cov_3.2038_ID_71 1 7281
+				Gap between this and next alignment: 1623504 to 1624196 (691 bp)
+				Next Alignment: 1624196 1633533 NODE_34_length_9338_cov_3.10401_ID_67 9338 1
+
+			Align 41: 1624196 1633533 NODE_34_length_9338_cov_3.10401_ID_67 9338 1
+				Gap between this and next alignment: 1633533 to 1634226 (692 bp)
+				Next Alignment: 1634226 1642880 NODE_35_length_8655_cov_3.21822_ID_69 1 8655
+
+			Align 42: 1634226 1642880 NODE_35_length_8655_cov_3.21822_ID_69 1 8655
+				Gap between this and next alignment: 1642880 to 1643571 (690 bp)
+				Next Alignment: 1643571 1756873 NODE_9_length_113303_cov_3.06332_ID_17 113303 1
+
+			Align 43: 1643571 1756873 NODE_9_length_113303_cov_3.06332_ID_17 113303 1
+				Gap between this and next alignment: 1756873 to 1759616 (2742 bp)
+				Next Alignment: 1759616 1763295 NODE_45_length_3680_cov_3.61835_ID_89 1 3680
+
+			Align 44: 1759616 1763295 NODE_45_length_3680_cov_3.61835_ID_89 1 3680
+				Negative gap (overlap) between this and next alignment: 1763295 to 1763170 (-125 bp)
+				Next Alignment: 1763170 1764655 NODE_52_length_1486_cov_11.7263_ID_103 1 1486
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 127.
+			Align 45: 1763296 1764655 NODE_52_length_1486_cov_11.7263_ID_103 127 1486
+				Negative gap (overlap) between this and next alignment: 1764655 to 1764529 (-126 bp)
+				Next Alignment: 1764529 1765607 NODE_50_length_2120_cov_3.67787_ID_99 1 1079
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 128.
+			Align 46: 1764656 1765607 NODE_50_length_2120_cov_3.67787_ID_99 128 1079
+				Negative gap (overlap) between this and next alignment: 1765607 to 1765481 (-126 bp)
+				Next Alignment: 1765481 1837609 NODE_14_length_72129_cov_3.15823_ID_27 1 72129
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 128.
+			Align 47: 1765608 1837609 NODE_14_length_72129_cov_3.15823_ID_27 128 72129
+				Negative gap (overlap) between this and next alignment: 1837609 to 1837587 (-22 bp)
+				Next Alignment: 1837587 1908329 NODE_15_length_70743_cov_3.16942_ID_29 1 70743
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 24.
+			Align 48: 1837610 1908329 NODE_15_length_70743_cov_3.16942_ID_29 24 70743
+				Negative gap (overlap) between this and next alignment: 1908329 to 1908217 (-112 bp)
+				Next Alignment: 1908217 1959751 NODE_17_length_51536_cov_3.1851_ID_33 51535 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 51535 to 51422.
+			Align 49: 1908330 1959751 NODE_17_length_51536_cov_3.1851_ID_33 51422 1
+				Gap between this and next alignment: 1959751 to 1960955 (1203 bp)
+				Next Alignment: 1960955 1993548 NODE_23_length_32594_cov_3.04469_ID_45 32594 1
+
+			Align 50: 1960955 1993548 NODE_23_length_32594_cov_3.04469_ID_45 32594 1
+				Gap between this and next alignment: 1993548 to 1994617 (1068 bp)
+				Next Alignment: 1994617 2124917 NODE_7_length_130301_cov_3.18685_ID_13 130301 1
+
+			Align 51: 1994617 2124917 NODE_7_length_130301_cov_3.18685_ID_13 130301 1
+				Gap between this and next alignment: 2124917 to 2126150 (1232 bp)
+				Next Alignment: 2126150 2200951 NODE_12_length_105773_cov_3.20153_ID_23 1 74802
+
+			Align 52: 2126150 2200951 NODE_12_length_105773_cov_3.20153_ID_23 1 74802
+				Negative gap (overlap) between this and next alignment: 2200951 to 2200825 (-126 bp)
+				Next Alignment: 2200825 2211577 NODE_32_length_10753_cov_2.8163_ID_63 10753 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 10753 to 10626.
+			Align 53: 2200952 2211577 NODE_32_length_10753_cov_2.8163_ID_63 10626 1
+				Gap between this and next alignment: 2211577 to 2212810 (1232 bp)
+				Next Alignment: 2212810 2218880 NODE_38_length_6071_cov_3.81511_ID_75 1 6071
+
+			Align 54: 2212810 2218880 NODE_38_length_6071_cov_3.81511_ID_75 1 6071
+				Gap between this and next alignment: 2218880 to 2219953 (1072 bp)
+				Next Alignment: 2219953 2225484 NODE_40_length_5532_cov_3.71267_ID_79 1 5532
+
+			Align 55: 2219953 2225484 NODE_40_length_5532_cov_3.71267_ID_79 1 5532
+				Gap between this and next alignment: 2225484 to 2226453 (968 bp)
+				Next Alignment: 2226453 2254826 NODE_25_length_30226_cov_3.38403_ID_49 30226 1853
+
+			Align 56: 2226453 2254826 NODE_25_length_30226_cov_3.38403_ID_49 30226 1853
+				Gap between this and next alignment: 2254826 to 2255531 (704 bp)
+				Next Alignment: 2255531 2304050 NODE_16_length_65786_cov_3.16694_ID_31 17258 65778
+
+			Align 57: 2255531 2304050 NODE_16_length_65786_cov_3.16694_ID_31 17258 65778
+				Gap between this and next alignment: 2304050 to 2304357 (306 bp)
+				Next Alignment: 2304357 2334476 NODE_22_length_36998_cov_3.39649_ID_43 1 30120
+
+			Align 58: 2304357 2334476 NODE_22_length_36998_cov_3.39649_ID_43 1 30120
+				Negative gap (overlap) between this and next alignment: 2334476 to 2334298 (-178 bp)
+				Next Alignment: 2334298 2337678 NODE_46_length_3381_cov_3.14413_ID_91 1 3381
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 180.
+			Align 59: 2334477 2337678 NODE_46_length_3381_cov_3.14413_ID_91 180 3381
+				Gap between this and next alignment: 2337678 to 2338371 (692 bp)
+				Next Alignment: 2338371 2382286 NODE_18_length_43916_cov_3.32922_ID_35 43916 1
+
+			Align 60: 2338371 2382286 NODE_18_length_43916_cov_3.32922_ID_35 43916 1
+				Gap between this and next alignment: 2382286 to 2383519 (1232 bp)
+				Next Alignment: 2383519 2462698 NODE_13_length_79180_cov_3.21477_ID_25 1 79180
+
+			Align 61: 2383519 2462698 NODE_13_length_79180_cov_3.21477_ID_25 1 79180
+				Gap between this and next alignment: 2462698 to 2463390 (691 bp)
+				Next Alignment: 2463390 2501002 NODE_21_length_37613_cov_3.26637_ID_41 37613 1
+
+			Align 62: 2463390 2501002 NODE_21_length_37613_cov_3.26637_ID_41 37613 1
+			END in gap: 2501002 to 2501097 (95 bp)
+
+Analysis is finished!
+Founded SNPs were written into /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-500-10_contigs.used_snps
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 5
+		Relocations: 5
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 5
+	Misassembled Contig Bases: 240903
+	Misassmblies Inter-Contig Overlap: 2451
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 0 + 0 part
+Partially Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 0
+
+Ambiguously Mapped Contigs: 5
+Total Bases in Ambiguously Mapped Contigs: 6440
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 2452564
+
+	SNPs: 281
+	Insertions: 8
+	Deletions: 5
+
+	Positive Gaps: 42
+		Internal Gaps:  0
+		External Gaps:  42
+		External Gap Total:  48533
+		External Gap Average: 1156
+	Negative Gaps: 21
+		Internal Overlaps:  0
+		External Overlaps:  21
+		External Overlaps Total: -2690
+		External Overlaps Average: -128
+	Contigs with Redundant Alignments: 0 (0)

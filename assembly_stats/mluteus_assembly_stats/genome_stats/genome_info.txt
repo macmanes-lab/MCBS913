@@ -1,0 +1,41 @@
+reference chromosomes:
+	ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. (2501097 bp)
+
+total genome size: 2501097
+
+gap min size: 50
+partial gene/operon min size: 100
+
+genes loaded: 2345
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+================================================================================================================
+MicrococcusLuteusNCTC266 | 97.84275% | 1.00767     | 40        | 2231      | 63        | -         | -         |
+MicrococcusLuteusNCTC266 | 97.88129% | 1.00109     | 50        | 2247      | 66        | -         | -         |
+MicrococcusLuteusNCTC266 | 98.20391% | 0.99894     | 46        | 2258      | 51        | -         | -         |
+MicrococcusLuteusNCTC266 | 97.67018% | 1.00112     | 41        | 2263      | 28        | -         | -         |
+MicrococcusLuteusNCTC266 | 98.00212% | 1.00002     | 35        | 2267      | 38        | -         | -         |
+MicrococcusLuteusNCTC266 | 97.73759% | 1.00107     | 38        | 2267      | 26        | -         | -         |
+MicrococcusLuteusNCTC266 | 3.82176%  | 0.98529     | 172       | 19        | 170       | -         | -         |
+MicrococcusLuteusNCTC266 | 3.81049%  | 1.00410     | 177       | 19        | 180       | -         | -         |
+MicrococcusLuteusNCTC266 | 4.61693%  | 0.98385     | 198       | 28        | 191       | -         | -         |
+MicrococcusLuteusNCTC266 | 3.64460%  | 0.95576     | 166       | 26        | 161       | -         | -         |
+MicrococcusLuteusNCTC266 | 4.50930%  | 0.93290     | 177       | 24        | 181       | -         | -         |
+MicrococcusLuteusNCTC266 | 4.07685%  | 0.98819     | 177       | 24        | 174       | -         | -         |
+MicrococcusLuteusNCTC266 | 97.79677% | 1.00087     | 50        | 2238      | 65        | -         | -         |
+MicrococcusLuteusNCTC266 | 97.75443% | 1.00082     | 50        | 2241      | 59        | -         | -         |
+MicrococcusLuteusNCTC266 | 97.72232% | 1.00083     | 52        | 2241      | 53        | -         | -         |
+MicrococcusLuteusNCTC266 | 42.61402% | 1.00412     | 1303      | 167       | 1399      | -         | -         |
+MicrococcusLuteusNCTC266 | 40.74332% | 0.99502     | 1256      | 185       | 1356      | -         | -         |
+MicrococcusLuteusNCTC266 | 40.73009% | 1.00086     | 1309      | 182       | 1365      | -         | -         |
+MicrococcusLuteusNCTC266 | 98.11403% | 1.00112     | 39        | 2270      | 57        | -         | -         |
+MicrococcusLuteusNCTC266 | 98.15073% | 0.99988     | 36        | 2271      | 56        | -         | -         |
+MicrococcusLuteusNCTC266 | 98.28499% | 1.00108     | 41        | 2271      | 59        | -         | -         |
+MicrococcusLuteusNCTC266 | 98.22910% | 0.99972     | 38        | 2268      | 62        | -         | -         |
+MicrococcusLuteusNCTC266 | 98.32697% | 0.99974     | 36        | 2277      | 53        | -         | -         |
+MicrococcusLuteusNCTC266 | 98.18516% | 1.00095     | 38        | 2274      | 45        | -         | -         |
+MicrococcusLuteusNCTC266 | 98.02551% | 0.99954     | 41        | 2265      | 56        | -         | -         |
+MicrococcusLuteusNCTC266 | 98.05953% | 0.99982     | 40        | 2271      | 51        | -         | -         |
+MicrococcusLuteusNCTC266 | 98.11159% | 1.00152     | 48        | 2269      | 63        | -         | -         |

@@ -1,0 +1,800 @@
+/thomas1/mcbs913/anthony/quast-2.3/quast.py -R ../mcbs913/genomes/MicrococcusLuteusNCTC2665.fasta -o MicrococcusLuteusNCTC2665 -G NC_012803.gff ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-150-300-10-120/contigs.fasta ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-150-300-10-30/contigs.fasta ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-150-450-10-180/contigs.fasta ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-150-450-10-45/contigs.fasta ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-150-600-10-240/contigs.fasta ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-150-600-10-60/contigs.fasta ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-50-100-10-10/contigs.fasta ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-50-100-10-40/contigs.fasta ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-50-150-10-15/contigs.fasta ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-50-150-10-60/contigs.fasta ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-50-200-10-20/contigs.fasta ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-50-200-10-80/contigs.fasta ../assemblies/backup/MicrococcusLuteusNCTC2665-se-150-300-10/contigs.fasta ../assemblies/backup/MicrococcusLuteusNCTC2665-se-150-450-10/contigs.fasta ../assemblies/backup/MicrococcusLuteusNCTC2665-se-150-600-10/contigs.fasta ../assemblies/backup/MicrococcusLuteusNCTC2665-se-50-100-10/contigs.fasta ../assemblies/backup/MicrococcusLuteusNCTC2665-se-50-150-10/contigs.fasta ../assemblies/backup/MicrococcusLuteusNCTC2665-se-50-200-10/contigs.fasta ../assemblies/MicrococcusLuteusNCTC2665-pe-250-1000-10-100/contigs.fasta ../assemblies/MicrococcusLuteusNCTC2665-pe-250-1000-10-400/contigs.fasta ../assemblies/MicrococcusLuteusNCTC2665-pe-250-500-10-200/contigs.fasta ../assemblies/MicrococcusLuteusNCTC2665-pe-250-500-10-50/contigs.fasta ../assemblies/MicrococcusLuteusNCTC2665-pe-250-750-10-300/contigs.fasta ../assemblies/MicrococcusLuteusNCTC2665-pe-250-750-10-75/contigs.fasta ../assemblies/MicrococcusLuteusNCTC2665-se-250-1000-10/contigs.fasta ../assemblies/MicrococcusLuteusNCTC2665-se-250-500-10/contigs.fasta ../assemblies/MicrococcusLuteusNCTC2665-se-250-750-10/contigs.fasta
+
+Version 2.3, build 28.02.2014 16:10
+
+System information:
+  OS: Linux-3.13.0-43-generic-x86_64-with-Ubuntu-14.04-trusty (linux_64)
+  Python version: 2.7.6
+  CPUs number: 32
+
+Started: 2015-03-02 17:59:02
+
+Logging to /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/quast.log
+
+NOTICE: Maximum number of threads is set to 32 (use --threads option to set it manually)
+
+Reference:
+  ../mcbs913/genomes/MicrococcusLuteusNCTC2665.fasta ==> MicrococcusLuteusNCTC2665
+
+Contigs:
+  ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-150-300-10-120/contigs.fasta ==> MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs
+  ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-150-300-10-30/contigs.fasta ==> MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs
+  ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-150-450-10-180/contigs.fasta ==> MicrococcusLuteusNCTC2665-pe-150-450-10-180_contigs
+  ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-150-450-10-45/contigs.fasta ==> MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs
+  ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-150-600-10-240/contigs.fasta ==> MicrococcusLuteusNCTC2665-pe-150-600-10-240_contigs
+  ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-150-600-10-60/contigs.fasta ==> MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs
+  ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-50-100-10-10/contigs.fasta ==> MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs
+  ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-50-100-10-40/contigs.fasta ==> MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs
+  ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-50-150-10-15/contigs.fasta ==> MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs
+  ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-50-150-10-60/contigs.fasta ==> MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs
+  ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-50-200-10-20/contigs.fasta ==> MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs
+  ../assemblies/backup/MicrococcusLuteusNCTC2665-pe-50-200-10-80/contigs.fasta ==> MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs
+  ../assemblies/backup/MicrococcusLuteusNCTC2665-se-150-300-10/contigs.fasta ==> MicrococcusLuteusNCTC2665-se-150-300-10_contigs
+  ../assemblies/backup/MicrococcusLuteusNCTC2665-se-150-450-10/contigs.fasta ==> MicrococcusLuteusNCTC2665-se-150-450-10_contigs
+  ../assemblies/backup/MicrococcusLuteusNCTC2665-se-150-600-10/contigs.fasta ==> MicrococcusLuteusNCTC2665-se-150-600-10_contigs
+  ../assemblies/backup/MicrococcusLuteusNCTC2665-se-50-100-10/contigs.fasta ==> MicrococcusLuteusNCTC2665-se-50-100-10_contigs
+  ../assemblies/backup/MicrococcusLuteusNCTC2665-se-50-150-10/contigs.fasta ==> MicrococcusLuteusNCTC2665-se-50-150-10_contigs
+  ../assemblies/backup/MicrococcusLuteusNCTC2665-se-50-200-10/contigs.fasta ==> MicrococcusLuteusNCTC2665-se-50-200-10_contigs
+  ../assemblies/MicrococcusLuteusNCTC2665-pe-250-1000-10-100/contigs.fasta ==> MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs
+  ../assemblies/MicrococcusLuteusNCTC2665-pe-250-1000-10-400/contigs.fasta ==> MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs
+  ../assemblies/MicrococcusLuteusNCTC2665-pe-250-500-10-200/contigs.fasta ==> MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs
+  ../assemblies/MicrococcusLuteusNCTC2665-pe-250-500-10-50/contigs.fasta ==> MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs
+  ../assemblies/MicrococcusLuteusNCTC2665-pe-250-750-10-300/contigs.fasta ==> MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs
+  ../assemblies/MicrococcusLuteusNCTC2665-pe-250-750-10-75/contigs.fasta ==> MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs
+  ../assemblies/MicrococcusLuteusNCTC2665-se-250-1000-10/contigs.fasta ==> MicrococcusLuteusNCTC2665-se-250-1000-10_contigs
+  ../assemblies/MicrococcusLuteusNCTC2665-se-250-500-10/contigs.fasta ==> MicrococcusLuteusNCTC2665-se-250-500-10_contigs
+  ../assemblies/MicrococcusLuteusNCTC2665-se-250-750-10/contigs.fasta ==> MicrococcusLuteusNCTC2665-se-250-750-10_contigs
+
+2015-03-02 17:59:07
+Running Basic statistics processor...
+  Reference genome:
+    MicrococcusLuteusNCTC2665.fasta, Reference length = 2501097, Reference GC % = 73.00
+  Contig files: 
+    1  MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs
+    2  MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs
+    3  MicrococcusLuteusNCTC2665-pe-150-450-10-180_contigs
+    4  MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs
+    5  MicrococcusLuteusNCTC2665-pe-150-600-10-240_contigs
+    6  MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs
+    7  MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs
+    8  MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs
+    9  MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs
+    10 MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs
+    11 MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs
+    12 MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs
+    13 MicrococcusLuteusNCTC2665-se-150-300-10_contigs
+    14 MicrococcusLuteusNCTC2665-se-150-450-10_contigs
+    15 MicrococcusLuteusNCTC2665-se-150-600-10_contigs
+    16 MicrococcusLuteusNCTC2665-se-50-100-10_contigs
+    17 MicrococcusLuteusNCTC2665-se-50-150-10_contigs
+    18 MicrococcusLuteusNCTC2665-se-50-200-10_contigs
+    19 MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs
+    20 MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs
+    21 MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs
+    22 MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs
+    23 MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs
+    24 MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs
+    25 MicrococcusLuteusNCTC2665-se-250-1000-10_contigs
+    26 MicrococcusLuteusNCTC2665-se-250-500-10_contigs
+    27 MicrococcusLuteusNCTC2665-se-250-750-10_contigs
+  Calculating N50 and L50...
+    1  MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs, N50 = 43932, L50 = 15, Total length = 2459571, GC % = 73.14, # N's per 100 kbp =  0.00
+    2  MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs, N50 = 60765, L50 = 12, Total length = 2450775, GC % = 73.09, # N's per 100 kbp =  0.00
+    3  MicrococcusLuteusNCTC2665-pe-150-450-10-180_contigs, N50 = 102777, L50 = 10, Total length = 2451140, GC % = 73.10, # N's per 100 kbp =  0.00
+    4  MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs, N50 = 88969, L50 = 9, Total length = 2443156, GC % = 73.12, # N's per 100 kbp =  0.00
+    5  MicrococcusLuteusNCTC2665-pe-150-600-10-240_contigs, N50 = 98078, L50 = 10, Total length = 2449663, GC % = 73.10, # N's per 100 kbp =  0.00
+    6  MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs, N50 = 88969, L50 = 9, Total length = 2442692, GC % = 73.12, # N's per 100 kbp =  0.00
+    7  MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs, N50 = 618, L50 = 49, Total length = 93068, GC % = 71.30, # N's per 100 kbp =  0.00
+    8  MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs, N50 = 604, L50 = 56, Total length = 95179, GC % = 71.65, # N's per 100 kbp =  0.00
+    9  MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs, N50 = 606, L50 = 67, Total length = 110608, GC % = 71.21, # N's per 100 kbp =  0.00
+    10 MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs, N50 = 592, L50 = 52, Total length = 85273, GC % = 71.25, # N's per 100 kbp =  0.00
+    11 MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs, N50 = 628, L50 = 61, Total length = 112190, GC % = 70.66, # N's per 100 kbp =  0.00
+    12 MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs, N50 = 638, L50 = 56, Total length = 101583, GC % = 71.23, # N's per 100 kbp =  0.00
+    13 MicrococcusLuteusNCTC2665-se-150-300-10_contigs, N50 = 48963, L50 = 14, Total length = 2448109, GC % = 73.11, # N's per 100 kbp =  0.00
+    14 MicrococcusLuteusNCTC2665-se-150-450-10_contigs, N50 = 50440, L50 = 15, Total length = 2446926, GC % = 73.11, # N's per 100 kbp =  0.00
+    15 MicrococcusLuteusNCTC2665-se-150-600-10_contigs, N50 = 50442, L50 = 13, Total length = 2446156, GC % = 73.11, # N's per 100 kbp =  0.00
+    16 MicrococcusLuteusNCTC2665-se-50-100-10_contigs, N50 = 757, L50 = 516, Total length = 1067867, GC % = 72.92, # N's per 100 kbp =  0.00
+    17 MicrococcusLuteusNCTC2665-se-50-150-10_contigs, N50 = 755, L50 = 495, Total length = 1012775, GC % = 73.03, # N's per 100 kbp =  0.00
+    18 MicrococcusLuteusNCTC2665-se-50-200-10_contigs, N50 = 727, L50 = 505, Total length = 1013433, GC % = 72.92, # N's per 100 kbp =  0.00
+    19 MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs, N50 = 113302, L50 = 8, Total length = 2453726, GC % = 73.09, # N's per 100 kbp =  0.00
+    20 MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs, N50 = 85428, L50 = 10, Total length = 2454540, GC % = 73.09, # N's per 100 kbp =  0.00
+    21 MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs, N50 = 84544, L50 = 10, Total length = 2454318, GC % = 73.08, # N's per 100 kbp =  0.00
+    22 MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs, N50 = 98696, L50 = 9, Total length = 2454045, GC % = 73.09, # N's per 100 kbp =  0.00
+    23 MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs, N50 = 85776, L50 = 8, Total length = 2455309, GC % = 73.09, # N's per 100 kbp =  0.00
+    24 MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs, N50 = 94320, L50 = 9, Total length = 2452657, GC % = 73.09, # N's per 100 kbp =  0.00
+    25 MicrococcusLuteusNCTC2665-se-250-1000-10_contigs, N50 = 110933, L50 = 8, Total length = 2448133, GC % = 73.11, # N's per 100 kbp =  0.00
+    26 MicrococcusLuteusNCTC2665-se-250-500-10_contigs, N50 = 113303, L50 = 9, Total length = 2449668, GC % = 73.11, # N's per 100 kbp =  0.00
+    27 MicrococcusLuteusNCTC2665-se-250-750-10_contigs, N50 = 76705, L50 = 10, Total length = 2456648, GC % = 73.09, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/basic_stats/NGx_plot.pdf
+Done.
+
+2015-03-02 17:59:12
+Running Contig analyzer...
+  1  MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs
+  2  MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs
+  3  MicrococcusLuteusNCTC2665-pe-150-450-10-180_contigs
+  1  Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs.stderr...
+  4  MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs
+  2  Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs.stderr...
+  1  Running Nucmer
+  3  Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-450-10-180_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-pe-150-450-10-180_contigs.stderr...
+  4  Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs.stderr...
+  2  Running Nucmer
+  3  Running Nucmer
+  4  Running Nucmer
+  1  libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs.stderr
+  4  libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs.stderr
+  2  libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs.stderr
+  5  MicrococcusLuteusNCTC2665-pe-150-600-10-240_contigs
+  5  Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-600-10-240_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-pe-150-600-10-240_contigs.stderr...
+  6  Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs.stderr...
+  5  Running Nucmer
+  8  MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs
+  6  libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs.stderr
+  7  MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs
+  7  Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.stderr...
+  9  MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs
+  8  Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs.stderr...
+  9  Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs.stderr...
+  8  Running Nucmer
+  10 MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs
+  7  libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.stderr
+  10 Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs.stderr...
+  10 Running Nucmer
+  8  libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs.stderr
+  10 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs.stderr
+  9  Running Nucmer
+  9  libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs.stderr
+  12 MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs
+  12 Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs.stderr...
+  12 Running Nucmer
+  12 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs.stderr
+  15 MicrococcusLuteusNCTC2665-se-150-600-10_contigs
+  14 MicrococcusLuteusNCTC2665-se-150-450-10_contigs
+  13 MicrococcusLuteusNCTC2665-se-150-300-10_contigs
+  16 MicrococcusLuteusNCTC2665-se-50-100-10_contigs
+  15 Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-150-600-10_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-se-150-600-10_contigs.stderr...
+  14 Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-150-450-10_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-se-150-450-10_contigs.stderr...
+  11 MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs
+  16 Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-50-100-10_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-se-50-100-10_contigs.stderr...
+  13 Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-150-300-10_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-se-150-300-10_contigs.stderr...
+  14 Running Nucmer
+  14 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-450-10_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-se-150-450-10_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-150-450-10_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-150-450-10_contigs.stderr
+  15 Running Nucmer
+  11 Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs.stderr...
+  11 Running Nucmer
+  15 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-600-10_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-se-150-600-10_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-150-600-10_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-150-600-10_contigs.stderr
+  11 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs.stderr
+  16 Running Nucmer
+  16 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-100-10_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-se-50-100-10_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-50-100-10_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-50-100-10_contigs.stderr
+  13 Running Nucmer
+  13 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-300-10_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-se-150-300-10_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-150-300-10_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-150-300-10_contigs.stderr
+  18 MicrococcusLuteusNCTC2665-se-50-200-10_contigs
+  18 Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-50-200-10_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-se-50-200-10_contigs.stderr...
+  18 Running Nucmer
+  20 MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs
+  18 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-200-10_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-se-50-200-10_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-50-200-10_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-50-200-10_contigs.stderr
+  19 MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs
+  20 Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs.stderr...
+  21 MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs
+  20 Running Nucmer
+  20 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs.stderr
+  19 Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs.stderr...
+  17 MicrococcusLuteusNCTC2665-se-50-150-10_contigs
+  21 Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs.stderr...
+  19 Running Nucmer
+  22 MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs
+  22 Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs.stderr...
+  22 Running Nucmer
+  22 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs.stderr
+  19 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs.stderr
+  17 Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-50-150-10_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-se-50-150-10_contigs.stderr...
+  21 Running Nucmer
+  23 MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs
+  17 Running Nucmer
+  23 Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs.stderr...
+  23 Running Nucmer
+  21 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs.stderr
+  17 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-150-10_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-se-50-150-10_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-50-150-10_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-50-150-10_contigs.stderr
+  23 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs.stderr
+  24 MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs
+  24 Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs.stderr...
+  24 Running Nucmer
+  24 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs.stderr
+  26 MicrococcusLuteusNCTC2665-se-250-500-10_contigs
+  25 MicrococcusLuteusNCTC2665-se-250-1000-10_contigs
+  26 Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-250-500-10_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-se-250-500-10_contigs.stderr...
+  27 Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-250-750-10_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-se-250-750-10_contigs.stderr...
+  25 Logging to files /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-250-1000-10_contigs.stdout and contigs_report_MicrococcusLuteusNCTC2665-se-250-1000-10_contigs.stderr...
+  26 Running Nucmer
+  27 Running Nucmer
+  25 Running Nucmer
+  25 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-1000-10_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-se-250-1000-10_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-250-1000-10_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-250-1000-10_contigs.stderr
+  26 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-500-10_contigs \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665.fasta \
+     MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-se-250-500-10_contigs.fasta \
+     >> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-250-500-10_contigs.stdout \
+     2>> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-250-500-10_contigs.stderr
+  7  libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.stderr
+  7  libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.stderr
+  7  libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.stderr
+  10 libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs.stderr
+  10 libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs.stderr
+  10 libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs.stderr
+  12 libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs.stderr
+  12 libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs.stderr
+  12 libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs.stderr
+  9  libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs.stderr
+  9  libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs.stderr
+  9  libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs.stderr
+  11 libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs.stderr
+  11 libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs.stderr
+  11 libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs.stderr
+  7  Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.tsv
+  7  Analysis is finished.
+
+  8  libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs.stderr
+  8  libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs.stderr
+  8  libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs.stderr
+  10 Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs.tsv
+  10 Analysis is finished.
+
+  9  Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs.tsv
+  9  Analysis is finished.
+
+  11 Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs.tsv
+  11 Analysis is finished.
+
+  8  Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs.tsv
+  8  Analysis is finished.
+
+  12 Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs.tsv
+  12 Analysis is finished.
+
+  17 libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-150-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-150-10_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-50-150-10_contigs.stderr
+  17 libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-150-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-150-10_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-50-150-10_contigs.stderr
+  17 libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-150-10_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-150-10_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-150-10_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-50-150-10_contigs.stderr
+  16 libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-100-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-100-10_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-50-100-10_contigs.stderr
+  16 libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-100-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-100-10_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-50-100-10_contigs.stderr
+  16 libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-100-10_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-100-10_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-100-10_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-50-100-10_contigs.stderr
+  14 libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-450-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-450-10_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-150-450-10_contigs.stderr
+  14 libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-450-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-450-10_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-150-450-10_contigs.stderr
+  14 libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-450-10_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-450-10_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-450-10_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-150-450-10_contigs.stderr
+  18 libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-200-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-200-10_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-50-200-10_contigs.stderr
+  18 libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-200-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-200-10_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-50-200-10_contigs.stderr
+  18 libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-200-10_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-200-10_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-50-200-10_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-50-200-10_contigs.stderr
+  13 libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-300-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-300-10_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-150-300-10_contigs.stderr
+  13 libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-300-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-300-10_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-150-300-10_contigs.stderr
+  13 libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-300-10_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-300-10_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-300-10_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-150-300-10_contigs.stderr
+  4  libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs.stderr
+  4  libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs.stderr
+  15 libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-600-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-600-10_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-150-600-10_contigs.stderr
+  4  libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs.stderr
+  15 libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-600-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-600-10_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-150-600-10_contigs.stderr
+  15 libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-600-10_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-600-10_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-150-600-10_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-150-600-10_contigs.stderr
+  5  libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-600-10-240_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-600-10-240_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-600-10-240_contigs.stderr
+  5  libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-600-10-240_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-600-10-240_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-600-10-240_contigs.stderr
+  5  libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-600-10-240_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-600-10-240_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-600-10-240_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-600-10-240_contigs.stderr
+  19 libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs.stderr
+  19 libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs.stderr
+  19 libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs.stderr
+  25 libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-1000-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-1000-10_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-250-1000-10_contigs.stderr
+  25 libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-1000-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-1000-10_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-250-1000-10_contigs.stderr
+  25 libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-1000-10_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-1000-10_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-1000-10_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-250-1000-10_contigs.stderr
+  24 libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs.stderr
+  24 libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs.stderr
+  21 libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs.stderr
+  24 libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs.stderr
+  21 libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs.stderr
+  21 libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs.stderr
+  23 libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs.stderr
+  1  libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs.stderr
+  23 libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs.stderr
+  1  libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs.stderr
+  1  libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs.stderr
+  23 libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs.stderr
+  20 libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs.stderr
+  26 libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-500-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-500-10_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-250-500-10_contigs.stderr
+  20 libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs.stderr
+  20 libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs.stderr
+  26 libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-500-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-500-10_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-250-500-10_contigs.stderr
+  26 libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-500-10_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-500-10_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-500-10_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-250-500-10_contigs.stderr
+  2  libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs.stderr
+  2  libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs.stderr
+  2  libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs.stderr
+  17 Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-se-50-150-10_contigs.tsv
+  17 Analysis is finished.
+
+  27 libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-750-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-750-10_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-250-750-10_contigs.stderr
+  22 libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs.stderr
+  27 libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-750-10_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-750-10_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-250-750-10_contigs.stderr
+  22 libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs.stderr
+  27 libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-750-10_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-750-10_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-se-250-750-10_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-se-250-750-10_contigs.stderr
+  22 libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs.stderr
+  6  libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs.stderr
+  6  libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs.stderr
+  6  libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs.stderr
+  18 Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-se-50-200-10_contigs.tsv
+  18 Analysis is finished.
+
+  16 Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-se-50-100-10_contigs.tsv
+  16 Analysis is finished.
+
+  3  libs/MUMmer3.23-linux/delta-filter -i 95 MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-450-10-180_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-450-10-180_contigs.fdelta \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-450-10-180_contigs.stderr
+  3  libs/MUMmer3.23-linux/show-coords MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-450-10-180_contigs.delta \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-450-10-180_contigs.coords_tmp \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-450-10-180_contigs.stderr
+  3  libs/MUMmer3.23-linux/show-snps -S -T -H MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-450-10-180_contigs.delta \
+     < MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-450-10-180_contigs.coords.headless \
+     > MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-150-450-10-180_contigs.all_snps \
+     2> MicrococcusLuteusNCTC2665/contigs_reports/contigs_report_MicrococcusLuteusNCTC2665-pe-150-450-10-180_contigs.stderr
+  15 Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-se-150-600-10_contigs.tsv
+  15 Analysis is finished.
+
+  4  Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs.tsv
+  4  Analysis is finished.
+
+  13 Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-se-150-300-10_contigs.tsv
+  13 Analysis is finished.
+
+  14 Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-se-150-450-10_contigs.tsv
+  14 Analysis is finished.
+
+  19 Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs.tsv
+  19 Analysis is finished.
+
+  24 Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs.tsv
+  24 Analysis is finished.
+
+  25 Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-se-250-1000-10_contigs.tsv
+  25 Analysis is finished.
+
+  5  Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-pe-150-600-10-240_contigs.tsv
+  5  Analysis is finished.
+
+  1  Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs.tsv
+  1  Analysis is finished.
+
+  2  Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs.tsv
+  2  Analysis is finished.
+
+  21 Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs.tsv
+  21 Analysis is finished.
+
+  23 Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs.tsv
+  23 Analysis is finished.
+
+  20 Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs.tsv
+  20 Analysis is finished.
+
+  26 Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-se-250-500-10_contigs.tsv
+  26 Analysis is finished.
+
+  6  Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs.tsv
+  6  Analysis is finished.
+
+  22 Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs.tsv
+  22 Analysis is finished.
+
+  27 Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-se-250-750-10_contigs.tsv
+  27 Analysis is finished.
+
+  3  Alignments: MicrococcusLuteusNCTC2665/contigs_reports/alignments_MicrococcusLuteusNCTC2665-pe-150-450-10-180_contigs.tsv
+  3  Analysis is finished.
+
+  Creating total report...
+    saved to /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Creating total report...
+    saved to /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2015-03-02 17:59:29
+Running NA-NGA calculation...
+  1  MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs, Largest alignment = 165470, NA50 = 43932, NGA50 = 40918, LA50 = 15, LGA50 = 16
+  2  MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs, Largest alignment = 210079, NA50 = 60765, NGA50 = 57169, LA50 = 12, LGA50 = 13
+  3  MicrococcusLuteusNCTC2665-pe-150-450-10-180_contigs, Largest alignment = 159225, NA50 = 84702, NGA50 = 84702, LA50 = 11, LGA50 = 11
+  4  MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs, Largest alignment = 271401, NA50 = 85765, NGA50 = 85765, LA50 = 9, LGA50 = 9
+  5  MicrococcusLuteusNCTC2665-pe-150-600-10-240_contigs, Largest alignment = 204125, NA50 = 95226, NGA50 = 88969, LA50 = 10, LGA50 = 11
+  6  MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs, Largest alignment = 209188, NA50 = 88969, NGA50 = 88969, LA50 = 9, LGA50 = 9
+  7  MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs, Largest alignment = 2764, NA50 = 576, NGA50 = None, LA50 = 54, LGA50 = None
+  8  MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs, Largest alignment = 1855, NA50 = 567, NGA50 = None, LA50 = 61, LGA50 = None
+  9  MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs, Largest alignment = 2082, NA50 = 563, NGA50 = None, LA50 = 73, LGA50 = None
+  10 MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs, Largest alignment = 1728, NA50 = 559, NGA50 = None, LA50 = 57, LGA50 = None
+  11 MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs, Largest alignment = 1810, NA50 = 587, NGA50 = None, LA50 = 66, LGA50 = None
+  12 MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs, Largest alignment = 2371, NA50 = 568, NGA50 = None, LA50 = 60, LGA50 = None
+  13 MicrococcusLuteusNCTC2665-se-150-300-10_contigs, Largest alignment = 163870, NA50 = 48963, NGA50 = 47941, LA50 = 14, LGA50 = 15
+  14 MicrococcusLuteusNCTC2665-se-150-450-10_contigs, Largest alignment = 143376, NA50 = 50440, NGA50 = 50440, LA50 = 15, LGA50 = 15
+  15 MicrococcusLuteusNCTC2665-se-150-600-10_contigs, Largest alignment = 229930, NA50 = 50442, NGA50 = 50442, LA50 = 13, LGA50 = 13
+  16 MicrococcusLuteusNCTC2665-se-50-100-10_contigs, Largest alignment = 4161, NA50 = 697, NGA50 = None, LA50 = 557, LGA50 = None
+  17 MicrococcusLuteusNCTC2665-se-50-150-10_contigs, Largest alignment = 5748, NA50 = 701, NGA50 = None, LA50 = 526, LGA50 = None
+  18 MicrococcusLuteusNCTC2665-se-50-200-10_contigs, Largest alignment = 3494, NA50 = 690, NGA50 = None, LA50 = 540, LGA50 = None
+  19 MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs, Largest alignment = 271504, NA50 = 113302, NGA50 = 111970, LA50 = 8, LGA50 = 9
+  20 MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs, Largest alignment = 157319, NA50 = 85428, NGA50 = 85428, LA50 = 10, LGA50 = 10
+  21 MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs, Largest alignment = 178542, NA50 = 83156, NGA50 = 83156, LA50 = 11, LGA50 = 11
+  22 MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs, Largest alignment = 271561, NA50 = 92212, NGA50 = 92212, LA50 = 9, LGA50 = 9
+  23 MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs, Largest alignment = 274546, NA50 = 85776, NGA50 = 85729, LA50 = 8, LGA50 = 9
+  24 MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs, Largest alignment = 270305, NA50 = 93380, NGA50 = 93380, LA50 = 10, LGA50 = 10
+  25 MicrococcusLuteusNCTC2665-se-250-1000-10_contigs, Largest alignment = 194928, NA50 = 109333, NGA50 = 109333, LA50 = 9, LGA50 = 9
+  26 MicrococcusLuteusNCTC2665-se-250-500-10_contigs, Largest alignment = 193471, NA50 = 113303, NGA50 = 113303, LA50 = 9, LGA50 = 9
+  27 MicrococcusLuteusNCTC2665-se-250-750-10_contigs, Largest alignment = 206738, NA50 = 76702, NGA50 = 72647, LA50 = 10, LGA50 = 11
+  Drawing cumulative plot...
+    saved to /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/aligned_stats/NGAx_plot.pdf
+Done.
+
+2015-03-02 17:59:31
+Running Genome analyzer...
+  Loaded 2345 genes
+  NOTICE: Reference name in genes (NC_012803.1) does not match the name of the reference (ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome.). QUAST will ignore this ussue and count as if they matched.
+  NOTICE: No file with operons provided. Use the -O option if you want to specify it.
+  1  MicrococcusLuteusNCTC2665-pe-150-300-10-120_contigs
+  2  MicrococcusLuteusNCTC2665-pe-150-300-10-30_contigs
+  3  MicrococcusLuteusNCTC2665-pe-150-450-10-180_contigs
+  4  MicrococcusLuteusNCTC2665-pe-150-450-10-45_contigs
+  5  MicrococcusLuteusNCTC2665-pe-150-600-10-240_contigs
+  6  MicrococcusLuteusNCTC2665-pe-150-600-10-60_contigs
+  7  MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs
+  8  MicrococcusLuteusNCTC2665-pe-50-100-10-40_contigs
+  9  MicrococcusLuteusNCTC2665-pe-50-150-10-15_contigs
+  10 MicrococcusLuteusNCTC2665-pe-50-150-10-60_contigs
+  11 MicrococcusLuteusNCTC2665-pe-50-200-10-20_contigs
+  12 MicrococcusLuteusNCTC2665-pe-50-200-10-80_contigs
+  13 MicrococcusLuteusNCTC2665-se-150-300-10_contigs
+  14 MicrococcusLuteusNCTC2665-se-150-450-10_contigs
+  15 MicrococcusLuteusNCTC2665-se-150-600-10_contigs
+  16 MicrococcusLuteusNCTC2665-se-50-100-10_contigs
+  17 MicrococcusLuteusNCTC2665-se-50-150-10_contigs
+  18 MicrococcusLuteusNCTC2665-se-50-200-10_contigs
+  19 MicrococcusLuteusNCTC2665-pe-250-1000-10-100_contigs
+  20 MicrococcusLuteusNCTC2665-pe-250-1000-10-400_contigs
+  21 MicrococcusLuteusNCTC2665-pe-250-500-10-200_contigs
+  22 MicrococcusLuteusNCTC2665-pe-250-500-10-50_contigs
+  23 MicrococcusLuteusNCTC2665-pe-250-750-10-300_contigs
+  24 MicrococcusLuteusNCTC2665-pe-250-750-10-75_contigs
+  25 MicrococcusLuteusNCTC2665-se-250-1000-10_contigs
+  26 MicrococcusLuteusNCTC2665-se-250-500-10_contigs
+  27 MicrococcusLuteusNCTC2665-se-250-750-10_contigs
+  9  Analysis is finished.
+  7  Analysis is finished.
+  1  Analysis is finished.
+  4  Analysis is finished.
+  12 Analysis is finished.
+  2  Analysis is finished.
+  3  Analysis is finished.
+  14 Analysis is finished.
+  6  Analysis is finished.
+  10 Analysis is finished.
+  5  Analysis is finished.
+  8  Analysis is finished.
+  11 Analysis is finished.
+  23 Analysis is finished.
+  26 Analysis is finished.
+  27 Analysis is finished.
+  21 Analysis is finished.
+  22 Analysis is finished.
+  25 Analysis is finished.
+  24 Analysis is finished.
+  15 Analysis is finished.
+  20 Analysis is finished.
+  13 Analysis is finished.
+  19 Analysis is finished.
+  18 Analysis is finished.
+  17 Analysis is finished.
+  16 Analysis is finished.
+  Drawing genes cumulative plot...
+    saved to /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/genome_stats/genes_cumulative_plot.pdf
+  Drawing # complete genes histogram...
+    saved to /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/genome_stats/complete_genes_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2015-03-02 17:59:40
+Drawing large plots...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating contig alignment plot...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2015-03-02 18:00:13
+RESULTS:
+  Text versions of total report are saved to /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/report.html
+  PDF version (tables and plots) saved to /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/report.pdf
+  Contig alignment plot: /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/alignment.svg
+  Log saved to /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/quast.log
+
+Finished: 2015-03-02 18:00:13
+Elapsed time: 0:01:10.576993
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

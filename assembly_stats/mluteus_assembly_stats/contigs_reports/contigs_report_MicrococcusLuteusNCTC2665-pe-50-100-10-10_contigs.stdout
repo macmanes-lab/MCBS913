@@ -1,0 +1,1491 @@
+Aligning contigs to reference...
+	Running Nucmer
+Parsing coords...
+Loading Assembly...
+Loading reference...
+	Loaded [ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome.]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 2501097
+Analyzing contigs...
+CONTIG: NODE_86_length_546_cov_1.21832_ID_171 (546bp)
+Top Length: 546  Top ID: 99.63
+		One align captures most of this contig: 470755 471300 | 546 1 | 546 546 | 99.63 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_86_length_546_cov_1.21832_ID_171
+
+CONTIG: NODE_127_length_504_cov_0.878981_ID_253 (504bp)
+Top Length: 494  Top ID: 99.19
+		This contig is partially unaligned. (494 out of 504)
+		Alignment: 751144 751637 | 502 9 | 494 494 | 99.19 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_127_length_504_cov_0.878981_ID_253
+		Unaligned bases: 1 to 8 (8)
+		Unaligned bases: 503 to 504 (2)
+
+CONTIG: NODE_19_length_772_cov_1.32882_ID_37 (772bp)
+Top Length: 618  Top ID: 98.38
+		Skipping redundant alignment 1908817 1909341 | 621 98 | 525 524 | 98.67 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_19_length_772_cov_1.32882_ID_37
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 1077994 1078611 | 4 621 | 618 618 | 98.38 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_19_length_772_cov_1.32882_ID_37
+			  Extensive misassembly ( relocation, inconsistency = -859461 ) between these two alignments
+			Real Alignment 2: 219129 219301 | 600 772 | 173 173 | 98.27 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_19_length_772_cov_1.32882_ID_37
+
+CONTIG: NODE_47_length_621_cov_1.11735_ID_93 (621bp)
+Top Length: 521  Top ID: 99.62
+		This contig is partially unaligned. (521 out of 621)
+		Alignment: 453044 453564 | 1 521 | 521 521 | 99.62 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_47_length_621_cov_1.11735_ID_93
+		Unaligned bases: 522 to 621 (100)
+
+CONTIG: NODE_134_length_500_cov_1.05782_ID_267 (500bp)
+Top Length: 500  Top ID: 99.4
+		One align captures most of this contig: 259348 259847 | 1 500 | 500 500 | 99.4 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_134_length_500_cov_1.05782_ID_267
+
+CONTIG: NODE_23_length_750_cov_0.930265_ID_45 (750bp)
+Top Length: 749  Top ID: 99.6
+		One align captures most of this contig: 1495674 1496422 | 749 1 | 749 749 | 99.6 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_23_length_750_cov_0.930265_ID_45
+
+CONTIG: NODE_22_length_755_cov_1.75762_ID_43 (755bp)
+Top Length: 645  Top ID: 99.84
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 2199526 2200170 | 111 755 | 645 645 | 99.84 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_22_length_755_cov_1.75762_ID_43
+		This contig is partially unaligned. (645 out of 755)
+		Alignment: 57781 58425 | 111 755 | 645 645 | 99.84 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_22_length_755_cov_1.75762_ID_43
+		Unaligned bases: 1 to 110 (110)
+
+CONTIG: NODE_36_length_663_cov_1.12063_ID_71 (663bp)
+Top Length: 661  Top ID: 99.24
+		One align captures most of this contig: 342229 342889 | 1 661 | 661 661 | 99.24 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_36_length_663_cov_1.12063_ID_71
+
+CONTIG: NODE_97_length_533_cov_1.096_ID_193 (533bp)
+Top Length: 533  Top ID: 99.62
+		One align captures most of this contig: 819839 820371 | 1 533 | 533 533 | 99.62 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_97_length_533_cov_1.096_ID_193
+
+CONTIG: NODE_63_length_585_cov_1.30616_ID_125 (585bp)
+Top Length: 457  Top ID: 95.45
+		This contig is partially unaligned. (457 out of 585)
+		Alignment: 2113911 2114370 | 468 12 | 460 457 | 95.45 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_63_length_585_cov_1.30616_ID_125
+		Unaligned bases: 1 to 11 (11)
+		Unaligned bases: 469 to 585 (117)
+
+CONTIG: NODE_31_length_694_cov_1.08018_ID_61 (694bp)
+Top Length: 693  Top ID: 99.57
+		One align captures most of this contig: 1343223 1343915 | 694 2 | 693 693 | 99.57 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_31_length_694_cov_1.08018_ID_61
+
+CONTIG: NODE_111_length_515_cov_1.09959_ID_221 (515bp)
+Top Length: 510  Top ID: 98.82
+		One align captures most of this contig: 1450291 1450800 | 513 4 | 510 510 | 98.82 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_111_length_515_cov_1.09959_ID_221
+
+CONTIG: NODE_9_length_1236_cov_1.92436_ID_17 (1236bp)
+Top Length: 1236  Top ID: 96.69
+		Marking as insignificant: 344243 345299 | 1236 178 | 1057 1059 | 96.03 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_9_length_1236_cov_1.92436_ID_17
+		Marking as insignificant: 1558114 1559170 | 1236 178 | 1057 1059 | 96.14 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_9_length_1236_cov_1.92436_ID_17
+		Marking as insignificant: 576575 577633 | 178 1236 | 1059 1059 | 96.33 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_9_length_1236_cov_1.92436_ID_17
+		One align captures most of this contig: 2303289 2304524 | 1 1236 | 1236 1236 | 96.69 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_9_length_1236_cov_1.92436_ID_17
+
+CONTIG: NODE_54_length_602_cov_1.11951_ID_107 (602bp)
+Top Length: 594  Top ID: 99.49
+		One align captures most of this contig: 1455308 1455901 | 594 1 | 594 594 | 99.49 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_54_length_602_cov_1.11951_ID_107
+
+CONTIG: NODE_79_length_555_cov_1.01533_ID_157 (555bp)
+Top Length: 555  Top ID: 99.82
+		One align captures most of this contig: 489515 490069 | 1 555 | 555 555 | 99.82 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_79_length_555_cov_1.01533_ID_157
+
+CONTIG: NODE_61_length_585_cov_0.981884_ID_121 (585bp)
+Top Length: 519  Top ID: 99.61
+		This contig is partially unaligned. (519 out of 585)
+		Alignment: 309731 310249 | 519 1 | 519 519 | 99.61 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_61_length_585_cov_0.981884_ID_121
+		Unaligned bases: 520 to 585 (66)
+
+CONTIG: NODE_93_length_540_cov_1.0217_ID_185 (540bp)
+Top Length: 324  Top ID: 99.07
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 38733 39056 | 1 324 | 324 324 | 99.07 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_93_length_540_cov_1.0217_ID_185
+			  Extensive misassembly ( relocation, inconsistency = 1692127 ) between these two alignments
+			Real Alignment 2: 1731162 1731378 | 519 303 | 217 217 | 99.54 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_93_length_540_cov_1.0217_ID_185
+
+CONTIG: NODE_113_length_513_cov_1.03542_ID_225 (513bp)
+Top Length: 400  Top ID: 99.5
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1779933 1780068 | 3 138 | 136 136 | 96.32 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_113_length_513_cov_1.03542_ID_225
+			  Extensive misassembly ( relocation, inconsistency = 371177 ) between these two alignments
+			Real Alignment 2: 2151221 2151620 | 114 513 | 400 400 | 99.5 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_113_length_513_cov_1.03542_ID_225
+
+CONTIG: NODE_16_length_808_cov_1.53935_ID_31 (808bp)
+Top Length: 808  Top ID: 99.01
+		Marking as insignificant: 2255531 2256246 | 93 808 | 716 716 | 99.72 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_16_length_808_cov_1.53935_ID_31
+		One align captures most of this contig: 1524350 1525158 | 1 808 | 809 808 | 99.01 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_16_length_808_cov_1.53935_ID_31
+
+CONTIG: NODE_3_length_2402_cov_3.14225_ID_5 (2402bp)
+Top Length: 2076  Top ID: 99.76
+		Skipping redundant alignment 1528865 1530299 | 353 1787 | 1435 1435 | 99.72 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_3_length_2402_cov_3.14225_ID_5
+		Skipping redundant alignment 704237 705670 | 1787 354 | 1434 1434 | 99.86 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_3_length_2402_cov_3.14225_ID_5
+		Skipping redundant alignment 1756606 1758039 | 1787 354 | 1434 1434 | 99.86 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_3_length_2402_cov_3.14225_ID_5
+		Skipping redundant alignment 1993422 1994855 | 1787 354 | 1434 1434 | 99.72 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_3_length_2402_cov_3.14225_ID_5
+		Skipping redundant alignment 1128105 1128711 | 2394 1788 | 607 607 | 99.67 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_3_length_2402_cov_3.14225_ID_5
+		This contig is misassembled. 7 total aligns.
+			Real Alignment 1: 1128704 1129054 | 353 3 | 351 351 | 98.58 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_3_length_2402_cov_3.14225_ID_5
+			  Extensive misassembly ( relocation, inconsistency = 2790 ) between these two alignments
+			Real Alignment 2: 1123873 1125948 | 319 2394 | 2076 2076 | 99.76 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_3_length_2402_cov_3.14225_ID_5
+
+CONTIG: NODE_115_length_513_cov_1.45417_ID_229 (513bp)
+Top Length: 305  Top ID: 96.39
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2253321 2253523 | 203 1 | 203 203 | 99.01 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_115_length_513_cov_1.45417_ID_229
+			  Extensive misassembly ( relocation, inconsistency = 722707 ) between these two alignments
+			Real Alignment 2: 1530307 1530611 | 510 206 | 305 305 | 96.39 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_115_length_513_cov_1.45417_ID_229
+
+CONTIG: NODE_82_length_547_cov_1.33268_ID_163 (547bp)
+Top Length: 547  Top ID: 99.45
+		One align captures most of this contig: 1425049 1425595 | 547 1 | 547 547 | 99.45 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_82_length_547_cov_1.33268_ID_163
+
+CONTIG: NODE_32_length_693_cov_1.15606_ID_63 (693bp)
+Top Length: 690  Top ID: 99.13
+		One align captures most of this contig: 2434046 2434735 | 690 1 | 690 690 | 99.13 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_32_length_693_cov_1.15606_ID_63
+
+CONTIG: NODE_12_length_1139_cov_1.62297_ID_23 (1139bp)
+Top Length: 1139  Top ID: 99.82
+		Marking as insignificant: 55430 56387 | 958 1 | 958 958 | 99.79 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_12_length_1139_cov_1.62297_ID_23
+		One align captures most of this contig: 2253869 2255007 | 1 1139 | 1139 1139 | 99.82 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_12_length_1139_cov_1.62297_ID_23
+
+CONTIG: NODE_122_length_509_cov_1.26891_ID_243 (509bp)
+Top Length: 354  Top ID: 100.0
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 304086 304439 | 1 354 | 354 354 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_122_length_509_cov_1.26891_ID_243
+			  Extensive misassembly ( relocation, inconsistency = 1827568 ) between these two alignments
+			Real Alignment 2: 2131987 2132158 | 505 334 | 172 172 | 98.84 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_122_length_509_cov_1.26891_ID_243
+
+CONTIG: NODE_96_length_533_cov_1.04_ID_191 (533bp)
+Top Length: 527  Top ID: 98.86
+		One align captures most of this contig: 859431 859957 | 4 530 | 527 527 | 98.86 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_96_length_533_cov_1.04_ID_191
+
+CONTIG: NODE_10_length_1194_cov_1.65978_ID_19 (1194bp)
+Top Length: 1186  Top ID: 99.41
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 421248 422433 | 1 1186 | 1186 1186 | 99.41 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_10_length_1194_cov_1.65978_ID_19
+		Skipping alignment  1562124 1563308 | 1186 1 | 1185 1186 | 99.16 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_10_length_1194_cov_1.65978_ID_19
+
+CONTIG: NODE_99_length_529_cov_1.25806_ID_197 (529bp)
+Top Length: 520  Top ID: 99.04
+		One align captures most of this contig: 559256 559775 | 5 524 | 520 520 | 99.04 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_99_length_529_cov_1.25806_ID_197
+
+CONTIG: NODE_35_length_667_cov_0.979495_ID_69 (667bp)
+Top Length: 667  Top ID: 99.25
+		One align captures most of this contig: 1885270 1885936 | 1 667 | 667 667 | 99.25 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_35_length_667_cov_0.979495_ID_69
+
+CONTIG: NODE_41_length_644_cov_1.20622_ID_81 (644bp)
+Top Length: 639  Top ID: 98.9
+		One align captures most of this contig: 1580928 1581566 | 639 1 | 639 639 | 98.9 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_41_length_644_cov_1.20622_ID_81
+
+CONTIG: NODE_45_length_628_cov_1.04706_ID_89 (628bp)
+Top Length: 359  Top ID: 100.0
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 310856 311150 | 1 295 | 295 295 | 99.66 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_45_length_628_cov_1.04706_ID_89
+			  Extensive misassembly ( relocation, inconsistency = 960817 ) between these two alignments
+			Real Alignment 2: 1271942 1272300 | 628 270 | 359 359 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_45_length_628_cov_1.04706_ID_89
+
+CONTIG: NODE_7_length_1513_cov_8.75_ID_13 (1513bp)
+Top Length: 1478  Top ID: 99.86
+		Skipping redundant alignment 335532 336964 | 45 1478 | 1433 1434 | 99.86 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_7_length_1513_cov_8.75_ID_13
+		Skipping redundant alignment 46953 48378 | 52 1477 | 1426 1426 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_7_length_1513_cov_8.75_ID_13
+		Skipping redundant alignment 1758428 1759853 | 1477 52 | 1426 1426 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_7_length_1513_cov_8.75_ID_13
+		Skipping redundant alignment 1302958 1304383 | 1478 53 | 1426 1426 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_7_length_1513_cov_8.75_ID_13
+		Skipping redundant alignment 1313075 1314485 | 68 1478 | 1411 1411 | 99.43 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_7_length_1513_cov_8.75_ID_13
+		Skipping redundant alignment 30959 32368 | 68 1477 | 1410 1410 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_7_length_1513_cov_8.75_ID_13
+		Skipping redundant alignment 45207 46616 | 1477 68 | 1410 1410 | 99.43 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_7_length_1513_cov_8.75_ID_13
+		Skipping redundant alignment 227026 228435 | 1477 68 | 1410 1410 | 99.43 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_7_length_1513_cov_8.75_ID_13
+		Skipping redundant alignment 368787 370196 | 1477 68 | 1410 1410 | 97.09 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_7_length_1513_cov_8.75_ID_13
+		This contig is partially unaligned. (1478 out of 1513)
+		Alignment: 2225196 2226673 | 1 1478 | 1478 1478 | 99.86 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_7_length_1513_cov_8.75_ID_13
+		Unaligned bases: 1479 to 1513 (35)
+
+CONTIG: NODE_116_length_512_cov_1.04175_ID_231 (512bp)
+Top Length: 512  Top ID: 99.22
+		One align captures most of this contig: 1867231 1867742 | 1 512 | 512 512 | 99.22 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_116_length_512_cov_1.04175_ID_231
+
+CONTIG: NODE_90_length_544_cov_1.27984_ID_179 (544bp)
+Top Length: 544  Top ID: 99.63
+		One align captures most of this contig: 2383771 2384314 | 544 1 | 544 544 | 99.63 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_90_length_544_cov_1.27984_ID_179
+
+CONTIG: NODE_67_length_580_cov_1.21938_ID_133 (580bp)
+Top Length: 517  Top ID: 99.81
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 894017 894100 | 84 1 | 84 84 | 98.81 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_67_length_580_cov_1.21938_ID_133
+			  Extensive misassembly ( relocation, inconsistency = 184919 ) between these two alignments
+			Real Alignment 2: 708602 709118 | 580 64 | 517 517 | 99.81 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_67_length_580_cov_1.21938_ID_133
+
+CONTIG: NODE_91_length_541_cov_0.885827_ID_181 (541bp)
+Top Length: 478  Top ID: 99.79
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1439058 1439141 | 1 84 | 84 84 | 98.81 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_91_length_541_cov_0.885827_ID_181
+			  Extensive misassembly ( relocation, inconsistency = 98203 ) between these two alignments
+			Real Alignment 2: 1537324 1537801 | 541 64 | 478 478 | 99.79 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_91_length_541_cov_0.885827_ID_181
+
+CONTIG: NODE_112_length_514_cov_1.12058_ID_223 (514bp)
+Top Length: 507  Top ID: 99.21
+		One align captures most of this contig: 826320 826826 | 507 1 | 507 507 | 99.21 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_112_length_514_cov_1.12058_ID_223
+
+CONTIG: NODE_42_length_642_cov_1.32512_ID_83 (642bp)
+Top Length: 642  Top ID: 99.38
+		One align captures most of this contig: 2197805 2198446 | 1 642 | 642 642 | 99.38 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_42_length_642_cov_1.32512_ID_83
+
+CONTIG: NODE_118_length_511_cov_1.12971_ID_235 (511bp)
+Top Length: 511  Top ID: 99.22
+		One align captures most of this contig: 2054896 2055406 | 1 511 | 511 511 | 99.22 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_118_length_511_cov_1.12971_ID_235
+
+CONTIG: NODE_123_length_509_cov_1.12605_ID_245 (509bp)
+Top Length: 313  Top ID: 100.0
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 2002082 2002394 | 1 313 | 313 313 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_123_length_509_cov_1.12605_ID_245
+			  Extensive misassembly ( relocation, inconsistency = -253132 ) between these two alignments
+			Real Alignment 2: 1749242 1749356 | 407 293 | 115 115 | 99.13 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_123_length_509_cov_1.12605_ID_245
+			  Extensive misassembly ( relocation, inconsistency = 1452322 ) between these two alignments
+			Real Alignment 3: 296818 296940 | 387 509 | 123 123 | 98.37 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_123_length_509_cov_1.12605_ID_245
+
+CONTIG: NODE_121_length_510_cov_1.14046_ID_241 (510bp)
+Top Length: 216  Top ID: 99.54
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 1881658 1881781 | 124 1 | 124 124 | 97.58 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_121_length_510_cov_1.14046_ID_241
+			  Extensive misassembly ( relocation, inconsistency = 403613 ) between these two alignments
+			Real Alignment 2: 1477913 1478065 | 104 256 | 153 153 | 99.35 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_121_length_510_cov_1.14046_ID_241
+			  Extensive misassembly ( relocation, inconsistency = -619359 ) between these two alignments
+			Real Alignment 3: 858686 858761 | 311 236 | 76 76 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_121_length_510_cov_1.14046_ID_241
+			  Extensive misassembly ( relocation, inconsistency = -462624 ) between these two alignments
+			Real Alignment 4: 1321115 1321330 | 291 506 | 216 216 | 99.54 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_121_length_510_cov_1.14046_ID_241
+
+CONTIG: NODE_110_length_515_cov_1.02282_ID_219 (515bp)
+Top Length: 514  Top ID: 99.61
+		One align captures most of this contig: 1257972 1258485 | 1 514 | 514 514 | 99.61 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_110_length_515_cov_1.02282_ID_219
+
+CONTIG: NODE_62_length_585_cov_0.855072_ID_123 (585bp)
+Top Length: 585  Top ID: 99.83
+		One align captures most of this contig: 337404 337988 | 1 585 | 585 585 | 99.83 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_62_length_585_cov_0.855072_ID_123
+
+CONTIG: NODE_48_length_620_cov_1.00511_ID_95 (620bp)
+Top Length: 620  Top ID: 99.35
+		One align captures most of this contig: 1658065 1658684 | 620 1 | 620 620 | 99.35 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_48_length_620_cov_1.00511_ID_95
+
+CONTIG: NODE_21_length_765_cov_1.50546_ID_41 (765bp)
+Top Length: 762  Top ID: 99.87
+		Marking as insignificant: 1127312 1127849 | 228 765 | 538 538 | 99.81 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_21_length_765_cov_1.50546_ID_41
+		One align captures most of this contig: 1126204 1126965 | 765 4 | 762 762 | 99.87 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_21_length_765_cov_1.50546_ID_41
+
+CONTIG: NODE_78_length_560_cov_1.14042_ID_155 (560bp)
+Top Length: 559  Top ID: 99.28
+		One align captures most of this contig: 472575 473133 | 1 559 | 559 559 | 99.28 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_78_length_560_cov_1.14042_ID_155
+
+CONTIG: NODE_65_length_582_cov_0.941712_ID_129 (582bp)
+Top Length: 576  Top ID: 98.78
+		One align captures most of this contig: 2266797 2267372 | 4 579 | 576 576 | 98.78 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_65_length_582_cov_0.941712_ID_129
+
+CONTIG: NODE_57_length_591_cov_1.12366_ID_113 (591bp)
+Top Length: 379  Top ID: 100.0
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1400656 1400890 | 235 1 | 235 235 | 98.72 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_57_length_591_cov_1.12366_ID_113
+			  Extensive misassembly ( relocation, inconsistency = 15538 ) between these two alignments
+			Real Alignment 2: 1384762 1385140 | 591 213 | 379 379 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_57_length_591_cov_1.12366_ID_113
+
+CONTIG: NODE_95_length_536_cov_0.992048_ID_189 (536bp)
+Top Length: 536  Top ID: 99.44
+		One align captures most of this contig: 2245851 2246386 | 536 1 | 536 536 | 99.44 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_95_length_536_cov_0.992048_ID_189
+
+CONTIG: NODE_69_length_580_cov_1.09141_ID_137 (580bp)
+Top Length: 570  Top ID: 99.12
+		This contig is partially unaligned. (570 out of 580)
+		Alignment: 2117677 2118246 | 9 578 | 570 570 | 99.12 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_69_length_580_cov_1.09141_ID_137
+		Unaligned bases: 1 to 8 (8)
+		Unaligned bases: 579 to 580 (2)
+
+CONTIG: NODE_109_length_515_cov_1.03527_ID_217 (515bp)
+Top Length: 443  Top ID: 99.1
+		This contig is partially unaligned. (443 out of 515)
+		Alignment: 792519 792961 | 70 512 | 443 443 | 99.1 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_109_length_515_cov_1.03527_ID_217
+		Unaligned bases: 1 to 69 (69)
+		Unaligned bases: 513 to 515 (3)
+
+CONTIG: NODE_126_length_505_cov_1.13347_ID_251 (505bp)
+Top Length: 417  Top ID: 98.56
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1727396 1727813 | 1 417 | 418 417 | 98.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_126_length_505_cov_1.13347_ID_251
+			  Extensive misassembly ( relocation, inconsistency = -1187080 ) between these two alignments
+			Real Alignment 2: 540703 540816 | 387 500 | 114 114 | 97.37 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_126_length_505_cov_1.13347_ID_251
+
+CONTIG: NODE_85_length_546_cov_1.06823_ID_169 (546bp)
+Top Length: 546  Top ID: 99.08
+		One align captures most of this contig: 759143 759688 | 1 546 | 546 546 | 99.08 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_85_length_546_cov_1.06823_ID_169
+
+CONTIG: NODE_18_length_778_cov_1.66846_ID_35 (778bp)
+Top Length: 773  Top ID: 99.87
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 714857 715629 | 778 6 | 773 773 | 99.87 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_18_length_778_cov_1.66846_ID_35
+		Skipping alignment  2235345 2236116 | 6 777 | 772 772 | 99.35 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_18_length_778_cov_1.66846_ID_35
+
+CONTIG: NODE_6_length_1620_cov_3.11909_ID_11 (1620bp)
+Top Length: 1555  Top ID: 100.0
+		Skipping redundant alignment 2211446 2212937 | 1559 68 | 1492 1492 | 99.93 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_6_length_1620_cov_3.11909_ID_11
+		Skipping redundant alignment 2124791 2126276 | 1554 69 | 1486 1486 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_6_length_1620_cov_3.11909_ID_11
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 1763169 1764723 | 1555 1 | 1555 1555 | 99.87 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_6_length_1620_cov_3.11909_ID_11
+			  Extensive misassembly ( relocation, inconsistency = -619053 ) between these two alignments
+			Real Alignment 2: 2382157 2383711 | 66 1620 | 1555 1555 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_6_length_1620_cov_3.11909_ID_11
+
+CONTIG: NODE_125_length_506_cov_1.21987_ID_249 (506bp)
+Top Length: 504  Top ID: 99.01
+		One align captures most of this contig: 1230359 1230862 | 1 504 | 504 504 | 99.01 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_125_length_506_cov_1.21987_ID_249
+
+CONTIG: NODE_132_length_502_cov_1.21748_ID_263 (502bp)
+Top Length: 495  Top ID: 99.6
+		One align captures most of this contig: 1830320 1830814 | 1 495 | 495 495 | 99.6 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_132_length_502_cov_1.21748_ID_263
+
+CONTIG: NODE_133_length_500_cov_1.2334_ID_265 (500bp)
+Top Length: 500  Top ID: 100.0
+		One align captures most of this contig: 88067 88566 | 1 500 | 500 500 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_133_length_500_cov_1.2334_ID_265
+
+CONTIG: NODE_46_length_626_cov_1.32884_ID_91 (626bp)
+Top Length: 626  Top ID: 99.68
+		One align captures most of this contig: 2156155 2156780 | 1 626 | 626 626 | 99.68 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_46_length_626_cov_1.32884_ID_91
+
+CONTIG: NODE_51_length_614_cov_1.10155_ID_101 (614bp)
+Top Length: 603  Top ID: 99.34
+		This contig is partially unaligned. (603 out of 614)
+		Alignment: 1968441 1969043 | 611 9 | 603 603 | 99.34 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_51_length_614_cov_1.10155_ID_101
+		Unaligned bases: 1 to 8 (8)
+		Unaligned bases: 612 to 614 (3)
+
+CONTIG: NODE_94_length_539_cov_0.944664_ID_187 (539bp)
+Top Length: 537  Top ID: 99.26
+		One align captures most of this contig: 805267 805803 | 1 537 | 537 537 | 99.26 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_94_length_539_cov_0.944664_ID_187
+
+CONTIG: NODE_81_length_554_cov_1.12668_ID_161 (554bp)
+Top Length: 298  Top ID: 100.0
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1061474 1061744 | 277 7 | 271 271 | 98.89 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_81_length_554_cov_1.12668_ID_161
+			  Extensive misassembly ( relocation, inconsistency = -763657 ) between these two alignments
+			Real Alignment 2: 1824854 1825151 | 257 554 | 298 298 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_81_length_554_cov_1.12668_ID_161
+
+CONTIG: NODE_37_length_658_cov_1.1488_ID_73 (658bp)
+Top Length: 654  Top ID: 98.93
+		One align captures most of this contig: 1398508 1399161 | 5 658 | 654 654 | 98.93 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_37_length_658_cov_1.1488_ID_73
+
+CONTIG: NODE_117_length_512_cov_1.09603_ID_233 (512bp)
+Top Length: 512  Top ID: 99.02
+		One align captures most of this contig: 2028275 2028786 | 1 512 | 512 512 | 99.02 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_117_length_512_cov_1.09603_ID_233
+
+CONTIG: NODE_11_length_1141_cov_1.46841_ID_21 (1141bp)
+Top Length: 1141  Top ID: 99.47
+		Marking as insignificant: 1565771 1566664 | 1141 248 | 894 894 | 99.22 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_1141_cov_1.46841_ID_21
+		One align captures most of this contig: 419050 420190 | 1 1141 | 1141 1141 | 99.47 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_11_length_1141_cov_1.46841_ID_21
+
+CONTIG: NODE_70_length_580_cov_0.957952_ID_139 (580bp)
+Top Length: 410  Top ID: 99.51
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 398386 398510 | 125 1 | 125 125 | 99.2 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_70_length_580_cov_0.957952_ID_139
+			  Extensive misassembly ( relocation, inconsistency = -1983057 ) between these two alignments
+			Real Alignment 2: 2380988 2381397 | 580 171 | 410 410 | 99.51 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_70_length_580_cov_0.957952_ID_139
+
+CONTIG: NODE_13_length_954_cov_1.36265_ID_25 (954bp)
+Top Length: 954  Top ID: 99.48
+		One align captures most of this contig: 950749 951702 | 1 954 | 954 954 | 99.48 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_13_length_954_cov_1.36265_ID_25
+
+CONTIG: NODE_100_length_529_cov_0.949597_ID_199 (529bp)
+Top Length: 330  Top ID: 100.0
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2436412 2436628 | 217 1 | 217 217 | 99.08 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_100_length_529_cov_0.949597_ID_199
+			  Extensive misassembly ( relocation, inconsistency = 1785345 ) between these two alignments
+			Real Alignment 2: 650755 651084 | 200 529 | 330 330 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_100_length_529_cov_0.949597_ID_199
+
+CONTIG: NODE_38_length_651_cov_1.15049_ID_75 (651bp)
+Top Length: 651  Top ID: 99.39
+		One align captures most of this contig: 1932895 1933545 | 651 1 | 651 651 | 99.39 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_38_length_651_cov_1.15049_ID_75
+
+CONTIG: NODE_15_length_855_cov_0.946472_ID_29 (855bp)
+Top Length: 643  Top ID: 99.53
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 520240 520882 | 643 1 | 643 643 | 99.53 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_15_length_855_cov_0.946472_ID_29
+			  Extensive misassembly ( relocation, inconsistency = -1836357 ) between these two alignments
+			Real Alignment 2: 2356385 2356624 | 855 616 | 240 240 | 99.58 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_15_length_855_cov_0.946472_ID_29
+
+CONTIG: NODE_104_length_521_cov_1.25_ID_207 (521bp)
+Top Length: 348  Top ID: 99.14
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1616589 1616936 | 350 3 | 348 348 | 99.14 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_104_length_521_cov_1.25_ID_207
+			  Extensive misassembly ( relocation, inconsistency = -806080 ) between these two alignments
+			Real Alignment 2: 2422498 2422680 | 521 339 | 183 183 | 98.36 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_104_length_521_cov_1.25_ID_207
+
+CONTIG: NODE_14_length_918_cov_0.899435_ID_27 (918bp)
+Top Length: 627  Top ID: 99.36
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1665713 1666016 | 310 7 | 304 304 | 99.67 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_14_length_918_cov_0.899435_ID_27
+			  Extensive misassembly ( relocation, inconsistency = -70324 ) between these two alignments
+			Real Alignment 2: 1735429 1736055 | 918 292 | 627 627 | 99.36 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_14_length_918_cov_0.899435_ID_27
+
+CONTIG: NODE_40_length_646_cov_0.936378_ID_79 (646bp)
+Top Length: 646  Top ID: 99.54
+		One align captures most of this contig: 2281583 2282228 | 646 1 | 646 646 | 99.54 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_40_length_646_cov_0.936378_ID_79
+
+CONTIG: NODE_59_length_587_cov_1.15884_ID_117 (587bp)
+Top Length: 552  Top ID: 99.46
+		This contig is partially unaligned. (552 out of 587)
+		Alignment: 308967 309518 | 20 571 | 552 552 | 99.46 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_59_length_587_cov_1.15884_ID_117
+		Unaligned bases: 1 to 19 (19)
+		Unaligned bases: 572 to 587 (16)
+
+CONTIG: NODE_87_length_545_cov_1.18555_ID_173 (545bp)
+Top Length: 481  Top ID: 99.38
+		This contig is partially unaligned. (481 out of 545)
+		Alignment: 2114532 2115012 | 532 52 | 481 481 | 99.38 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_87_length_545_cov_1.18555_ID_173
+		Unaligned bases: 1 to 51 (51)
+		Unaligned bases: 533 to 545 (13)
+
+CONTIG: NODE_27_length_712_cov_1.09426_ID_53 (712bp)
+Top Length: 501  Top ID: 99.6
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1914059 1914559 | 501 1 | 501 501 | 99.6 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_27_length_712_cov_1.09426_ID_53
+			  Extensive misassembly ( relocation, inconsistency = 1225543 ) between these two alignments
+			Real Alignment 2: 688305 688535 | 482 712 | 231 231 | 99.57 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_27_length_712_cov_1.09426_ID_53
+
+CONTIG: NODE_120_length_510_cov_1.09015_ID_239 (510bp)
+Top Length: 510  Top ID: 99.22
+		One align captures most of this contig: 2193748 2194257 | 510 1 | 510 510 | 99.22 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_120_length_510_cov_1.09015_ID_239
+
+CONTIG: NODE_124_length_507_cov_1.24262_ID_247 (507bp)
+Top Length: 507  Top ID: 99.61
+		One align captures most of this contig: 1687235 1687741 | 507 1 | 507 507 | 99.61 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_124_length_507_cov_1.24262_ID_247
+
+CONTIG: NODE_106_length_519_cov_1.06173_ID_211 (519bp)
+Top Length: 510  Top ID: 99.22
+		One align captures most of this contig: 371996 372505 | 519 10 | 510 510 | 99.22 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_106_length_519_cov_1.06173_ID_211
+
+CONTIG: NODE_101_length_527_cov_1.02429_ID_201 (527bp)
+Top Length: 527  Top ID: 100.0
+		One align captures most of this contig: 831619 832145 | 527 1 | 527 527 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_101_length_527_cov_1.02429_ID_201
+
+CONTIG: NODE_60_length_586_cov_1.1519_ID_119 (586bp)
+Top Length: 584  Top ID: 99.14
+		One align captures most of this contig: 1113543 1114126 | 584 1 | 584 584 | 99.14 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_60_length_586_cov_1.1519_ID_119
+
+CONTIG: NODE_114_length_513_cov_0.99375_ID_227 (513bp)
+Top Length: 439  Top ID: 98.63
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 741931 742052 | 4 125 | 122 122 | 98.36 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_114_length_513_cov_0.99375_ID_227
+			  Extensive misassembly ( relocation, inconsistency = 1333770 ) between these two alignments
+			Real Alignment 2: 2075768 2076206 | 509 71 | 439 439 | 98.63 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_114_length_513_cov_0.99375_ID_227
+
+CONTIG: NODE_29_length_702_cov_1.24215_ID_57 (702bp)
+Top Length: 522  Top ID: 99.43
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1157978 1158163 | 1 186 | 186 186 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_29_length_702_cov_1.24215_ID_57
+			  Extensive misassembly ( relocation, inconsistency = 1324389 ) between these two alignments
+			Real Alignment 2: 2482532 2483053 | 687 166 | 522 522 | 99.43 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_29_length_702_cov_1.24215_ID_57
+
+CONTIG: NODE_68_length_580_cov_1.06581_ID_135 (580bp)
+Top Length: 580  Top ID: 99.83
+		One align captures most of this contig: 1178080 1178659 | 580 1 | 580 580 | 99.83 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_68_length_580_cov_1.06581_ID_135
+
+CONTIG: NODE_49_length_618_cov_0.955556_ID_97 (618bp)
+Top Length: 430  Top ID: 98.14
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 1534016 1534445 | 6 435 | 430 430 | 98.14 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_49_length_618_cov_0.955556_ID_97
+			  Extensive misassembly ( relocation, inconsistency = 816837 ) between these two alignments
+			Real Alignment 2: 2351259 2351427 | 580 412 | 169 169 | 98.82 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_49_length_618_cov_0.955556_ID_97
+			  Extensive misassembly ( relocation, inconsistency = 1231761 ) between these two alignments
+			Real Alignment 3: 1119460 1119534 | 544 618 | 75 75 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_49_length_618_cov_0.955556_ID_97
+
+CONTIG: NODE_119_length_510_cov_1.3522_ID_237 (510bp)
+Top Length: 499  Top ID: 99.2
+		This contig is partially unaligned. (499 out of 510)
+		Alignment: 1180556 1181054 | 4 502 | 499 499 | 99.2 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_119_length_510_cov_1.3522_ID_237
+		Unaligned bases: 1 to 3 (3)
+		Unaligned bases: 503 to 510 (8)
+
+CONTIG: NODE_80_length_554_cov_1.04223_ID_159 (554bp)
+Top Length: 554  Top ID: 98.56
+		One align captures most of this contig: 2186929 2187482 | 554 1 | 554 554 | 98.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_80_length_554_cov_1.04223_ID_159
+
+CONTIG: NODE_98_length_531_cov_1.27711_ID_195 (531bp)
+Top Length: 531  Top ID: 99.25
+		One align captures most of this contig: 1897964 1898494 | 531 1 | 531 531 | 99.25 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_98_length_531_cov_1.27711_ID_195
+
+CONTIG: NODE_74_length_569_cov_1.14552_ID_147 (569bp)
+Top Length: 569  Top ID: 100.0
+		One align captures most of this contig: 483761 484329 | 569 1 | 569 569 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_74_length_569_cov_1.14552_ID_147
+
+CONTIG: NODE_88_length_544_cov_1.0137_ID_175 (544bp)
+Top Length: 541  Top ID: 99.26
+		One align captures most of this contig: 586259 586799 | 4 544 | 541 541 | 99.26 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_88_length_544_cov_1.0137_ID_175
+
+CONTIG: NODE_89_length_544_cov_0.947162_ID_177 (544bp)
+Top Length: 306  Top ID: 99.35
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2158151 2158456 | 1 306 | 306 306 | 99.35 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_89_length_544_cov_0.947162_ID_177
+			  Extensive misassembly ( relocation, inconsistency = 137957 ) between these two alignments
+			Real Alignment 2: 2296385 2296651 | 544 278 | 267 267 | 99.63 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_89_length_544_cov_0.947162_ID_177
+
+CONTIG: NODE_75_length_569_cov_1.24067_ID_149 (569bp)
+Top Length: 567  Top ID: 99.47
+		One align captures most of this contig: 1939239 1939805 | 567 1 | 567 567 | 99.47 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_75_length_569_cov_1.24067_ID_149
+
+CONTIG: NODE_1_length_2764_cov_1.79531_ID_1 (2764bp)
+Top Length: 2764  Top ID: 99.67
+		Marking as insignificant: 422629 425336 | 1 2710 | 2708 2710 | 99.56 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_1_length_2764_cov_1.79531_ID_1
+		One align captures most of this contig: 1559164 1561928 | 2764 1 | 2765 2764 | 99.67 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_1_length_2764_cov_1.79531_ID_1
+
+CONTIG: NODE_76_length_568_cov_0.859813_ID_151 (568bp)
+Top Length: 565  Top ID: 99.12
+		One align captures most of this contig: 490686 491250 | 1 565 | 565 565 | 99.12 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_76_length_568_cov_0.859813_ID_151
+
+CONTIG: NODE_71_length_579_cov_1.15385_ID_141 (579bp)
+Top Length: 328  Top ID: 100.0
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2294145 2294472 | 1 328 | 328 328 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_71_length_579_cov_1.15385_ID_141
+			  Extensive misassembly ( relocation, inconsistency = -693374 ) between these two alignments
+			Real Alignment 2: 1601079 1601349 | 309 579 | 271 271 | 98.52 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_71_length_579_cov_1.15385_ID_141
+
+CONTIG: NODE_17_length_797_cov_1.20288_ID_33 (797bp)
+Top Length: 790  Top ID: 99.24
+		One align captures most of this contig: 1829490 1830279 | 8 797 | 790 790 | 99.24 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_17_length_797_cov_1.20288_ID_33
+
+CONTIG: NODE_103_length_522_cov_1.00204_ID_205 (522bp)
+Top Length: 423  Top ID: 99.29
+		This contig is partially unaligned. (423 out of 522)
+		Alignment: 2472590 2473012 | 100 522 | 423 423 | 99.29 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_103_length_522_cov_1.00204_ID_205
+		Unaligned bases: 1 to 99 (99)
+
+CONTIG: NODE_26_length_729_cov_0.887931_ID_51 (729bp)
+Top Length: 606  Top ID: 99.34
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 649829 649972 | 1 144 | 144 144 | 99.31 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_26_length_729_cov_0.887931_ID_51
+			  Extensive misassembly ( relocation, inconsistency = 1637523 ) between these two alignments
+			Real Alignment 2: 2287475 2288080 | 729 124 | 606 606 | 99.34 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_26_length_729_cov_0.887931_ID_51
+
+CONTIG: NODE_56_length_592_cov_1.00537_ID_111 (592bp)
+Top Length: 355  Top ID: 96.34
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2185921 2186275 | 355 1 | 355 355 | 96.34 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_56_length_592_cov_1.00537_ID_111
+			  Extensive misassembly ( relocation, inconsistency = 1525349 ) between these two alignments
+			Real Alignment 2: 660337 660650 | 277 590 | 314 314 | 96.5 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_56_length_592_cov_1.00537_ID_111
+
+CONTIG: NODE_105_length_520_cov_1.12526_ID_209 (520bp)
+Top Length: 520  Top ID: 99.04
+		One align captures most of this contig: 1929428 1929947 | 520 1 | 520 520 | 99.04 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_105_length_520_cov_1.12526_ID_209
+
+CONTIG: NODE_108_length_516_cov_1.27329_ID_215 (516bp)
+Top Length: 516  Top ID: 99.03
+		One align captures most of this contig: 1672800 1673315 | 1 516 | 516 516 | 99.03 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_108_length_516_cov_1.27329_ID_215
+
+CONTIG: NODE_55_length_592_cov_0.937388_ID_109 (592bp)
+Top Length: 590  Top ID: 99.49
+		One align captures most of this contig: 921952 922541 | 590 1 | 590 590 | 99.49 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_55_length_592_cov_0.937388_ID_109
+
+CONTIG: NODE_5_length_1671_cov_5.36508_ID_9 (1671bp)
+Top Length: 1560  Top ID: 100.0
+		Skipping redundant alignment 510864 512270 | 154 1560 | 1407 1407 | 99.93 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_1671_cov_5.36508_ID_9
+		Skipping redundant alignment 339116 340519 | 1560 157 | 1404 1404 | 99.93 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_1671_cov_5.36508_ID_9
+		Skipping redundant alignment 52307 53711 | 163 1568 | 1405 1406 | 99.86 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_1671_cov_5.36508_ID_9
+		Skipping redundant alignment 1102668 1104066 | 163 1561 | 1399 1399 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_1671_cov_5.36508_ID_9
+		Skipping redundant alignment 534419 535815 | 1560 164 | 1397 1397 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_1671_cov_5.36508_ID_9
+		Skipping redundant alignment 421186 421297 | 1560 1671 | 112 112 | 99.11 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_1671_cov_5.36508_ID_9
+		This contig is misassembled. 8 total aligns.
+			Real Alignment 1: 1573529 1575088 | 1560 1 | 1560 1560 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_1671_cov_5.36508_ID_9
+			  Extensive misassembly ( relocation, inconsistency = 10159 ) between these two alignments
+			Real Alignment 2: 1563259 1564766 | 1671 164 | 1508 1508 | 99.93 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_5_length_1671_cov_5.36508_ID_9
+
+CONTIG: NODE_83_length_546_cov_1.18324_ID_165 (546bp)
+Top Length: 544  Top ID: 99.45
+		One align captures most of this contig: 2103646 2104189 | 544 1 | 544 544 | 99.45 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_83_length_546_cov_1.18324_ID_165
+
+CONTIG: NODE_52_length_610_cov_1.2305_ID_103 (610bp)
+Top Length: 366  Top ID: 99.45
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 947856 948221 | 367 2 | 366 366 | 99.45 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_52_length_610_cov_1.2305_ID_103
+			  Extensive misassembly ( relocation, inconsistency = -1114144 ) between these two alignments
+			Real Alignment 2: 2061757 2062020 | 347 610 | 264 264 | 99.62 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_52_length_610_cov_1.2305_ID_103
+
+CONTIG: NODE_66_length_581_cov_0.877737_ID_131 (581bp)
+Top Length: 581  Top ID: 98.62
+		One align captures most of this contig: 1852742 1853322 | 581 1 | 581 581 | 98.62 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_66_length_581_cov_0.877737_ID_131
+
+CONTIG: NODE_4_length_1812_cov_2.24733_ID_7 (1812bp)
+Top Length: 1717  Top ID: 99.83
+		Skipping redundant alignment 987820 989276 | 1553 97 | 1457 1457 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_4_length_1812_cov_2.24733_ID_7
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 1283175 1284727 | 1553 1 | 1553 1553 | 99.87 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_4_length_1812_cov_2.24733_ID_7
+			  Extensive misassembly ( relocation, inconsistency = -676706 ) between these two alignments
+			Real Alignment 2: 1959623 1961339 | 95 1811 | 1717 1717 | 99.83 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_4_length_1812_cov_2.24733_ID_7
+
+CONTIG: NODE_131_length_503_cov_1.05745_ID_261 (503bp)
+Top Length: 503  Top ID: 99.6
+		One align captures most of this contig: 2240253 2240755 | 503 1 | 503 503 | 99.6 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_131_length_503_cov_1.05745_ID_261
+
+CONTIG: NODE_50_length_616_cov_1.08062_ID_99 (616bp)
+Top Length: 609  Top ID: 99.01
+		One align captures most of this contig: 1136414 1137022 | 610 2 | 609 609 | 99.01 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_50_length_616_cov_1.08062_ID_99
+
+CONTIG: NODE_53_length_609_cov_0.947917_ID_105 (609bp)
+Top Length: 525  Top ID: 96.0
+		This contig is partially unaligned. (525 out of 609)
+		Alignment: 311658 312182 | 537 13 | 525 525 | 96.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_53_length_609_cov_0.947917_ID_105
+		Unaligned bases: 1 to 12 (12)
+		Unaligned bases: 538 to 609 (72)
+
+CONTIG: NODE_24_length_741_cov_1.14689_ID_47 (741bp)
+Top Length: 732  Top ID: 99.45
+		One align captures most of this contig: 71244 71975 | 732 1 | 732 732 | 99.45 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_24_length_741_cov_1.14689_ID_47
+
+CONTIG: NODE_92_length_540_cov_1.04931_ID_183 (540bp)
+Top Length: 540  Top ID: 99.44
+		One align captures most of this contig: 707716 708255 | 1 540 | 540 540 | 99.44 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_92_length_540_cov_1.04931_ID_183
+
+CONTIG: NODE_129_length_504_cov_1.1189_ID_257 (504bp)
+Top Length: 504  Top ID: 99.6
+		One align captures most of this contig: 1663369 1663872 | 504 1 | 504 504 | 99.6 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_129_length_504_cov_1.1189_ID_257
+
+CONTIG: NODE_39_length_646_cov_1.24959_ID_77 (646bp)
+Top Length: 645  Top ID: 99.38
+		One align captures most of this contig: 612658 613302 | 2 646 | 645 645 | 99.38 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_39_length_646_cov_1.24959_ID_77
+
+CONTIG: NODE_77_length_567_cov_1.09363_ID_153 (567bp)
+Top Length: 562  Top ID: 98.4
+		One align captures most of this contig: 60412 60973 | 564 3 | 562 562 | 98.4 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_77_length_567_cov_1.09363_ID_153
+
+CONTIG: NODE_130_length_504_cov_1.08705_ID_259 (504bp)
+Top Length: 272  Top ID: 99.63
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 860456 860704 | 5 253 | 249 249 | 97.99 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_130_length_504_cov_1.08705_ID_259
+			  Extensive misassembly ( relocation, inconsistency = 1225834 ) between these two alignments
+			Real Alignment 2: 2086518 2086789 | 504 233 | 272 272 | 99.63 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_130_length_504_cov_1.08705_ID_259
+
+CONTIG: NODE_20_length_771_cov_0.943089_ID_39 (771bp)
+Top Length: 770  Top ID: 99.22
+		One align captures most of this contig: 632016 632784 | 771 2 | 769 770 | 99.22 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_20_length_771_cov_0.943089_ID_39
+
+CONTIG: NODE_25_length_738_cov_1.20993_ID_49 (738bp)
+Top Length: 727  Top ID: 99.86
+		This contig is partially unaligned. (727 out of 738)
+		Alignment: 922694 923420 | 3 729 | 727 727 | 99.86 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_25_length_738_cov_1.20993_ID_49
+		Unaligned bases: 1 to 2 (2)
+		Unaligned bases: 730 to 738 (9)
+
+CONTIG: NODE_33_length_691_cov_1.231_ID_65 (691bp)
+Top Length: 687  Top ID: 98.98
+		One align captures most of this contig: 2465374 2466060 | 1 687 | 687 687 | 98.98 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_33_length_691_cov_1.231_ID_65
+
+CONTIG: NODE_128_length_504_cov_1.06369_ID_255 (504bp)
+Top Length: 504  Top ID: 99.21
+		One align captures most of this contig: 1418884 1419387 | 1 504 | 504 504 | 99.21 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_128_length_504_cov_1.06369_ID_255
+
+CONTIG: NODE_34_length_670_cov_1.26217_ID_67 (670bp)
+Top Length: 668  Top ID: 98.8
+		One align captures most of this contig: 2231534 2232201 | 668 1 | 668 668 | 98.8 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_34_length_670_cov_1.26217_ID_67
+
+CONTIG: NODE_28_length_706_cov_1.01189_ID_55 (706bp)
+Top Length: 706  Top ID: 99.01
+		One align captures most of this contig: 1314454 1315159 | 1 706 | 706 706 | 99.01 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_28_length_706_cov_1.01189_ID_55
+
+CONTIG: NODE_84_length_546_cov_1.07602_ID_167 (546bp)
+Top Length: 541  Top ID: 99.63
+		One align captures most of this contig: 1870643 1871183 | 3 543 | 541 541 | 99.63 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_84_length_546_cov_1.07602_ID_167
+
+CONTIG: NODE_107_length_518_cov_1.31134_ID_213 (518bp)
+Top Length: 518  Top ID: 99.42
+		One align captures most of this contig: 2128168 2128685 | 518 1 | 518 518 | 99.42 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_107_length_518_cov_1.31134_ID_213
+
+CONTIG: NODE_43_length_636_cov_1.12438_ID_85 (636bp)
+Top Length: 636  Top ID: 99.53
+		One align captures most of this contig: 2174342 2174977 | 636 1 | 636 636 | 99.53 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_43_length_636_cov_1.12438_ID_85
+
+CONTIG: NODE_8_length_1484_cov_1.66368_ID_15 (1484bp)
+Top Length: 1481  Top ID: 99.86
+		Marking as insignificant: 1311074 1312529 | 1484 29 | 1456 1456 | 99.79 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_8_length_1484_cov_1.66368_ID_15
+		One align captures most of this contig: 2332944 2334424 | 1 1481 | 1481 1481 | 99.86 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_8_length_1484_cov_1.66368_ID_15
+
+CONTIG: NODE_58_length_589_cov_1.2446_ID_115 (589bp)
+Top Length: 585  Top ID: 99.15
+		One align captures most of this contig: 2220285 2220869 | 5 589 | 585 585 | 99.15 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_58_length_589_cov_1.2446_ID_115
+
+CONTIG: NODE_64_length_584_cov_1.2196_ID_127 (584bp)
+Top Length: 314  Top ID: 99.68
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2023976 2024289 | 3 316 | 314 314 | 99.68 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_64_length_584_cov_1.2196_ID_127
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 2: 2023976 2024289 | 582 269 | 314 314 | 99.68 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_64_length_584_cov_1.2196_ID_127
+
+CONTIG: NODE_102_length_525_cov_0.953252_ID_203 (525bp)
+Top Length: 520  Top ID: 99.04
+		One align captures most of this contig: 1281995 1282514 | 6 525 | 520 520 | 99.04 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_102_length_525_cov_0.953252_ID_203
+
+CONTIG: NODE_72_length_578_cov_1.21651_ID_143 (578bp)
+Top Length: 304  Top ID: 99.67
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1433451 1433740 | 6 295 | 290 290 | 98.97 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_72_length_578_cov_1.21651_ID_143
+			  Extensive misassembly ( relocation, inconsistency = -351750 ) between these two alignments
+			Real Alignment 2: 1081970 1082273 | 578 275 | 304 304 | 99.67 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_72_length_578_cov_1.21651_ID_143
+
+CONTIG: NODE_2_length_2510_cov_5.08357_ID_3 (2510bp)
+Top Length: 1273  Top ID: 100.0
+		Skipping redundant alignment 210024 210978 | 302 1257 | 955 956 | 95.51 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_2510_cov_5.08357_ID_3
+		Skipping redundant alignment 1615407 1616351 | 1256 312 | 945 945 | 99.47 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_2510_cov_5.08357_ID_3
+		Skipping redundant alignment 2462572 2463519 | 313 1260 | 948 948 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_2510_cov_5.08357_ID_3
+		Skipping redundant alignment 2337550 2338496 | 1259 313 | 947 947 | 99.47 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_2510_cov_5.08357_ID_3
+		Skipping redundant alignment 1623378 1624323 | 313 1258 | 946 946 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_2510_cov_5.08357_ID_3
+		Skipping redundant alignment 1633408 1634352 | 313 1257 | 945 945 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_2510_cov_5.08357_ID_3
+		Skipping redundant alignment 1642754 1643698 | 313 1257 | 945 945 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_2510_cov_5.08357_ID_3
+		Skipping redundant alignment 2462572 2463519 | 2198 1251 | 948 948 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_2510_cov_5.08357_ID_3
+		Skipping redundant alignment 2337550 2338496 | 1252 2198 | 947 947 | 99.47 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_2510_cov_5.08357_ID_3
+		Skipping redundant alignment 1623378 1624323 | 2198 1253 | 946 946 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_2510_cov_5.08357_ID_3
+		Skipping redundant alignment 210024 210978 | 2209 1254 | 955 956 | 95.51 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_2510_cov_5.08357_ID_3
+		Skipping redundant alignment 1633408 1634352 | 2198 1254 | 945 945 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_2510_cov_5.08357_ID_3
+		Skipping redundant alignment 1642754 1643698 | 2198 1254 | 945 945 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_2510_cov_5.08357_ID_3
+		Skipping redundant alignment 1615407 1616351 | 1255 2199 | 945 945 | 99.47 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_2510_cov_5.08357_ID_3
+		This contig is misassembled. 16 total aligns.
+			Real Alignment 1: 712198 713470 | 1273 1 | 1273 1273 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_2510_cov_5.08357_ID_3
+			  Extensive misassembly ( relocation, inconsistency = -1237 ) between these two alignments
+			Real Alignment 2: 712198 713470 | 1238 2510 | 1273 1273 | 100.0 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_2_length_2510_cov_5.08357_ID_3
+
+CONTIG: NODE_44_length_635_cov_0.935216_ID_87 (635bp)
+Top Length: 630  Top ID: 99.52
+		One align captures most of this contig: 1327194 1327823 | 630 1 | 630 630 | 99.52 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_44_length_635_cov_0.935216_ID_87
+
+CONTIG: NODE_73_length_576_cov_0.953959_ID_145 (576bp)
+Top Length: 576  Top ID: 99.48
+		One align captures most of this contig: 1955290 1955865 | 576 1 | 576 576 | 99.48 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_73_length_576_cov_0.953959_ID_145
+
+CONTIG: NODE_30_length_696_cov_0.966817_ID_59 (696bp)
+Top Length: 364  Top ID: 98.9
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 1702986 1703349 | 1 364 | 364 364 | 98.9 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_30_length_696_cov_0.966817_ID_59
+			  Extensive misassembly ( relocation, inconsistency = -832254 ) between these two alignments
+			Real Alignment 2: 871075 871427 | 696 344 | 353 353 | 99.15 | ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome. NODE_30_length_696_cov_0.966817_ID_59
+
+Analyzing coverage...
+Writing SNPs into /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.used_snps
+	Reference ENA|CP001628|CP001628.1_Micrococcus_luteus_NCTC_2665__complete_genome.: 174 total alignments. 1 total regions.
+		Region: 1 to 2501097 (2501097 bp)
+			START in gap: 1 to 38733 (38732 bp)
+			Align 1: 38733 39056 NODE_93_length_540_cov_1.0217_ID_185 1 324
+				Gap between this and next alignment: 39056 to 57781 (18724 bp)
+				Next Alignment: 57781 58425 NODE_22_length_755_cov_1.75762_ID_43 111 755
+
+			Align 2: 57781 58425 NODE_22_length_755_cov_1.75762_ID_43 111 755
+				Gap between this and next alignment: 58425 to 60412 (1986 bp)
+				Next Alignment: 60412 60973 NODE_77_length_567_cov_1.09363_ID_153 564 3
+
+			Align 3: 60412 60973 NODE_77_length_567_cov_1.09363_ID_153 564 3
+				Gap between this and next alignment: 60973 to 71244 (10270 bp)
+				Next Alignment: 71244 71975 NODE_24_length_741_cov_1.14689_ID_47 732 1
+
+			Align 4: 71244 71975 NODE_24_length_741_cov_1.14689_ID_47 732 1
+				Gap between this and next alignment: 71975 to 88067 (16091 bp)
+				Next Alignment: 88067 88566 NODE_133_length_500_cov_1.2334_ID_265 1 500
+
+			Align 5: 88067 88566 NODE_133_length_500_cov_1.2334_ID_265 1 500
+				Gap between this and next alignment: 88566 to 219129 (130562 bp)
+				Next Alignment: 219129 219301 NODE_19_length_772_cov_1.32882_ID_37 600 772
+
+			Align 6: 219129 219301 NODE_19_length_772_cov_1.32882_ID_37 600 772
+				Gap between this and next alignment: 219301 to 259348 (40046 bp)
+				Next Alignment: 259348 259847 NODE_134_length_500_cov_1.05782_ID_267 1 500
+
+			Align 7: 259348 259847 NODE_134_length_500_cov_1.05782_ID_267 1 500
+				Gap between this and next alignment: 259847 to 296818 (36970 bp)
+				Next Alignment: 296818 296940 NODE_123_length_509_cov_1.12605_ID_245 387 509
+
+			Align 8: 296818 296940 NODE_123_length_509_cov_1.12605_ID_245 387 509
+				Gap between this and next alignment: 296940 to 304086 (7145 bp)
+				Next Alignment: 304086 304439 NODE_122_length_509_cov_1.26891_ID_243 1 354
+
+			Align 9: 304086 304439 NODE_122_length_509_cov_1.26891_ID_243 1 354
+				Gap between this and next alignment: 304439 to 308967 (4527 bp)
+				Next Alignment: 308967 309518 NODE_59_length_587_cov_1.15884_ID_117 20 571
+
+			Align 10: 308967 309518 NODE_59_length_587_cov_1.15884_ID_117 20 571
+				Gap between this and next alignment: 309518 to 309731 (212 bp)
+				Next Alignment: 309731 310249 NODE_61_length_585_cov_0.981884_ID_121 519 1
+
+			Align 11: 309731 310249 NODE_61_length_585_cov_0.981884_ID_121 519 1
+				Gap between this and next alignment: 310249 to 310856 (606 bp)
+				Next Alignment: 310856 311150 NODE_45_length_628_cov_1.04706_ID_89 1 295
+
+			Align 12: 310856 311150 NODE_45_length_628_cov_1.04706_ID_89 1 295
+				Gap between this and next alignment: 311150 to 311658 (507 bp)
+				Next Alignment: 311658 312182 NODE_53_length_609_cov_0.947917_ID_105 537 13
+
+			Align 13: 311658 312182 NODE_53_length_609_cov_0.947917_ID_105 537 13
+				Gap between this and next alignment: 312182 to 337404 (25221 bp)
+				Next Alignment: 337404 337988 NODE_62_length_585_cov_0.855072_ID_123 1 585
+
+			Align 14: 337404 337988 NODE_62_length_585_cov_0.855072_ID_123 1 585
+				Gap between this and next alignment: 337988 to 342229 (4240 bp)
+				Next Alignment: 342229 342889 NODE_36_length_663_cov_1.12063_ID_71 1 661
+
+			Align 15: 342229 342889 NODE_36_length_663_cov_1.12063_ID_71 1 661
+				Gap between this and next alignment: 342889 to 371996 (29106 bp)
+				Next Alignment: 371996 372505 NODE_106_length_519_cov_1.06173_ID_211 519 10
+
+			Align 16: 371996 372505 NODE_106_length_519_cov_1.06173_ID_211 519 10
+				Gap between this and next alignment: 372505 to 398386 (25880 bp)
+				Next Alignment: 398386 398510 NODE_70_length_580_cov_0.957952_ID_139 125 1
+
+			Align 17: 398386 398510 NODE_70_length_580_cov_0.957952_ID_139 125 1
+				Gap between this and next alignment: 398510 to 419050 (20539 bp)
+				Next Alignment: 419050 420190 NODE_11_length_1141_cov_1.46841_ID_21 1 1141
+
+			Align 18: 419050 420190 NODE_11_length_1141_cov_1.46841_ID_21 1 1141
+				Gap between this and next alignment: 420190 to 421248 (1057 bp)
+				Next Alignment: 421248 422433 NODE_10_length_1194_cov_1.65978_ID_19 1 1186
+
+			Align 19: 421248 422433 NODE_10_length_1194_cov_1.65978_ID_19 1 1186
+				Gap between this and next alignment: 422433 to 453044 (30610 bp)
+				Next Alignment: 453044 453564 NODE_47_length_621_cov_1.11735_ID_93 1 521
+
+			Align 20: 453044 453564 NODE_47_length_621_cov_1.11735_ID_93 1 521
+				Gap between this and next alignment: 453564 to 470755 (17190 bp)
+				Next Alignment: 470755 471300 NODE_86_length_546_cov_1.21832_ID_171 546 1
+
+			Align 21: 470755 471300 NODE_86_length_546_cov_1.21832_ID_171 546 1
+				Gap between this and next alignment: 471300 to 472575 (1274 bp)
+				Next Alignment: 472575 473133 NODE_78_length_560_cov_1.14042_ID_155 1 559
+
+			Align 22: 472575 473133 NODE_78_length_560_cov_1.14042_ID_155 1 559
+				Gap between this and next alignment: 473133 to 483761 (10627 bp)
+				Next Alignment: 483761 484329 NODE_74_length_569_cov_1.14552_ID_147 569 1
+
+			Align 23: 483761 484329 NODE_74_length_569_cov_1.14552_ID_147 569 1
+				Gap between this and next alignment: 484329 to 489515 (5185 bp)
+				Next Alignment: 489515 490069 NODE_79_length_555_cov_1.01533_ID_157 1 555
+
+			Align 24: 489515 490069 NODE_79_length_555_cov_1.01533_ID_157 1 555
+				Gap between this and next alignment: 490069 to 490686 (616 bp)
+				Next Alignment: 490686 491250 NODE_76_length_568_cov_0.859813_ID_151 1 565
+
+			Align 25: 490686 491250 NODE_76_length_568_cov_0.859813_ID_151 1 565
+				Gap between this and next alignment: 491250 to 520240 (28989 bp)
+				Next Alignment: 520240 520882 NODE_15_length_855_cov_0.946472_ID_29 643 1
+
+			Align 26: 520240 520882 NODE_15_length_855_cov_0.946472_ID_29 643 1
+				Gap between this and next alignment: 520882 to 540703 (19820 bp)
+				Next Alignment: 540703 540816 NODE_126_length_505_cov_1.13347_ID_251 387 500
+
+			Align 27: 540703 540816 NODE_126_length_505_cov_1.13347_ID_251 387 500
+				Gap between this and next alignment: 540816 to 559256 (18439 bp)
+				Next Alignment: 559256 559775 NODE_99_length_529_cov_1.25806_ID_197 5 524
+
+			Align 28: 559256 559775 NODE_99_length_529_cov_1.25806_ID_197 5 524
+				Gap between this and next alignment: 559775 to 586259 (26483 bp)
+				Next Alignment: 586259 586799 NODE_88_length_544_cov_1.0137_ID_175 4 544
+
+			Align 29: 586259 586799 NODE_88_length_544_cov_1.0137_ID_175 4 544
+				Gap between this and next alignment: 586799 to 612658 (25858 bp)
+				Next Alignment: 612658 613302 NODE_39_length_646_cov_1.24959_ID_77 2 646
+
+			Align 30: 612658 613302 NODE_39_length_646_cov_1.24959_ID_77 2 646
+				Gap between this and next alignment: 613302 to 632016 (18713 bp)
+				Next Alignment: 632016 632784 NODE_20_length_771_cov_0.943089_ID_39 771 2
+
+			Align 31: 632016 632784 NODE_20_length_771_cov_0.943089_ID_39 771 2
+				Gap between this and next alignment: 632784 to 649829 (17044 bp)
+				Next Alignment: 649829 649972 NODE_26_length_729_cov_0.887931_ID_51 1 144
+
+			Align 32: 649829 649972 NODE_26_length_729_cov_0.887931_ID_51 1 144
+				Gap between this and next alignment: 649972 to 650755 (782 bp)
+				Next Alignment: 650755 651084 NODE_100_length_529_cov_0.949597_ID_199 200 529
+
+			Align 33: 650755 651084 NODE_100_length_529_cov_0.949597_ID_199 200 529
+				Gap between this and next alignment: 651084 to 660337 (9252 bp)
+				Next Alignment: 660337 660650 NODE_56_length_592_cov_1.00537_ID_111 277 590
+
+			Align 34: 660337 660650 NODE_56_length_592_cov_1.00537_ID_111 277 590
+				Gap between this and next alignment: 660650 to 688305 (27654 bp)
+				Next Alignment: 688305 688535 NODE_27_length_712_cov_1.09426_ID_53 482 712
+
+			Align 35: 688305 688535 NODE_27_length_712_cov_1.09426_ID_53 482 712
+				Gap between this and next alignment: 688535 to 707716 (19180 bp)
+				Next Alignment: 707716 708255 NODE_92_length_540_cov_1.04931_ID_183 1 540
+
+			Align 36: 707716 708255 NODE_92_length_540_cov_1.04931_ID_183 1 540
+				Gap between this and next alignment: 708255 to 708602 (346 bp)
+				Next Alignment: 708602 709118 NODE_67_length_580_cov_1.21938_ID_133 580 64
+
+			Align 37: 708602 709118 NODE_67_length_580_cov_1.21938_ID_133 580 64
+				Gap between this and next alignment: 709118 to 712198 (3079 bp)
+				Next Alignment: 712198 713470 NODE_2_length_2510_cov_5.08357_ID_3 1273 1
+
+			Align 38: 712198 713470 NODE_2_length_2510_cov_5.08357_ID_3 1273 1
+				The next alignment (712198 713470 NODE_2_length_2510_cov_5.08357_ID_3 1238 2510) is redundant. Skipping.
+				Gap between this and next alignment: 713470 to 714857 (1386 bp)
+				Next Alignment: 714857 715629 NODE_18_length_778_cov_1.66846_ID_35 778 6
+
+			Align 40: 714857 715629 NODE_18_length_778_cov_1.66846_ID_35 778 6
+				Gap between this and next alignment: 715629 to 741931 (26301 bp)
+				Next Alignment: 741931 742052 NODE_114_length_513_cov_0.99375_ID_227 4 125
+
+			Align 41: 741931 742052 NODE_114_length_513_cov_0.99375_ID_227 4 125
+				Gap between this and next alignment: 742052 to 751144 (9091 bp)
+				Next Alignment: 751144 751637 NODE_127_length_504_cov_0.878981_ID_253 502 9
+
+			Align 42: 751144 751637 NODE_127_length_504_cov_0.878981_ID_253 502 9
+				Gap between this and next alignment: 751637 to 759143 (7505 bp)
+				Next Alignment: 759143 759688 NODE_85_length_546_cov_1.06823_ID_169 1 546
+
+			Align 43: 759143 759688 NODE_85_length_546_cov_1.06823_ID_169 1 546
+				Gap between this and next alignment: 759688 to 792519 (32830 bp)
+				Next Alignment: 792519 792961 NODE_109_length_515_cov_1.03527_ID_217 70 512
+
+			Align 44: 792519 792961 NODE_109_length_515_cov_1.03527_ID_217 70 512
+				Gap between this and next alignment: 792961 to 805267 (12305 bp)
+				Next Alignment: 805267 805803 NODE_94_length_539_cov_0.944664_ID_187 1 537
+
+			Align 45: 805267 805803 NODE_94_length_539_cov_0.944664_ID_187 1 537
+				Gap between this and next alignment: 805803 to 819839 (14035 bp)
+				Next Alignment: 819839 820371 NODE_97_length_533_cov_1.096_ID_193 1 533
+
+			Align 46: 819839 820371 NODE_97_length_533_cov_1.096_ID_193 1 533
+				Gap between this and next alignment: 820371 to 826320 (5948 bp)
+				Next Alignment: 826320 826826 NODE_112_length_514_cov_1.12058_ID_223 507 1
+
+			Align 47: 826320 826826 NODE_112_length_514_cov_1.12058_ID_223 507 1
+				Gap between this and next alignment: 826826 to 831619 (4792 bp)
+				Next Alignment: 831619 832145 NODE_101_length_527_cov_1.02429_ID_201 527 1
+
+			Align 48: 831619 832145 NODE_101_length_527_cov_1.02429_ID_201 527 1
+				Gap between this and next alignment: 832145 to 858686 (26540 bp)
+				Next Alignment: 858686 858761 NODE_121_length_510_cov_1.14046_ID_241 311 236
+
+			Align 49: 858686 858761 NODE_121_length_510_cov_1.14046_ID_241 311 236
+				Gap between this and next alignment: 858761 to 859431 (669 bp)
+				Next Alignment: 859431 859957 NODE_96_length_533_cov_1.04_ID_191 4 530
+
+			Align 50: 859431 859957 NODE_96_length_533_cov_1.04_ID_191 4 530
+				Gap between this and next alignment: 859957 to 860456 (498 bp)
+				Next Alignment: 860456 860704 NODE_130_length_504_cov_1.08705_ID_259 5 253
+
+			Align 51: 860456 860704 NODE_130_length_504_cov_1.08705_ID_259 5 253
+				Gap between this and next alignment: 860704 to 871075 (10370 bp)
+				Next Alignment: 871075 871427 NODE_30_length_696_cov_0.966817_ID_59 696 344
+
+			Align 52: 871075 871427 NODE_30_length_696_cov_0.966817_ID_59 696 344
+				Gap between this and next alignment: 871427 to 894017 (22589 bp)
+				Next Alignment: 894017 894100 NODE_67_length_580_cov_1.21938_ID_133 84 1
+
+			Align 53: 894017 894100 NODE_67_length_580_cov_1.21938_ID_133 84 1
+				Gap between this and next alignment: 894100 to 921952 (27851 bp)
+				Next Alignment: 921952 922541 NODE_55_length_592_cov_0.937388_ID_109 590 1
+
+			Align 54: 921952 922541 NODE_55_length_592_cov_0.937388_ID_109 590 1
+				Gap between this and next alignment: 922541 to 922694 (152 bp)
+				Next Alignment: 922694 923420 NODE_25_length_738_cov_1.20993_ID_49 3 729
+
+			Align 55: 922694 923420 NODE_25_length_738_cov_1.20993_ID_49 3 729
+				Gap between this and next alignment: 923420 to 947856 (24435 bp)
+				Next Alignment: 947856 948221 NODE_52_length_610_cov_1.2305_ID_103 367 2
+
+			Align 56: 947856 948221 NODE_52_length_610_cov_1.2305_ID_103 367 2
+				Gap between this and next alignment: 948221 to 950749 (2527 bp)
+				Next Alignment: 950749 951702 NODE_13_length_954_cov_1.36265_ID_25 1 954
+
+			Align 57: 950749 951702 NODE_13_length_954_cov_1.36265_ID_25 1 954
+				Gap between this and next alignment: 951702 to 1061474 (109771 bp)
+				Next Alignment: 1061474 1061744 NODE_81_length_554_cov_1.12668_ID_161 277 7
+
+			Align 58: 1061474 1061744 NODE_81_length_554_cov_1.12668_ID_161 277 7
+				Gap between this and next alignment: 1061744 to 1077994 (16249 bp)
+				Next Alignment: 1077994 1078611 NODE_19_length_772_cov_1.32882_ID_37 4 621
+
+			Align 59: 1077994 1078611 NODE_19_length_772_cov_1.32882_ID_37 4 621
+				Gap between this and next alignment: 1078611 to 1081970 (3358 bp)
+				Next Alignment: 1081970 1082273 NODE_72_length_578_cov_1.21651_ID_143 578 275
+
+			Align 60: 1081970 1082273 NODE_72_length_578_cov_1.21651_ID_143 578 275
+				Gap between this and next alignment: 1082273 to 1113543 (31269 bp)
+				Next Alignment: 1113543 1114126 NODE_60_length_586_cov_1.1519_ID_119 584 1
+
+			Align 61: 1113543 1114126 NODE_60_length_586_cov_1.1519_ID_119 584 1
+				Gap between this and next alignment: 1114126 to 1119460 (5333 bp)
+				Next Alignment: 1119460 1119534 NODE_49_length_618_cov_0.955556_ID_97 544 618
+
+			Align 62: 1119460 1119534 NODE_49_length_618_cov_0.955556_ID_97 544 618
+				Gap between this and next alignment: 1119534 to 1123873 (4338 bp)
+				Next Alignment: 1123873 1125948 NODE_3_length_2402_cov_3.14225_ID_5 319 2394
+
+			Align 63: 1123873 1125948 NODE_3_length_2402_cov_3.14225_ID_5 319 2394
+				Gap between this and next alignment: 1125948 to 1126204 (255 bp)
+				Next Alignment: 1126204 1126965 NODE_21_length_765_cov_1.50546_ID_41 765 4
+
+			Align 64: 1126204 1126965 NODE_21_length_765_cov_1.50546_ID_41 765 4
+				Gap between this and next alignment: 1126965 to 1128704 (1738 bp)
+				Next Alignment: 1128704 1129054 NODE_3_length_2402_cov_3.14225_ID_5 353 3
+
+			Align 65: 1128704 1129054 NODE_3_length_2402_cov_3.14225_ID_5 353 3
+				Gap between this and next alignment: 1129054 to 1136414 (7359 bp)
+				Next Alignment: 1136414 1137022 NODE_50_length_616_cov_1.08062_ID_99 610 2
+
+			Align 66: 1136414 1137022 NODE_50_length_616_cov_1.08062_ID_99 610 2
+				Gap between this and next alignment: 1137022 to 1157978 (20955 bp)
+				Next Alignment: 1157978 1158163 NODE_29_length_702_cov_1.24215_ID_57 1 186
+
+			Align 67: 1157978 1158163 NODE_29_length_702_cov_1.24215_ID_57 1 186
+				Gap between this and next alignment: 1158163 to 1178080 (19916 bp)
+				Next Alignment: 1178080 1178659 NODE_68_length_580_cov_1.06581_ID_135 580 1
+
+			Align 68: 1178080 1178659 NODE_68_length_580_cov_1.06581_ID_135 580 1
+				Gap between this and next alignment: 1178659 to 1180556 (1896 bp)
+				Next Alignment: 1180556 1181054 NODE_119_length_510_cov_1.3522_ID_237 4 502
+
+			Align 69: 1180556 1181054 NODE_119_length_510_cov_1.3522_ID_237 4 502
+				Gap between this and next alignment: 1181054 to 1230359 (49304 bp)
+				Next Alignment: 1230359 1230862 NODE_125_length_506_cov_1.21987_ID_249 1 504
+
+			Align 70: 1230359 1230862 NODE_125_length_506_cov_1.21987_ID_249 1 504
+				Gap between this and next alignment: 1230862 to 1257972 (27109 bp)
+				Next Alignment: 1257972 1258485 NODE_110_length_515_cov_1.02282_ID_219 1 514
+
+			Align 71: 1257972 1258485 NODE_110_length_515_cov_1.02282_ID_219 1 514
+				Gap between this and next alignment: 1258485 to 1271942 (13456 bp)
+				Next Alignment: 1271942 1272300 NODE_45_length_628_cov_1.04706_ID_89 628 270
+
+			Align 72: 1271942 1272300 NODE_45_length_628_cov_1.04706_ID_89 628 270
+				Gap between this and next alignment: 1272300 to 1281995 (9694 bp)
+				Next Alignment: 1281995 1282514 NODE_102_length_525_cov_0.953252_ID_203 6 525
+
+			Align 73: 1281995 1282514 NODE_102_length_525_cov_0.953252_ID_203 6 525
+				Gap between this and next alignment: 1282514 to 1283175 (660 bp)
+				Next Alignment: 1283175 1284727 NODE_4_length_1812_cov_2.24733_ID_7 1553 1
+
+			Align 74: 1283175 1284727 NODE_4_length_1812_cov_2.24733_ID_7 1553 1
+				Gap between this and next alignment: 1284727 to 1314454 (29726 bp)
+				Next Alignment: 1314454 1315159 NODE_28_length_706_cov_1.01189_ID_55 1 706
+
+			Align 75: 1314454 1315159 NODE_28_length_706_cov_1.01189_ID_55 1 706
+				Gap between this and next alignment: 1315159 to 1321115 (5955 bp)
+				Next Alignment: 1321115 1321330 NODE_121_length_510_cov_1.14046_ID_241 291 506
+
+			Align 76: 1321115 1321330 NODE_121_length_510_cov_1.14046_ID_241 291 506
+				Gap between this and next alignment: 1321330 to 1327194 (5863 bp)
+				Next Alignment: 1327194 1327823 NODE_44_length_635_cov_0.935216_ID_87 630 1
+
+			Align 77: 1327194 1327823 NODE_44_length_635_cov_0.935216_ID_87 630 1
+				Gap between this and next alignment: 1327823 to 1343223 (15399 bp)
+				Next Alignment: 1343223 1343915 NODE_31_length_694_cov_1.08018_ID_61 694 2
+
+			Align 78: 1343223 1343915 NODE_31_length_694_cov_1.08018_ID_61 694 2
+				Gap between this and next alignment: 1343915 to 1384762 (40846 bp)
+				Next Alignment: 1384762 1385140 NODE_57_length_591_cov_1.12366_ID_113 591 213
+
+			Align 79: 1384762 1385140 NODE_57_length_591_cov_1.12366_ID_113 591 213
+				Gap between this and next alignment: 1385140 to 1398508 (13367 bp)
+				Next Alignment: 1398508 1399161 NODE_37_length_658_cov_1.1488_ID_73 5 658
+
+			Align 80: 1398508 1399161 NODE_37_length_658_cov_1.1488_ID_73 5 658
+				Gap between this and next alignment: 1399161 to 1400656 (1494 bp)
+				Next Alignment: 1400656 1400890 NODE_57_length_591_cov_1.12366_ID_113 235 1
+
+			Align 81: 1400656 1400890 NODE_57_length_591_cov_1.12366_ID_113 235 1
+				Gap between this and next alignment: 1400890 to 1418884 (17993 bp)
+				Next Alignment: 1418884 1419387 NODE_128_length_504_cov_1.06369_ID_255 1 504
+
+			Align 82: 1418884 1419387 NODE_128_length_504_cov_1.06369_ID_255 1 504
+				Gap between this and next alignment: 1419387 to 1425049 (5661 bp)
+				Next Alignment: 1425049 1425595 NODE_82_length_547_cov_1.33268_ID_163 547 1
+
+			Align 83: 1425049 1425595 NODE_82_length_547_cov_1.33268_ID_163 547 1
+				Gap between this and next alignment: 1425595 to 1433451 (7855 bp)
+				Next Alignment: 1433451 1433740 NODE_72_length_578_cov_1.21651_ID_143 6 295
+
+			Align 84: 1433451 1433740 NODE_72_length_578_cov_1.21651_ID_143 6 295
+				Gap between this and next alignment: 1433740 to 1439058 (5317 bp)
+				Next Alignment: 1439058 1439141 NODE_91_length_541_cov_0.885827_ID_181 1 84
+
+			Align 85: 1439058 1439141 NODE_91_length_541_cov_0.885827_ID_181 1 84
+				Gap between this and next alignment: 1439141 to 1450291 (11149 bp)
+				Next Alignment: 1450291 1450800 NODE_111_length_515_cov_1.09959_ID_221 513 4
+
+			Align 86: 1450291 1450800 NODE_111_length_515_cov_1.09959_ID_221 513 4
+				Gap between this and next alignment: 1450800 to 1455308 (4507 bp)
+				Next Alignment: 1455308 1455901 NODE_54_length_602_cov_1.11951_ID_107 594 1
+
+			Align 87: 1455308 1455901 NODE_54_length_602_cov_1.11951_ID_107 594 1
+				Gap between this and next alignment: 1455901 to 1477913 (22011 bp)
+				Next Alignment: 1477913 1478065 NODE_121_length_510_cov_1.14046_ID_241 104 256
+
+			Align 88: 1477913 1478065 NODE_121_length_510_cov_1.14046_ID_241 104 256
+				Gap between this and next alignment: 1478065 to 1495674 (17608 bp)
+				Next Alignment: 1495674 1496422 NODE_23_length_750_cov_0.930265_ID_45 749 1
+
+			Align 89: 1495674 1496422 NODE_23_length_750_cov_0.930265_ID_45 749 1
+				Gap between this and next alignment: 1496422 to 1524350 (27927 bp)
+				Next Alignment: 1524350 1525158 NODE_16_length_808_cov_1.53935_ID_31 1 808
+
+			Align 90: 1524350 1525158 NODE_16_length_808_cov_1.53935_ID_31 1 808
+				Gap between this and next alignment: 1525158 to 1530307 (5148 bp)
+				Next Alignment: 1530307 1530611 NODE_115_length_513_cov_1.45417_ID_229 510 206
+
+			Align 91: 1530307 1530611 NODE_115_length_513_cov_1.45417_ID_229 510 206
+				Gap between this and next alignment: 1530611 to 1534016 (3404 bp)
+				Next Alignment: 1534016 1534445 NODE_49_length_618_cov_0.955556_ID_97 6 435
+
+			Align 92: 1534016 1534445 NODE_49_length_618_cov_0.955556_ID_97 6 435
+				Gap between this and next alignment: 1534445 to 1537324 (2878 bp)
+				Next Alignment: 1537324 1537801 NODE_91_length_541_cov_0.885827_ID_181 541 64
+
+			Align 93: 1537324 1537801 NODE_91_length_541_cov_0.885827_ID_181 541 64
+				Gap between this and next alignment: 1537801 to 1559164 (21362 bp)
+				Next Alignment: 1559164 1561928 NODE_1_length_2764_cov_1.79531_ID_1 2764 1
+
+			Align 94: 1559164 1561928 NODE_1_length_2764_cov_1.79531_ID_1 2764 1
+				Gap between this and next alignment: 1561928 to 1563259 (1330 bp)
+				Next Alignment: 1563259 1564766 NODE_5_length_1671_cov_5.36508_ID_9 1671 164
+
+			Align 95: 1563259 1564766 NODE_5_length_1671_cov_5.36508_ID_9 1671 164
+				Gap between this and next alignment: 1564766 to 1573529 (8762 bp)
+				Next Alignment: 1573529 1575088 NODE_5_length_1671_cov_5.36508_ID_9 1560 1
+
+			Align 96: 1573529 1575088 NODE_5_length_1671_cov_5.36508_ID_9 1560 1
+				Gap between this and next alignment: 1575088 to 1580928 (5839 bp)
+				Next Alignment: 1580928 1581566 NODE_41_length_644_cov_1.20622_ID_81 639 1
+
+			Align 97: 1580928 1581566 NODE_41_length_644_cov_1.20622_ID_81 639 1
+				Gap between this and next alignment: 1581566 to 1601079 (19512 bp)
+				Next Alignment: 1601079 1601349 NODE_71_length_579_cov_1.15385_ID_141 309 579
+
+			Align 98: 1601079 1601349 NODE_71_length_579_cov_1.15385_ID_141 309 579
+				Gap between this and next alignment: 1601349 to 1616589 (15239 bp)
+				Next Alignment: 1616589 1616936 NODE_104_length_521_cov_1.25_ID_207 350 3
+
+			Align 99: 1616589 1616936 NODE_104_length_521_cov_1.25_ID_207 350 3
+				Gap between this and next alignment: 1616936 to 1658065 (41128 bp)
+				Next Alignment: 1658065 1658684 NODE_48_length_620_cov_1.00511_ID_95 620 1
+
+			Align 100: 1658065 1658684 NODE_48_length_620_cov_1.00511_ID_95 620 1
+				Gap between this and next alignment: 1658684 to 1663369 (4684 bp)
+				Next Alignment: 1663369 1663872 NODE_129_length_504_cov_1.1189_ID_257 504 1
+
+			Align 101: 1663369 1663872 NODE_129_length_504_cov_1.1189_ID_257 504 1
+				Gap between this and next alignment: 1663872 to 1665713 (1840 bp)
+				Next Alignment: 1665713 1666016 NODE_14_length_918_cov_0.899435_ID_27 310 7
+
+			Align 102: 1665713 1666016 NODE_14_length_918_cov_0.899435_ID_27 310 7
+				Gap between this and next alignment: 1666016 to 1672800 (6783 bp)
+				Next Alignment: 1672800 1673315 NODE_108_length_516_cov_1.27329_ID_215 1 516
+
+			Align 103: 1672800 1673315 NODE_108_length_516_cov_1.27329_ID_215 1 516
+				Gap between this and next alignment: 1673315 to 1687235 (13919 bp)
+				Next Alignment: 1687235 1687741 NODE_124_length_507_cov_1.24262_ID_247 507 1
+
+			Align 104: 1687235 1687741 NODE_124_length_507_cov_1.24262_ID_247 507 1
+				Gap between this and next alignment: 1687741 to 1702986 (15244 bp)
+				Next Alignment: 1702986 1703349 NODE_30_length_696_cov_0.966817_ID_59 1 364
+
+			Align 105: 1702986 1703349 NODE_30_length_696_cov_0.966817_ID_59 1 364
+				Gap between this and next alignment: 1703349 to 1727396 (24046 bp)
+				Next Alignment: 1727396 1727813 NODE_126_length_505_cov_1.13347_ID_251 1 417
+
+			Align 106: 1727396 1727813 NODE_126_length_505_cov_1.13347_ID_251 1 417
+				Gap between this and next alignment: 1727813 to 1731162 (3348 bp)
+				Next Alignment: 1731162 1731378 NODE_93_length_540_cov_1.0217_ID_185 519 303
+
+			Align 107: 1731162 1731378 NODE_93_length_540_cov_1.0217_ID_185 519 303
+				Gap between this and next alignment: 1731378 to 1735429 (4050 bp)
+				Next Alignment: 1735429 1736055 NODE_14_length_918_cov_0.899435_ID_27 918 292
+
+			Align 108: 1735429 1736055 NODE_14_length_918_cov_0.899435_ID_27 918 292
+				Gap between this and next alignment: 1736055 to 1749242 (13186 bp)
+				Next Alignment: 1749242 1749356 NODE_123_length_509_cov_1.12605_ID_245 407 293
+
+			Align 109: 1749242 1749356 NODE_123_length_509_cov_1.12605_ID_245 407 293
+				Gap between this and next alignment: 1749356 to 1763169 (13812 bp)
+				Next Alignment: 1763169 1764723 NODE_6_length_1620_cov_3.11909_ID_11 1555 1
+
+			Align 110: 1763169 1764723 NODE_6_length_1620_cov_3.11909_ID_11 1555 1
+				Gap between this and next alignment: 1764723 to 1779933 (15209 bp)
+				Next Alignment: 1779933 1780068 NODE_113_length_513_cov_1.03542_ID_225 3 138
+
+			Align 111: 1779933 1780068 NODE_113_length_513_cov_1.03542_ID_225 3 138
+				Gap between this and next alignment: 1780068 to 1824854 (44785 bp)
+				Next Alignment: 1824854 1825151 NODE_81_length_554_cov_1.12668_ID_161 257 554
+
+			Align 112: 1824854 1825151 NODE_81_length_554_cov_1.12668_ID_161 257 554
+				Gap between this and next alignment: 1825151 to 1829490 (4338 bp)
+				Next Alignment: 1829490 1830279 NODE_17_length_797_cov_1.20288_ID_33 8 797
+
+			Align 113: 1829490 1830279 NODE_17_length_797_cov_1.20288_ID_33 8 797
+				Gap between this and next alignment: 1830279 to 1830320 (40 bp)
+				Next Alignment: 1830320 1830814 NODE_132_length_502_cov_1.21748_ID_263 1 495
+
+			Align 114: 1830320 1830814 NODE_132_length_502_cov_1.21748_ID_263 1 495
+				Gap between this and next alignment: 1830814 to 1852742 (21927 bp)
+				Next Alignment: 1852742 1853322 NODE_66_length_581_cov_0.877737_ID_131 581 1
+
+			Align 115: 1852742 1853322 NODE_66_length_581_cov_0.877737_ID_131 581 1
+				Gap between this and next alignment: 1853322 to 1867231 (13908 bp)
+				Next Alignment: 1867231 1867742 NODE_116_length_512_cov_1.04175_ID_231 1 512
+
+			Align 116: 1867231 1867742 NODE_116_length_512_cov_1.04175_ID_231 1 512
+				Gap between this and next alignment: 1867742 to 1870643 (2900 bp)
+				Next Alignment: 1870643 1871183 NODE_84_length_546_cov_1.07602_ID_167 3 543
+
+			Align 117: 1870643 1871183 NODE_84_length_546_cov_1.07602_ID_167 3 543
+				Gap between this and next alignment: 1871183 to 1881658 (10474 bp)
+				Next Alignment: 1881658 1881781 NODE_121_length_510_cov_1.14046_ID_241 124 1
+
+			Align 118: 1881658 1881781 NODE_121_length_510_cov_1.14046_ID_241 124 1
+				Gap between this and next alignment: 1881781 to 1885270 (3488 bp)
+				Next Alignment: 1885270 1885936 NODE_35_length_667_cov_0.979495_ID_69 1 667
+
+			Align 119: 1885270 1885936 NODE_35_length_667_cov_0.979495_ID_69 1 667
+				Gap between this and next alignment: 1885936 to 1897964 (12027 bp)
+				Next Alignment: 1897964 1898494 NODE_98_length_531_cov_1.27711_ID_195 531 1
+
+			Align 120: 1897964 1898494 NODE_98_length_531_cov_1.27711_ID_195 531 1
+				Gap between this and next alignment: 1898494 to 1914059 (15564 bp)
+				Next Alignment: 1914059 1914559 NODE_27_length_712_cov_1.09426_ID_53 501 1
+
+			Align 121: 1914059 1914559 NODE_27_length_712_cov_1.09426_ID_53 501 1
+				Gap between this and next alignment: 1914559 to 1929428 (14868 bp)
+				Next Alignment: 1929428 1929947 NODE_105_length_520_cov_1.12526_ID_209 520 1
+
+			Align 122: 1929428 1929947 NODE_105_length_520_cov_1.12526_ID_209 520 1
+				Gap between this and next alignment: 1929947 to 1932895 (2947 bp)
+				Next Alignment: 1932895 1933545 NODE_38_length_651_cov_1.15049_ID_75 651 1
+
+			Align 123: 1932895 1933545 NODE_38_length_651_cov_1.15049_ID_75 651 1
+				Gap between this and next alignment: 1933545 to 1939239 (5693 bp)
+				Next Alignment: 1939239 1939805 NODE_75_length_569_cov_1.24067_ID_149 567 1
+
+			Align 124: 1939239 1939805 NODE_75_length_569_cov_1.24067_ID_149 567 1
+				Gap between this and next alignment: 1939805 to 1955290 (15484 bp)
+				Next Alignment: 1955290 1955865 NODE_73_length_576_cov_0.953959_ID_145 576 1
+
+			Align 125: 1955290 1955865 NODE_73_length_576_cov_0.953959_ID_145 576 1
+				Gap between this and next alignment: 1955865 to 1959623 (3757 bp)
+				Next Alignment: 1959623 1961339 NODE_4_length_1812_cov_2.24733_ID_7 95 1811
+
+			Align 126: 1959623 1961339 NODE_4_length_1812_cov_2.24733_ID_7 95 1811
+				Gap between this and next alignment: 1961339 to 1968441 (7101 bp)
+				Next Alignment: 1968441 1969043 NODE_51_length_614_cov_1.10155_ID_101 611 9
+
+			Align 127: 1968441 1969043 NODE_51_length_614_cov_1.10155_ID_101 611 9
+				Gap between this and next alignment: 1969043 to 2002082 (33038 bp)
+				Next Alignment: 2002082 2002394 NODE_123_length_509_cov_1.12605_ID_245 1 313
+
+			Align 128: 2002082 2002394 NODE_123_length_509_cov_1.12605_ID_245 1 313
+				Gap between this and next alignment: 2002394 to 2023976 (21581 bp)
+				Next Alignment: 2023976 2024289 NODE_64_length_584_cov_1.2196_ID_127 3 316
+
+			Align 129: 2023976 2024289 NODE_64_length_584_cov_1.2196_ID_127 3 316
+				The next alignment (2023976 2024289 NODE_64_length_584_cov_1.2196_ID_127 582 269) is redundant. Skipping.
+				Gap between this and next alignment: 2024289 to 2028275 (3985 bp)
+				Next Alignment: 2028275 2028786 NODE_117_length_512_cov_1.09603_ID_233 1 512
+
+			Align 131: 2028275 2028786 NODE_117_length_512_cov_1.09603_ID_233 1 512
+				Gap between this and next alignment: 2028786 to 2054896 (26109 bp)
+				Next Alignment: 2054896 2055406 NODE_118_length_511_cov_1.12971_ID_235 1 511
+
+			Align 132: 2054896 2055406 NODE_118_length_511_cov_1.12971_ID_235 1 511
+				Gap between this and next alignment: 2055406 to 2061757 (6350 bp)
+				Next Alignment: 2061757 2062020 NODE_52_length_610_cov_1.2305_ID_103 347 610
+
+			Align 133: 2061757 2062020 NODE_52_length_610_cov_1.2305_ID_103 347 610
+				Gap between this and next alignment: 2062020 to 2075768 (13747 bp)
+				Next Alignment: 2075768 2076206 NODE_114_length_513_cov_0.99375_ID_227 509 71
+
+			Align 134: 2075768 2076206 NODE_114_length_513_cov_0.99375_ID_227 509 71
+				Gap between this and next alignment: 2076206 to 2086518 (10311 bp)
+				Next Alignment: 2086518 2086789 NODE_130_length_504_cov_1.08705_ID_259 504 233
+
+			Align 135: 2086518 2086789 NODE_130_length_504_cov_1.08705_ID_259 504 233
+				Gap between this and next alignment: 2086789 to 2103646 (16856 bp)
+				Next Alignment: 2103646 2104189 NODE_83_length_546_cov_1.18324_ID_165 544 1
+
+			Align 136: 2103646 2104189 NODE_83_length_546_cov_1.18324_ID_165 544 1
+				Gap between this and next alignment: 2104189 to 2113911 (9721 bp)
+				Next Alignment: 2113911 2114370 NODE_63_length_585_cov_1.30616_ID_125 468 12
+
+			Align 137: 2113911 2114370 NODE_63_length_585_cov_1.30616_ID_125 468 12
+				Gap between this and next alignment: 2114370 to 2114532 (161 bp)
+				Next Alignment: 2114532 2115012 NODE_87_length_545_cov_1.18555_ID_173 532 52
+
+			Align 138: 2114532 2115012 NODE_87_length_545_cov_1.18555_ID_173 532 52
+				Gap between this and next alignment: 2115012 to 2117677 (2664 bp)
+				Next Alignment: 2117677 2118246 NODE_69_length_580_cov_1.09141_ID_137 9 578
+
+			Align 139: 2117677 2118246 NODE_69_length_580_cov_1.09141_ID_137 9 578
+				Gap between this and next alignment: 2118246 to 2128168 (9921 bp)
+				Next Alignment: 2128168 2128685 NODE_107_length_518_cov_1.31134_ID_213 518 1
+
+			Align 140: 2128168 2128685 NODE_107_length_518_cov_1.31134_ID_213 518 1
+				Gap between this and next alignment: 2128685 to 2131987 (3301 bp)
+				Next Alignment: 2131987 2132158 NODE_122_length_509_cov_1.26891_ID_243 505 334
+
+			Align 141: 2131987 2132158 NODE_122_length_509_cov_1.26891_ID_243 505 334
+				Gap between this and next alignment: 2132158 to 2151221 (19062 bp)
+				Next Alignment: 2151221 2151620 NODE_113_length_513_cov_1.03542_ID_225 114 513
+
+			Align 142: 2151221 2151620 NODE_113_length_513_cov_1.03542_ID_225 114 513
+				Gap between this and next alignment: 2151620 to 2156155 (4534 bp)
+				Next Alignment: 2156155 2156780 NODE_46_length_626_cov_1.32884_ID_91 1 626
+
+			Align 143: 2156155 2156780 NODE_46_length_626_cov_1.32884_ID_91 1 626
+				Gap between this and next alignment: 2156780 to 2158151 (1370 bp)
+				Next Alignment: 2158151 2158456 NODE_89_length_544_cov_0.947162_ID_177 1 306
+
+			Align 144: 2158151 2158456 NODE_89_length_544_cov_0.947162_ID_177 1 306
+				Gap between this and next alignment: 2158456 to 2174342 (15885 bp)
+				Next Alignment: 2174342 2174977 NODE_43_length_636_cov_1.12438_ID_85 636 1
+
+			Align 145: 2174342 2174977 NODE_43_length_636_cov_1.12438_ID_85 636 1
+				Gap between this and next alignment: 2174977 to 2185921 (10943 bp)
+				Next Alignment: 2185921 2186275 NODE_56_length_592_cov_1.00537_ID_111 355 1
+
+			Align 146: 2185921 2186275 NODE_56_length_592_cov_1.00537_ID_111 355 1
+				Gap between this and next alignment: 2186275 to 2186929 (653 bp)
+				Next Alignment: 2186929 2187482 NODE_80_length_554_cov_1.04223_ID_159 554 1
+
+			Align 147: 2186929 2187482 NODE_80_length_554_cov_1.04223_ID_159 554 1
+				Gap between this and next alignment: 2187482 to 2193748 (6265 bp)
+				Next Alignment: 2193748 2194257 NODE_120_length_510_cov_1.09015_ID_239 510 1
+
+			Align 148: 2193748 2194257 NODE_120_length_510_cov_1.09015_ID_239 510 1
+				Gap between this and next alignment: 2194257 to 2197805 (3547 bp)
+				Next Alignment: 2197805 2198446 NODE_42_length_642_cov_1.32512_ID_83 1 642
+
+			Align 149: 2197805 2198446 NODE_42_length_642_cov_1.32512_ID_83 1 642
+				Gap between this and next alignment: 2198446 to 2220285 (21838 bp)
+				Next Alignment: 2220285 2220869 NODE_58_length_589_cov_1.2446_ID_115 5 589
+
+			Align 150: 2220285 2220869 NODE_58_length_589_cov_1.2446_ID_115 5 589
+				Gap between this and next alignment: 2220869 to 2225196 (4326 bp)
+				Next Alignment: 2225196 2226673 NODE_7_length_1513_cov_8.75_ID_13 1 1478
+
+			Align 151: 2225196 2226673 NODE_7_length_1513_cov_8.75_ID_13 1 1478
+				Gap between this and next alignment: 2226673 to 2231534 (4860 bp)
+				Next Alignment: 2231534 2232201 NODE_34_length_670_cov_1.26217_ID_67 668 1
+
+			Align 152: 2231534 2232201 NODE_34_length_670_cov_1.26217_ID_67 668 1
+				Gap between this and next alignment: 2232201 to 2240253 (8051 bp)
+				Next Alignment: 2240253 2240755 NODE_131_length_503_cov_1.05745_ID_261 503 1
+
+			Align 153: 2240253 2240755 NODE_131_length_503_cov_1.05745_ID_261 503 1
+				Gap between this and next alignment: 2240755 to 2245851 (5095 bp)
+				Next Alignment: 2245851 2246386 NODE_95_length_536_cov_0.992048_ID_189 536 1
+
+			Align 154: 2245851 2246386 NODE_95_length_536_cov_0.992048_ID_189 536 1
+				Gap between this and next alignment: 2246386 to 2253321 (6934 bp)
+				Next Alignment: 2253321 2253523 NODE_115_length_513_cov_1.45417_ID_229 203 1
+
+			Align 155: 2253321 2253523 NODE_115_length_513_cov_1.45417_ID_229 203 1
+				Gap between this and next alignment: 2253523 to 2253869 (345 bp)
+				Next Alignment: 2253869 2255007 NODE_12_length_1139_cov_1.62297_ID_23 1 1139
+
+			Align 156: 2253869 2255007 NODE_12_length_1139_cov_1.62297_ID_23 1 1139
+				Gap between this and next alignment: 2255007 to 2266797 (11789 bp)
+				Next Alignment: 2266797 2267372 NODE_65_length_582_cov_0.941712_ID_129 4 579
+
+			Align 157: 2266797 2267372 NODE_65_length_582_cov_0.941712_ID_129 4 579
+				Gap between this and next alignment: 2267372 to 2281583 (14210 bp)
+				Next Alignment: 2281583 2282228 NODE_40_length_646_cov_0.936378_ID_79 646 1
+
+			Align 158: 2281583 2282228 NODE_40_length_646_cov_0.936378_ID_79 646 1
+				Gap between this and next alignment: 2282228 to 2287475 (5246 bp)
+				Next Alignment: 2287475 2288080 NODE_26_length_729_cov_0.887931_ID_51 729 124
+
+			Align 159: 2287475 2288080 NODE_26_length_729_cov_0.887931_ID_51 729 124
+				Gap between this and next alignment: 2288080 to 2294145 (6064 bp)
+				Next Alignment: 2294145 2294472 NODE_71_length_579_cov_1.15385_ID_141 1 328
+
+			Align 160: 2294145 2294472 NODE_71_length_579_cov_1.15385_ID_141 1 328
+				Gap between this and next alignment: 2294472 to 2296385 (1912 bp)
+				Next Alignment: 2296385 2296651 NODE_89_length_544_cov_0.947162_ID_177 544 278
+
+			Align 161: 2296385 2296651 NODE_89_length_544_cov_0.947162_ID_177 544 278
+				Gap between this and next alignment: 2296651 to 2303289 (6637 bp)
+				Next Alignment: 2303289 2304524 NODE_9_length_1236_cov_1.92436_ID_17 1 1236
+
+			Align 162: 2303289 2304524 NODE_9_length_1236_cov_1.92436_ID_17 1 1236
+				Gap between this and next alignment: 2304524 to 2332944 (28419 bp)
+				Next Alignment: 2332944 2334424 NODE_8_length_1484_cov_1.66368_ID_15 1 1481
+
+			Align 163: 2332944 2334424 NODE_8_length_1484_cov_1.66368_ID_15 1 1481
+				Gap between this and next alignment: 2334424 to 2351259 (16834 bp)
+				Next Alignment: 2351259 2351427 NODE_49_length_618_cov_0.955556_ID_97 580 412
+
+			Align 164: 2351259 2351427 NODE_49_length_618_cov_0.955556_ID_97 580 412
+				Gap between this and next alignment: 2351427 to 2356385 (4957 bp)
+				Next Alignment: 2356385 2356624 NODE_15_length_855_cov_0.946472_ID_29 855 616
+
+			Align 165: 2356385 2356624 NODE_15_length_855_cov_0.946472_ID_29 855 616
+				Gap between this and next alignment: 2356624 to 2380988 (24363 bp)
+				Next Alignment: 2380988 2381397 NODE_70_length_580_cov_0.957952_ID_139 580 171
+
+			Align 166: 2380988 2381397 NODE_70_length_580_cov_0.957952_ID_139 580 171
+				Gap between this and next alignment: 2381397 to 2382157 (759 bp)
+				Next Alignment: 2382157 2383711 NODE_6_length_1620_cov_3.11909_ID_11 66 1620
+
+			Align 167: 2382157 2383711 NODE_6_length_1620_cov_3.11909_ID_11 66 1620
+				Gap between this and next alignment: 2383711 to 2383771 (59 bp)
+				Next Alignment: 2383771 2384314 NODE_90_length_544_cov_1.27984_ID_179 544 1
+
+			Align 168: 2383771 2384314 NODE_90_length_544_cov_1.27984_ID_179 544 1
+				Gap between this and next alignment: 2384314 to 2422498 (38183 bp)
+				Next Alignment: 2422498 2422680 NODE_104_length_521_cov_1.25_ID_207 521 339
+
+			Align 169: 2422498 2422680 NODE_104_length_521_cov_1.25_ID_207 521 339
+				Gap between this and next alignment: 2422680 to 2434046 (11365 bp)
+				Next Alignment: 2434046 2434735 NODE_32_length_693_cov_1.15606_ID_63 690 1
+
+			Align 170: 2434046 2434735 NODE_32_length_693_cov_1.15606_ID_63 690 1
+				Gap between this and next alignment: 2434735 to 2436412 (1676 bp)
+				Next Alignment: 2436412 2436628 NODE_100_length_529_cov_0.949597_ID_199 217 1
+
+			Align 171: 2436412 2436628 NODE_100_length_529_cov_0.949597_ID_199 217 1
+				Gap between this and next alignment: 2436628 to 2465374 (28745 bp)
+				Next Alignment: 2465374 2466060 NODE_33_length_691_cov_1.231_ID_65 1 687
+
+			Align 172: 2465374 2466060 NODE_33_length_691_cov_1.231_ID_65 1 687
+				Gap between this and next alignment: 2466060 to 2472590 (6529 bp)
+				Next Alignment: 2472590 2473012 NODE_103_length_522_cov_1.00204_ID_205 100 522
+
+			Align 173: 2472590 2473012 NODE_103_length_522_cov_1.00204_ID_205 100 522
+				Gap between this and next alignment: 2473012 to 2482532 (9519 bp)
+				Next Alignment: 2482532 2483053 NODE_29_length_702_cov_1.24215_ID_57 687 166
+
+			Align 174: 2482532 2483053 NODE_29_length_702_cov_1.24215_ID_57 687 166
+			END in gap: 2483053 to 2501097 (18044 bp)
+
+Analysis is finished!
+Founded SNPs were written into /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.used_snps
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 40
+		Relocations: 39
+		Translocations: 0
+		Inversions: 1
+	Misassembled Contigs: 36
+	Misassembled Contig Bases: 28644
+	Misassmblies Inter-Contig Overlap: 1958
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 0 + 15 part
+Partially Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 846
+
+Ambiguously Mapped Contigs: 2
+Total Bases in Ambiguously Mapped Contigs: 1959
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 95586
+
+	SNPs: 627
+	Insertions: 4
+	Deletions: 9
+
+	Positive Gaps: 173
+		Internal Gaps:  1
+		External Gaps:  172
+		External Gap Total:  2396749
+		External Gap Average: 13935
+	Negative Gaps: 0
+		Internal Overlaps:  0
+		External Overlaps:  0
+		External Overlaps Total:  0
+		External Overlaps Average: 0
+	Contigs with Redundant Alignments: 2 (1587)

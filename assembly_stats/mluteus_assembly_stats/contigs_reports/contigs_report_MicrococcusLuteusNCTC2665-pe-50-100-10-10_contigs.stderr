@@ -1,0 +1,15 @@
+1: PREPARING DATA
+2,3: RUNNING mummer AND CREATING CLUSTERS
+# reading input file "/thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.ntref" of length 2501098
+# construct suffix tree for sequence of length 2501098
+# (maximum reference length is 536870908)
+# (maximum query length is 4294967295)
+# process 25010 characters per dot
+#....................................................................................................
+# CONSTRUCTIONTIME /thomas1/mcbs913/anthony/quast-2.3/libs/MUMmer3.23-linux/mummer /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.ntref 1.47
+# reading input file "/thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.fasta" of length 93201
+# matching query-file "/thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/quast_corrected_input/MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.fasta"
+# against subject-file "/thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.ntref"
+# COMPLETETIME /thomas1/mcbs913/anthony/quast-2.3/libs/MUMmer3.23-linux/mummer /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.ntref 1.58
+# SPACE /thomas1/mcbs913/anthony/quast-2.3/libs/MUMmer3.23-linux/mummer /thomas1/mcbs913/anthony/quast-2.3/MicrococcusLuteusNCTC2665/contigs_reports/nucmer_output/MicrococcusLuteusNCTC2665-pe-50-100-10-10_contigs.ntref 2.52
+4: FINISHING DATA
