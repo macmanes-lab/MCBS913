@@ -1,0 +1,805 @@
+/data/jordan/testing_assembly/quast-2.3/quast.py -R ../reference/ecoli.fasta -G ../reference/ecoli.gff -o ../output/combined_ecoli_redux2/ ../contigs/00-E.Coli-pe-150-300-10-120-1-contigs.fasta ../contigs/01-E.Coli-pe-150-300-10-30-1-contigs.fasta ../contigs/02-E.Coli-pe-150-450-10-180-1-contigs.fasta ../contigs/03-E.Coli-pe-150-450-10-45-1-contigs.fasta ../contigs/04-E.Coli-pe-150-600-10-240-1-contigs.fasta ../contigs/05-E.Coli-pe-150-600-10-60-1-contigs.fasta ../contigs/06-E.Coli-pe-250-1000-10-100-1-contigs.fasta ../contigs/07-E.Coli-pe-250-1000-10-400-1-contigs.fasta ../contigs/08-E.Coli-pe-250-500-10-200-1-contigs.fasta ../contigs/09-E.Coli-pe-250-500-10-50-1-contigs.fasta ../contigs/10-E.Coli-pe-250-750-10-300-1-contigs.fasta ../contigs/11-E.Coli-pe-250-750-10-75-1-contigs.fasta ../contigs/12-E.Coli-pe-50-100-10-10-1-contigs.fasta ../contigs/13-E.Coli-pe-50-100-10-40-1-contigs.fasta ../contigs/14-E.Coli-pe-50-150-10-15-1-contigs.fasta ../contigs/15-E.Coli-pe-50-150-10-60-1-contigs.fasta ../contigs/16-E.Coli-pe-50-200-10-20-1-contigs.fasta ../contigs/17-E.Coli-pe-50-200-10-80-1-contigs.fasta ../contigs/18-E.Coli-se-150-300-10-contigs.fasta ../contigs/19-E.Coli-se-150-450-10-contigs.fasta ../contigs/20-E.Coli-se-150-600-10-contigs.fasta ../contigs/21-E.Coli-se-250-1000-10-contigs.fasta ../contigs/22-E.Coli-se-250-500-10-contigs.fasta ../contigs/23-E.Coli-se-250-750-10-contigs.fasta ../contigs/24-E.Coli-se-50-100-10-contigs.fasta ../contigs/25-E.Coli-se-50-150-10-contigs.fasta ../contigs/26-E.Coli-se-50-200-10-contigs.fasta
+
+Version 2.3, build 28.02.2014 16:10
+
+System information:
+  OS: Linux-3.13.0-43-generic-x86_64-with-Ubuntu-14.04-trusty (linux_64)
+  Python version: 2.7.6
+  CPUs number: 32
+
+Started: 2015-03-02 11:08:20
+
+Logging to /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast.log
+
+NOTICE: Maximum number of threads is set to 32 (use --threads option to set it manually)
+
+Reference:
+  ../reference/ecoli.fasta ==> ecoli
+
+Contigs:
+  ../contigs/00-E.Coli-pe-150-300-10-120-1-contigs.fasta ==> 00-E.Coli-pe-150-300-10-120-1-contigs
+  ../contigs/01-E.Coli-pe-150-300-10-30-1-contigs.fasta ==> 01-E.Coli-pe-150-300-10-30-1-contigs
+  ../contigs/02-E.Coli-pe-150-450-10-180-1-contigs.fasta ==> 02-E.Coli-pe-150-450-10-180-1-contigs
+  ../contigs/03-E.Coli-pe-150-450-10-45-1-contigs.fasta ==> 03-E.Coli-pe-150-450-10-45-1-contigs
+  ../contigs/04-E.Coli-pe-150-600-10-240-1-contigs.fasta ==> 04-E.Coli-pe-150-600-10-240-1-contigs
+  ../contigs/05-E.Coli-pe-150-600-10-60-1-contigs.fasta ==> 05-E.Coli-pe-150-600-10-60-1-contigs
+  ../contigs/06-E.Coli-pe-250-1000-10-100-1-contigs.fasta ==> 06-E.Coli-pe-250-1000-10-100-1-contigs
+  ../contigs/07-E.Coli-pe-250-1000-10-400-1-contigs.fasta ==> 07-E.Coli-pe-250-1000-10-400-1-contigs
+  ../contigs/08-E.Coli-pe-250-500-10-200-1-contigs.fasta ==> 08-E.Coli-pe-250-500-10-200-1-contigs
+  ../contigs/09-E.Coli-pe-250-500-10-50-1-contigs.fasta ==> 09-E.Coli-pe-250-500-10-50-1-contigs
+  ../contigs/10-E.Coli-pe-250-750-10-300-1-contigs.fasta ==> 10-E.Coli-pe-250-750-10-300-1-contigs
+  ../contigs/11-E.Coli-pe-250-750-10-75-1-contigs.fasta ==> 11-E.Coli-pe-250-750-10-75-1-contigs
+  ../contigs/12-E.Coli-pe-50-100-10-10-1-contigs.fasta ==> 12-E.Coli-pe-50-100-10-10-1-contigs
+  ../contigs/13-E.Coli-pe-50-100-10-40-1-contigs.fasta ==> 13-E.Coli-pe-50-100-10-40-1-contigs
+  ../contigs/14-E.Coli-pe-50-150-10-15-1-contigs.fasta ==> 14-E.Coli-pe-50-150-10-15-1-contigs
+  ../contigs/15-E.Coli-pe-50-150-10-60-1-contigs.fasta ==> 15-E.Coli-pe-50-150-10-60-1-contigs
+  ../contigs/16-E.Coli-pe-50-200-10-20-1-contigs.fasta ==> 16-E.Coli-pe-50-200-10-20-1-contigs
+  ../contigs/17-E.Coli-pe-50-200-10-80-1-contigs.fasta ==> 17-E.Coli-pe-50-200-10-80-1-contigs
+  ../contigs/18-E.Coli-se-150-300-10-contigs.fasta ==> 18-E.Coli-se-150-300-10-contigs
+  ../contigs/19-E.Coli-se-150-450-10-contigs.fasta ==> 19-E.Coli-se-150-450-10-contigs
+  ../contigs/20-E.Coli-se-150-600-10-contigs.fasta ==> 20-E.Coli-se-150-600-10-contigs
+  ../contigs/21-E.Coli-se-250-1000-10-contigs.fasta ==> 21-E.Coli-se-250-1000-10-contigs
+  ../contigs/22-E.Coli-se-250-500-10-contigs.fasta ==> 22-E.Coli-se-250-500-10-contigs
+  ../contigs/23-E.Coli-se-250-750-10-contigs.fasta ==> 23-E.Coli-se-250-750-10-contigs
+  ../contigs/24-E.Coli-se-50-100-10-contigs.fasta ==> 24-E.Coli-se-50-100-10-contigs
+  ../contigs/25-E.Coli-se-50-150-10-contigs.fasta ==> 25-E.Coli-se-50-150-10-contigs
+  ../contigs/26-E.Coli-se-50-200-10-contigs.fasta ==> 26-E.Coli-se-50-200-10-contigs
+
+2015-03-02 11:08:27
+Running Basic statistics processor...
+  Reference genome:
+    ecoli.fasta, Reference length = 4641652, Reference GC % = 50.79
+  Contig files: 
+    1  00-E.Coli-pe-150-300-10-120-1-contigs
+    2  01-E.Coli-pe-150-300-10-30-1-contigs
+    3  02-E.Coli-pe-150-450-10-180-1-contigs
+    4  03-E.Coli-pe-150-450-10-45-1-contigs
+    5  04-E.Coli-pe-150-600-10-240-1-contigs
+    6  05-E.Coli-pe-150-600-10-60-1-contigs
+    7  06-E.Coli-pe-250-1000-10-100-1-contigs
+    8  07-E.Coli-pe-250-1000-10-400-1-contigs
+    9  08-E.Coli-pe-250-500-10-200-1-contigs
+    10 09-E.Coli-pe-250-500-10-50-1-contigs
+    11 10-E.Coli-pe-250-750-10-300-1-contigs
+    12 11-E.Coli-pe-250-750-10-75-1-contigs
+    13 12-E.Coli-pe-50-100-10-10-1-contigs
+    14 13-E.Coli-pe-50-100-10-40-1-contigs
+    15 14-E.Coli-pe-50-150-10-15-1-contigs
+    16 15-E.Coli-pe-50-150-10-60-1-contigs
+    17 16-E.Coli-pe-50-200-10-20-1-contigs
+    18 17-E.Coli-pe-50-200-10-80-1-contigs
+    19 18-E.Coli-se-150-300-10-contigs
+    20 19-E.Coli-se-150-450-10-contigs
+    21 20-E.Coli-se-150-600-10-contigs
+    22 21-E.Coli-se-250-1000-10-contigs
+    23 22-E.Coli-se-250-500-10-contigs
+    24 23-E.Coli-se-250-750-10-contigs
+    25 24-E.Coli-se-50-100-10-contigs
+    26 25-E.Coli-se-50-150-10-contigs
+    27 26-E.Coli-se-50-200-10-contigs
+  Calculating N50 and L50...
+    1  00-E.Coli-pe-150-300-10-120-1-contigs, N50 = 53607, L50 = 27, Total length = 4566152, GC % = 50.74, # N's per 100 kbp =  0.00
+    2  01-E.Coli-pe-150-300-10-30-1-contigs, N50 = 64610, L50 = 24, Total length = 4565570, GC % = 50.74, # N's per 100 kbp =  0.00
+    3  02-E.Coli-pe-150-450-10-180-1-contigs, N50 = 71089, L50 = 21, Total length = 4571290, GC % = 50.74, # N's per 100 kbp =  0.00
+    4  03-E.Coli-pe-150-450-10-45-1-contigs, N50 = 109325, L50 = 14, Total length = 4570520, GC % = 50.74, # N's per 100 kbp =  0.00
+    5  04-E.Coli-pe-150-600-10-240-1-contigs, N50 = 77962, L50 = 20, Total length = 4573019, GC % = 50.75, # N's per 100 kbp =  0.00
+    6  05-E.Coli-pe-150-600-10-60-1-contigs, N50 = 96822, L50 = 15, Total length = 4572480, GC % = 50.74, # N's per 100 kbp =  0.00
+    7  06-E.Coli-pe-250-1000-10-100-1-contigs, N50 = 135697, L50 = 11, Total length = 4572904, GC % = 50.74, # N's per 100 kbp =  0.00
+    8  07-E.Coli-pe-250-1000-10-400-1-contigs, N50 = 108440, L50 = 12, Total length = 4576306, GC % = 50.75, # N's per 100 kbp =  0.00
+    9  08-E.Coli-pe-250-500-10-200-1-contigs, N50 = 75023, L50 = 22, Total length = 4574173, GC % = 50.75, # N's per 100 kbp =  0.00
+    10 09-E.Coli-pe-250-500-10-50-1-contigs, N50 = 112478, L50 = 15, Total length = 4572753, GC % = 50.75, # N's per 100 kbp =  0.00
+    11 10-E.Coli-pe-250-750-10-300-1-contigs, N50 = 130155, L50 = 13, Total length = 4571906, GC % = 50.75, # N's per 100 kbp =  0.00
+    12 11-E.Coli-pe-250-750-10-75-1-contigs, N50 = 117722, L50 = 12, Total length = 4577560, GC % = 50.76, # N's per 100 kbp =  0.00
+    13 12-E.Coli-pe-50-100-10-10-1-contigs, N50 = 789, L50 = 12, Total length = 46079, GC % = 50.77, # N's per 100 kbp =  0.00
+    14 13-E.Coli-pe-50-100-10-40-1-contigs, N50 = 989, L50 = 9, Total length = 33080, GC % = 51.68, # N's per 100 kbp =  0.00
+    15 14-E.Coli-pe-50-150-10-15-1-contigs, N50 = 909, L50 = 14, Total length = 49141, GC % = 51.20, # N's per 100 kbp =  0.00
+    16 15-E.Coli-pe-50-150-10-60-1-contigs, N50 = 882, L50 = 11, Total length = 37751, GC % = 51.10, # N's per 100 kbp =  0.00
+    17 16-E.Coli-pe-50-200-10-20-1-contigs, N50 = 692, L50 = 21, Total length = 63306, GC % = 50.72, # N's per 100 kbp =  0.00
+    18 17-E.Coli-pe-50-200-10-80-1-contigs, N50 = 799, L50 = 12, Total length = 44698, GC % = 51.28, # N's per 100 kbp =  0.00
+    19 18-E.Coli-se-150-300-10-contigs, N50 = 53536, L50 = 28, Total length = 4562705, GC % = 50.75, # N's per 100 kbp =  0.00
+    20 19-E.Coli-se-150-450-10-contigs, N50 = 57411, L50 = 24, Total length = 4563241, GC % = 50.75, # N's per 100 kbp =  0.00
+    21 20-E.Coli-se-150-600-10-contigs, N50 = 59219, L50 = 23, Total length = 4562089, GC % = 50.74, # N's per 100 kbp =  0.00
+    22 21-E.Coli-se-250-1000-10-contigs, N50 = 102053, L50 = 16, Total length = 4579149, GC % = 50.75, # N's per 100 kbp =  0.00
+    23 22-E.Coli-se-250-500-10-contigs, N50 = 95318, L50 = 16, Total length = 4580365, GC % = 50.75, # N's per 100 kbp =  0.00
+    24 23-E.Coli-se-250-750-10-contigs, N50 = 112706, L50 = 15, Total length = 4577483, GC % = 50.75, # N's per 100 kbp =  0.00
+    25 24-E.Coli-se-50-100-10-contigs, N50 = 682, L50 = 807, Total length = 1467121, GC % = 50.71, # N's per 100 kbp =  0.00
+    26 25-E.Coli-se-50-150-10-contigs, N50 = 681, L50 = 814, Total length = 1476751, GC % = 50.88, # N's per 100 kbp =  0.00
+    27 26-E.Coli-se-50-200-10-contigs, N50 = 686, L50 = 817, Total length = 1464657, GC % = 50.78, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /data/jordan/testing_assembly/output/combined_ecoli_redux2/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /data/jordan/testing_assembly/output/combined_ecoli_redux2/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /data/jordan/testing_assembly/output/combined_ecoli_redux2/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /data/jordan/testing_assembly/output/combined_ecoli_redux2/basic_stats/NGx_plot.pdf
+Done.
+
+2015-03-02 11:08:36
+Running Contig analyzer...
+  1  00-E.Coli-pe-150-300-10-120-1-contigs
+  1  Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_00-E.Coli-pe-150-300-10-120-1-contigs.stdout and contigs_report_00-E.Coli-pe-150-300-10-120-1-contigs.stderr...
+  1  Running Nucmer
+  1  libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/00-E.Coli-pe-150-300-10-120-1-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/00-E.Coli-pe-150-300-10-120-1-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_00-E.Coli-pe-150-300-10-120-1-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_00-E.Coli-pe-150-300-10-120-1-contigs.stderr
+  3  02-E.Coli-pe-150-450-10-180-1-contigs
+  2  01-E.Coli-pe-150-300-10-30-1-contigs
+  3  Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_02-E.Coli-pe-150-450-10-180-1-contigs.stdout and contigs_report_02-E.Coli-pe-150-450-10-180-1-contigs.stderr...
+  2  Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_01-E.Coli-pe-150-300-10-30-1-contigs.stdout and contigs_report_01-E.Coli-pe-150-300-10-30-1-contigs.stderr...
+  3  Running Nucmer
+  3  libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/02-E.Coli-pe-150-450-10-180-1-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/02-E.Coli-pe-150-450-10-180-1-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_02-E.Coli-pe-150-450-10-180-1-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_02-E.Coli-pe-150-450-10-180-1-contigs.stderr
+  2  Running Nucmer
+  2  libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/01-E.Coli-pe-150-300-10-30-1-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/01-E.Coli-pe-150-300-10-30-1-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_01-E.Coli-pe-150-300-10-30-1-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_01-E.Coli-pe-150-300-10-30-1-contigs.stderr
+  4  03-E.Coli-pe-150-450-10-45-1-contigs
+  5  04-E.Coli-pe-150-600-10-240-1-contigs
+  4  Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_03-E.Coli-pe-150-450-10-45-1-contigs.stdout and contigs_report_03-E.Coli-pe-150-450-10-45-1-contigs.stderr...
+  6  05-E.Coli-pe-150-600-10-60-1-contigs
+  4  Running Nucmer
+  6  Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_05-E.Coli-pe-150-600-10-60-1-contigs.stdout and contigs_report_05-E.Coli-pe-150-600-10-60-1-contigs.stderr...
+  5  Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_04-E.Coli-pe-150-600-10-240-1-contigs.stdout and contigs_report_04-E.Coli-pe-150-600-10-240-1-contigs.stderr...
+  6  Running Nucmer
+  5  Running Nucmer
+  5  libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/04-E.Coli-pe-150-600-10-240-1-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/04-E.Coli-pe-150-600-10-240-1-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_04-E.Coli-pe-150-600-10-240-1-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_04-E.Coli-pe-150-600-10-240-1-contigs.stderr
+  6  libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/05-E.Coli-pe-150-600-10-60-1-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/05-E.Coli-pe-150-600-10-60-1-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_05-E.Coli-pe-150-600-10-60-1-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_05-E.Coli-pe-150-600-10-60-1-contigs.stderr
+  8  07-E.Coli-pe-250-1000-10-400-1-contigs
+  9  08-E.Coli-pe-250-500-10-200-1-contigs
+  7  06-E.Coli-pe-250-1000-10-100-1-contigs
+  8  Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_07-E.Coli-pe-250-1000-10-400-1-contigs.stdout and contigs_report_07-E.Coli-pe-250-1000-10-400-1-contigs.stderr...
+  11 10-E.Coli-pe-250-750-10-300-1-contigs
+  8  Running Nucmer
+  11 Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_10-E.Coli-pe-250-750-10-300-1-contigs.stdout and contigs_report_10-E.Coli-pe-250-750-10-300-1-contigs.stderr...
+  8  libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/07-E.Coli-pe-250-1000-10-400-1-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/07-E.Coli-pe-250-1000-10-400-1-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_07-E.Coli-pe-250-1000-10-400-1-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_07-E.Coli-pe-250-1000-10-400-1-contigs.stderr
+  9  Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_08-E.Coli-pe-250-500-10-200-1-contigs.stdout and contigs_report_08-E.Coli-pe-250-500-10-200-1-contigs.stderr...
+  12 11-E.Coli-pe-250-750-10-75-1-contigs
+  9  Running Nucmer
+  12 Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_11-E.Coli-pe-250-750-10-75-1-contigs.stdout and contigs_report_11-E.Coli-pe-250-750-10-75-1-contigs.stderr...
+  12 Running Nucmer
+  9  libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/08-E.Coli-pe-250-500-10-200-1-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/08-E.Coli-pe-250-500-10-200-1-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_08-E.Coli-pe-250-500-10-200-1-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_08-E.Coli-pe-250-500-10-200-1-contigs.stderr
+  12 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/11-E.Coli-pe-250-750-10-75-1-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/11-E.Coli-pe-250-750-10-75-1-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_11-E.Coli-pe-250-750-10-75-1-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_11-E.Coli-pe-250-750-10-75-1-contigs.stderr
+  15 14-E.Coli-pe-50-150-10-15-1-contigs
+  11 Running Nucmer
+  13 12-E.Coli-pe-50-100-10-10-1-contigs
+  14 13-E.Coli-pe-50-100-10-40-1-contigs
+  13 Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_12-E.Coli-pe-50-100-10-10-1-contigs.stdout and contigs_report_12-E.Coli-pe-50-100-10-10-1-contigs.stderr...
+  15 Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_14-E.Coli-pe-50-150-10-15-1-contigs.stdout and contigs_report_14-E.Coli-pe-50-150-10-15-1-contigs.stderr...
+  11 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/10-E.Coli-pe-250-750-10-300-1-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/10-E.Coli-pe-250-750-10-300-1-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_10-E.Coli-pe-250-750-10-300-1-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_10-E.Coli-pe-250-750-10-300-1-contigs.stderr
+  13 Running Nucmer
+  15 Running Nucmer
+  13 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/12-E.Coli-pe-50-100-10-10-1-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/12-E.Coli-pe-50-100-10-10-1-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_12-E.Coli-pe-50-100-10-10-1-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_12-E.Coli-pe-50-100-10-10-1-contigs.stderr
+  15 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/14-E.Coli-pe-50-150-10-15-1-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/14-E.Coli-pe-50-150-10-15-1-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_14-E.Coli-pe-50-150-10-15-1-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_14-E.Coli-pe-50-150-10-15-1-contigs.stderr
+  17 16-E.Coli-pe-50-200-10-20-1-contigs
+  17 Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_16-E.Coli-pe-50-200-10-20-1-contigs.stdout and contigs_report_16-E.Coli-pe-50-200-10-20-1-contigs.stderr...
+  17 Running Nucmer
+  14 Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_13-E.Coli-pe-50-100-10-40-1-contigs.stdout and contigs_report_13-E.Coli-pe-50-100-10-40-1-contigs.stderr...
+  17 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/16-E.Coli-pe-50-200-10-20-1-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/16-E.Coli-pe-50-200-10-20-1-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_16-E.Coli-pe-50-200-10-20-1-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_16-E.Coli-pe-50-200-10-20-1-contigs.stderr
+  7  Running Nucmer
+  7  libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/06-E.Coli-pe-250-1000-10-100-1-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/06-E.Coli-pe-250-1000-10-100-1-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_06-E.Coli-pe-250-1000-10-100-1-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_06-E.Coli-pe-250-1000-10-100-1-contigs.stderr
+  10 09-E.Coli-pe-250-500-10-50-1-contigs
+  14 Running Nucmer
+  10 Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_09-E.Coli-pe-250-500-10-50-1-contigs.stdout and contigs_report_09-E.Coli-pe-250-500-10-50-1-contigs.stderr...
+  10 Running Nucmer
+  19 18-E.Coli-se-150-300-10-contigs
+  14 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/13-E.Coli-pe-50-100-10-40-1-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/13-E.Coli-pe-50-100-10-40-1-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_13-E.Coli-pe-50-100-10-40-1-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_13-E.Coli-pe-50-100-10-40-1-contigs.stderr
+  21 20-E.Coli-se-150-600-10-contigs
+  21 Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_20-E.Coli-se-150-600-10-contigs.stdout and contigs_report_20-E.Coli-se-150-600-10-contigs.stderr...
+  20 Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_19-E.Coli-se-150-450-10-contigs.stdout and contigs_report_19-E.Coli-se-150-450-10-contigs.stderr...
+  18 Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_17-E.Coli-pe-50-200-10-80-1-contigs.stdout and contigs_report_17-E.Coli-pe-50-200-10-80-1-contigs.stderr...
+  21 Running Nucmer
+  25 24-E.Coli-se-50-100-10-contigs
+  18 Running Nucmer
+  25 Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_24-E.Coli-se-50-100-10-contigs.stdout and contigs_report_24-E.Coli-se-50-100-10-contigs.stderr...
+  21 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/20-E.Coli-se-150-600-10-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/20-E.Coli-se-150-600-10-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_20-E.Coli-se-150-600-10-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_20-E.Coli-se-150-600-10-contigs.stderr
+  25 Running Nucmer
+  25 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/24-E.Coli-se-50-100-10-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/24-E.Coli-se-50-100-10-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_24-E.Coli-se-50-100-10-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_24-E.Coli-se-50-100-10-contigs.stderr
+  18 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/17-E.Coli-pe-50-200-10-80-1-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/17-E.Coli-pe-50-200-10-80-1-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_17-E.Coli-pe-50-200-10-80-1-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_17-E.Coli-pe-50-200-10-80-1-contigs.stderr
+  20 Running Nucmer
+  20 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/19-E.Coli-se-150-450-10-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/19-E.Coli-se-150-450-10-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_19-E.Coli-se-150-450-10-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_19-E.Coli-se-150-450-10-contigs.stderr
+  19 Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_18-E.Coli-se-150-300-10-contigs.stdout and contigs_report_18-E.Coli-se-150-300-10-contigs.stderr...
+  19 Running Nucmer
+  19 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/18-E.Coli-se-150-300-10-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/18-E.Coli-se-150-300-10-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_18-E.Coli-se-150-300-10-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_18-E.Coli-se-150-300-10-contigs.stderr
+  26 25-E.Coli-se-50-150-10-contigs
+  26 Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_25-E.Coli-se-50-150-10-contigs.stdout and contigs_report_25-E.Coli-se-50-150-10-contigs.stderr...
+  22 21-E.Coli-se-250-1000-10-contigs
+  24 23-E.Coli-se-250-750-10-contigs
+  27 26-E.Coli-se-50-200-10-contigs
+  23 Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_22-E.Coli-se-250-500-10-contigs.stdout and contigs_report_22-E.Coli-se-250-500-10-contigs.stderr...
+  24 Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_23-E.Coli-se-250-750-10-contigs.stdout and contigs_report_23-E.Coli-se-250-750-10-contigs.stderr...
+  26 Running Nucmer
+  23 Running Nucmer
+  24 Running Nucmer
+  26 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/25-E.Coli-se-50-150-10-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/25-E.Coli-se-50-150-10-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_25-E.Coli-se-50-150-10-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_25-E.Coli-se-50-150-10-contigs.stderr
+  23 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/22-E.Coli-se-250-500-10-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/22-E.Coli-se-250-500-10-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_22-E.Coli-se-250-500-10-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_22-E.Coli-se-250-500-10-contigs.stderr
+  24 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/23-E.Coli-se-250-750-10-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/23-E.Coli-se-250-750-10-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_23-E.Coli-se-250-750-10-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_23-E.Coli-se-250-750-10-contigs.stderr
+  22 Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_21-E.Coli-se-250-1000-10-contigs.stdout and contigs_report_21-E.Coli-se-250-1000-10-contigs.stderr...
+  27 Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_26-E.Coli-se-50-200-10-contigs.stdout and contigs_report_26-E.Coli-se-50-200-10-contigs.stderr...
+  22 Running Nucmer
+  27 Running Nucmer
+  27 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/26-E.Coli-se-50-200-10-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/26-E.Coli-se-50-200-10-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_26-E.Coli-se-50-200-10-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_26-E.Coli-se-50-200-10-contigs.stderr
+  22 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/21-E.Coli-se-250-1000-10-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/21-E.Coli-se-250-1000-10-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_21-E.Coli-se-250-1000-10-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_21-E.Coli-se-250-1000-10-contigs.stderr
+  16 15-E.Coli-pe-50-150-10-60-1-contigs
+  16 Logging to files /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_15-E.Coli-pe-50-150-10-60-1-contigs.stdout and contigs_report_15-E.Coli-pe-50-150-10-60-1-contigs.stderr...
+  16 Running Nucmer
+  16 libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/15-E.Coli-pe-50-150-10-60-1-contigs \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/ecoli.fasta \
+     /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast_corrected_input/15-E.Coli-pe-50-150-10-60-1-contigs.fasta \
+     >> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_15-E.Coli-pe-50-150-10-60-1-contigs.stdout \
+     2>> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_15-E.Coli-pe-50-150-10-60-1-contigs.stderr
+  14 libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/13-E.Coli-pe-50-100-10-40-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/13-E.Coli-pe-50-100-10-40-1-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_13-E.Coli-pe-50-100-10-40-1-contigs.stderr
+  14 libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/13-E.Coli-pe-50-100-10-40-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/13-E.Coli-pe-50-100-10-40-1-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_13-E.Coli-pe-50-100-10-40-1-contigs.stderr
+  14 libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/13-E.Coli-pe-50-100-10-40-1-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/13-E.Coli-pe-50-100-10-40-1-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/13-E.Coli-pe-50-100-10-40-1-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_13-E.Coli-pe-50-100-10-40-1-contigs.stderr
+  15 libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/14-E.Coli-pe-50-150-10-15-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/14-E.Coli-pe-50-150-10-15-1-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_14-E.Coli-pe-50-150-10-15-1-contigs.stderr
+  15 libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/14-E.Coli-pe-50-150-10-15-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/14-E.Coli-pe-50-150-10-15-1-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_14-E.Coli-pe-50-150-10-15-1-contigs.stderr
+  15 libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/14-E.Coli-pe-50-150-10-15-1-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/14-E.Coli-pe-50-150-10-15-1-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/14-E.Coli-pe-50-150-10-15-1-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_14-E.Coli-pe-50-150-10-15-1-contigs.stderr
+  18 libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/17-E.Coli-pe-50-200-10-80-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/17-E.Coli-pe-50-200-10-80-1-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_17-E.Coli-pe-50-200-10-80-1-contigs.stderr
+  18 libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/17-E.Coli-pe-50-200-10-80-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/17-E.Coli-pe-50-200-10-80-1-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_17-E.Coli-pe-50-200-10-80-1-contigs.stderr
+  18 libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/17-E.Coli-pe-50-200-10-80-1-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/17-E.Coli-pe-50-200-10-80-1-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/17-E.Coli-pe-50-200-10-80-1-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_17-E.Coli-pe-50-200-10-80-1-contigs.stderr
+  13 libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/12-E.Coli-pe-50-100-10-10-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/12-E.Coli-pe-50-100-10-10-1-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_12-E.Coli-pe-50-100-10-10-1-contigs.stderr
+  13 libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/12-E.Coli-pe-50-100-10-10-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/12-E.Coli-pe-50-100-10-10-1-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_12-E.Coli-pe-50-100-10-10-1-contigs.stderr
+  13 libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/12-E.Coli-pe-50-100-10-10-1-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/12-E.Coli-pe-50-100-10-10-1-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/12-E.Coli-pe-50-100-10-10-1-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_12-E.Coli-pe-50-100-10-10-1-contigs.stderr
+  17 libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/16-E.Coli-pe-50-200-10-20-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/16-E.Coli-pe-50-200-10-20-1-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_16-E.Coli-pe-50-200-10-20-1-contigs.stderr
+  17 libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/16-E.Coli-pe-50-200-10-20-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/16-E.Coli-pe-50-200-10-20-1-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_16-E.Coli-pe-50-200-10-20-1-contigs.stderr
+  17 libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/16-E.Coli-pe-50-200-10-20-1-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/16-E.Coli-pe-50-200-10-20-1-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/16-E.Coli-pe-50-200-10-20-1-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_16-E.Coli-pe-50-200-10-20-1-contigs.stderr
+  25 libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/24-E.Coli-se-50-100-10-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/24-E.Coli-se-50-100-10-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_24-E.Coli-se-50-100-10-contigs.stderr
+  15 Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_14-E.Coli-pe-50-150-10-15-1-contigs.tsv
+  15 Analysis is finished.
+
+  16 libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/15-E.Coli-pe-50-150-10-60-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/15-E.Coli-pe-50-150-10-60-1-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_15-E.Coli-pe-50-150-10-60-1-contigs.stderr
+  16 libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/15-E.Coli-pe-50-150-10-60-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/15-E.Coli-pe-50-150-10-60-1-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_15-E.Coli-pe-50-150-10-60-1-contigs.stderr
+  25 libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/24-E.Coli-se-50-100-10-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/24-E.Coli-se-50-100-10-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_24-E.Coli-se-50-100-10-contigs.stderr
+  16 libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/15-E.Coli-pe-50-150-10-60-1-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/15-E.Coli-pe-50-150-10-60-1-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/15-E.Coli-pe-50-150-10-60-1-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_15-E.Coli-pe-50-150-10-60-1-contigs.stderr
+  25 libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/24-E.Coli-se-50-100-10-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/24-E.Coli-se-50-100-10-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/24-E.Coli-se-50-100-10-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_24-E.Coli-se-50-100-10-contigs.stderr
+  14 Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_13-E.Coli-pe-50-100-10-40-1-contigs.tsv
+  14 Analysis is finished.
+
+  18 Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_17-E.Coli-pe-50-200-10-80-1-contigs.tsv
+  18 Analysis is finished.
+
+  13 Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_12-E.Coli-pe-50-100-10-10-1-contigs.tsv
+  13 Analysis is finished.
+
+  17 Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_16-E.Coli-pe-50-200-10-20-1-contigs.tsv
+  17 Analysis is finished.
+
+  27 libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/26-E.Coli-se-50-200-10-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/26-E.Coli-se-50-200-10-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_26-E.Coli-se-50-200-10-contigs.stderr
+  27 libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/26-E.Coli-se-50-200-10-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/26-E.Coli-se-50-200-10-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_26-E.Coli-se-50-200-10-contigs.stderr
+  27 libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/26-E.Coli-se-50-200-10-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/26-E.Coli-se-50-200-10-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/26-E.Coli-se-50-200-10-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_26-E.Coli-se-50-200-10-contigs.stderr
+  16 Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_15-E.Coli-pe-50-150-10-60-1-contigs.tsv
+  16 Analysis is finished.
+
+  26 libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/25-E.Coli-se-50-150-10-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/25-E.Coli-se-50-150-10-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_25-E.Coli-se-50-150-10-contigs.stderr
+  26 libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/25-E.Coli-se-50-150-10-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/25-E.Coli-se-50-150-10-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_25-E.Coli-se-50-150-10-contigs.stderr
+  26 libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/25-E.Coli-se-50-150-10-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/25-E.Coli-se-50-150-10-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/25-E.Coli-se-50-150-10-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_25-E.Coli-se-50-150-10-contigs.stderr
+  25 Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_24-E.Coli-se-50-100-10-contigs.tsv
+  25 Analysis is finished.
+
+  22 libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/21-E.Coli-se-250-1000-10-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/21-E.Coli-se-250-1000-10-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_21-E.Coli-se-250-1000-10-contigs.stderr
+  22 libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/21-E.Coli-se-250-1000-10-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/21-E.Coli-se-250-1000-10-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_21-E.Coli-se-250-1000-10-contigs.stderr
+  22 libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/21-E.Coli-se-250-1000-10-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/21-E.Coli-se-250-1000-10-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/21-E.Coli-se-250-1000-10-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_21-E.Coli-se-250-1000-10-contigs.stderr
+  10 libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/09-E.Coli-pe-250-500-10-50-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/09-E.Coli-pe-250-500-10-50-1-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_09-E.Coli-pe-250-500-10-50-1-contigs.stderr
+  10 libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/09-E.Coli-pe-250-500-10-50-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/09-E.Coli-pe-250-500-10-50-1-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_09-E.Coli-pe-250-500-10-50-1-contigs.stderr
+  10 libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/09-E.Coli-pe-250-500-10-50-1-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/09-E.Coli-pe-250-500-10-50-1-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/09-E.Coli-pe-250-500-10-50-1-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_09-E.Coli-pe-250-500-10-50-1-contigs.stderr
+  9  libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/08-E.Coli-pe-250-500-10-200-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/08-E.Coli-pe-250-500-10-200-1-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_08-E.Coli-pe-250-500-10-200-1-contigs.stderr
+  12 libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/11-E.Coli-pe-250-750-10-75-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/11-E.Coli-pe-250-750-10-75-1-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_11-E.Coli-pe-250-750-10-75-1-contigs.stderr
+  9  libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/08-E.Coli-pe-250-500-10-200-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/08-E.Coli-pe-250-500-10-200-1-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_08-E.Coli-pe-250-500-10-200-1-contigs.stderr
+  12 libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/11-E.Coli-pe-250-750-10-75-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/11-E.Coli-pe-250-750-10-75-1-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_11-E.Coli-pe-250-750-10-75-1-contigs.stderr
+  9  libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/08-E.Coli-pe-250-500-10-200-1-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/08-E.Coli-pe-250-500-10-200-1-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/08-E.Coli-pe-250-500-10-200-1-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_08-E.Coli-pe-250-500-10-200-1-contigs.stderr
+  12 libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/11-E.Coli-pe-250-750-10-75-1-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/11-E.Coli-pe-250-750-10-75-1-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/11-E.Coli-pe-250-750-10-75-1-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_11-E.Coli-pe-250-750-10-75-1-contigs.stderr
+  1  libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/00-E.Coli-pe-150-300-10-120-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/00-E.Coli-pe-150-300-10-120-1-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_00-E.Coli-pe-150-300-10-120-1-contigs.stderr
+  1  libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/00-E.Coli-pe-150-300-10-120-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/00-E.Coli-pe-150-300-10-120-1-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_00-E.Coli-pe-150-300-10-120-1-contigs.stderr
+  1  libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/00-E.Coli-pe-150-300-10-120-1-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/00-E.Coli-pe-150-300-10-120-1-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/00-E.Coli-pe-150-300-10-120-1-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_00-E.Coli-pe-150-300-10-120-1-contigs.stderr
+  27 Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_26-E.Coli-se-50-200-10-contigs.tsv
+  27 Analysis is finished.
+
+  20 libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/19-E.Coli-se-150-450-10-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/19-E.Coli-se-150-450-10-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_19-E.Coli-se-150-450-10-contigs.stderr
+  20 libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/19-E.Coli-se-150-450-10-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/19-E.Coli-se-150-450-10-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_19-E.Coli-se-150-450-10-contigs.stderr
+  20 libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/19-E.Coli-se-150-450-10-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/19-E.Coli-se-150-450-10-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/19-E.Coli-se-150-450-10-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_19-E.Coli-se-150-450-10-contigs.stderr
+  5  libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/04-E.Coli-pe-150-600-10-240-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/04-E.Coli-pe-150-600-10-240-1-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_04-E.Coli-pe-150-600-10-240-1-contigs.stderr
+  5  libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/04-E.Coli-pe-150-600-10-240-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/04-E.Coli-pe-150-600-10-240-1-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_04-E.Coli-pe-150-600-10-240-1-contigs.stderr
+  5  libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/04-E.Coli-pe-150-600-10-240-1-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/04-E.Coli-pe-150-600-10-240-1-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/04-E.Coli-pe-150-600-10-240-1-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_04-E.Coli-pe-150-600-10-240-1-contigs.stderr
+  11 libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/10-E.Coli-pe-250-750-10-300-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/10-E.Coli-pe-250-750-10-300-1-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_10-E.Coli-pe-250-750-10-300-1-contigs.stderr
+  6  libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/05-E.Coli-pe-150-600-10-60-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/05-E.Coli-pe-150-600-10-60-1-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_05-E.Coli-pe-150-600-10-60-1-contigs.stderr
+  6  libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/05-E.Coli-pe-150-600-10-60-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/05-E.Coli-pe-150-600-10-60-1-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_05-E.Coli-pe-150-600-10-60-1-contigs.stderr
+  11 libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/10-E.Coli-pe-250-750-10-300-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/10-E.Coli-pe-250-750-10-300-1-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_10-E.Coli-pe-250-750-10-300-1-contigs.stderr
+  11 libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/10-E.Coli-pe-250-750-10-300-1-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/10-E.Coli-pe-250-750-10-300-1-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/10-E.Coli-pe-250-750-10-300-1-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_10-E.Coli-pe-250-750-10-300-1-contigs.stderr
+  6  libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/05-E.Coli-pe-150-600-10-60-1-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/05-E.Coli-pe-150-600-10-60-1-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/05-E.Coli-pe-150-600-10-60-1-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_05-E.Coli-pe-150-600-10-60-1-contigs.stderr
+  24 libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/23-E.Coli-se-250-750-10-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/23-E.Coli-se-250-750-10-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_23-E.Coli-se-250-750-10-contigs.stderr
+  24 libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/23-E.Coli-se-250-750-10-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/23-E.Coli-se-250-750-10-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_23-E.Coli-se-250-750-10-contigs.stderr
+  24 libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/23-E.Coli-se-250-750-10-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/23-E.Coli-se-250-750-10-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/23-E.Coli-se-250-750-10-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_23-E.Coli-se-250-750-10-contigs.stderr
+  23 libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/22-E.Coli-se-250-500-10-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/22-E.Coli-se-250-500-10-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_22-E.Coli-se-250-500-10-contigs.stderr
+  7  libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/06-E.Coli-pe-250-1000-10-100-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/06-E.Coli-pe-250-1000-10-100-1-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_06-E.Coli-pe-250-1000-10-100-1-contigs.stderr
+  23 libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/22-E.Coli-se-250-500-10-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/22-E.Coli-se-250-500-10-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_22-E.Coli-se-250-500-10-contigs.stderr
+  7  libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/06-E.Coli-pe-250-1000-10-100-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/06-E.Coli-pe-250-1000-10-100-1-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_06-E.Coli-pe-250-1000-10-100-1-contigs.stderr
+  23 libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/22-E.Coli-se-250-500-10-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/22-E.Coli-se-250-500-10-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/22-E.Coli-se-250-500-10-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_22-E.Coli-se-250-500-10-contigs.stderr
+  7  libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/06-E.Coli-pe-250-1000-10-100-1-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/06-E.Coli-pe-250-1000-10-100-1-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/06-E.Coli-pe-250-1000-10-100-1-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_06-E.Coli-pe-250-1000-10-100-1-contigs.stderr
+  4  libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/03-E.Coli-pe-150-450-10-45-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/03-E.Coli-pe-150-450-10-45-1-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_03-E.Coli-pe-150-450-10-45-1-contigs.stderr
+  4  libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/03-E.Coli-pe-150-450-10-45-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/03-E.Coli-pe-150-450-10-45-1-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_03-E.Coli-pe-150-450-10-45-1-contigs.stderr
+  4  libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/03-E.Coli-pe-150-450-10-45-1-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/03-E.Coli-pe-150-450-10-45-1-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/03-E.Coli-pe-150-450-10-45-1-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_03-E.Coli-pe-150-450-10-45-1-contigs.stderr
+  3  libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/02-E.Coli-pe-150-450-10-180-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/02-E.Coli-pe-150-450-10-180-1-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_02-E.Coli-pe-150-450-10-180-1-contigs.stderr
+  3  libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/02-E.Coli-pe-150-450-10-180-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/02-E.Coli-pe-150-450-10-180-1-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_02-E.Coli-pe-150-450-10-180-1-contigs.stderr
+  3  libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/02-E.Coli-pe-150-450-10-180-1-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/02-E.Coli-pe-150-450-10-180-1-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/02-E.Coli-pe-150-450-10-180-1-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_02-E.Coli-pe-150-450-10-180-1-contigs.stderr
+  8  libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/07-E.Coli-pe-250-1000-10-400-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/07-E.Coli-pe-250-1000-10-400-1-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_07-E.Coli-pe-250-1000-10-400-1-contigs.stderr
+  8  libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/07-E.Coli-pe-250-1000-10-400-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/07-E.Coli-pe-250-1000-10-400-1-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_07-E.Coli-pe-250-1000-10-400-1-contigs.stderr
+  8  libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/07-E.Coli-pe-250-1000-10-400-1-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/07-E.Coli-pe-250-1000-10-400-1-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/07-E.Coli-pe-250-1000-10-400-1-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_07-E.Coli-pe-250-1000-10-400-1-contigs.stderr
+  26 Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_25-E.Coli-se-50-150-10-contigs.tsv
+  26 Analysis is finished.
+
+  2  libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/01-E.Coli-pe-150-300-10-30-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/01-E.Coli-pe-150-300-10-30-1-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_01-E.Coli-pe-150-300-10-30-1-contigs.stderr
+  2  libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/01-E.Coli-pe-150-300-10-30-1-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/01-E.Coli-pe-150-300-10-30-1-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_01-E.Coli-pe-150-300-10-30-1-contigs.stderr
+  2  libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/01-E.Coli-pe-150-300-10-30-1-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/01-E.Coli-pe-150-300-10-30-1-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/01-E.Coli-pe-150-300-10-30-1-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_01-E.Coli-pe-150-300-10-30-1-contigs.stderr
+  19 libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/18-E.Coli-se-150-300-10-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/18-E.Coli-se-150-300-10-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_18-E.Coli-se-150-300-10-contigs.stderr
+  19 libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/18-E.Coli-se-150-300-10-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/18-E.Coli-se-150-300-10-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_18-E.Coli-se-150-300-10-contigs.stderr
+  19 libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/18-E.Coli-se-150-300-10-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/18-E.Coli-se-150-300-10-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/18-E.Coli-se-150-300-10-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_18-E.Coli-se-150-300-10-contigs.stderr
+  21 libs/MUMmer3.23-linux/delta-filter -i 95 /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/20-E.Coli-se-150-600-10-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/20-E.Coli-se-150-600-10-contigs.fdelta \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_20-E.Coli-se-150-600-10-contigs.stderr
+  21 libs/MUMmer3.23-linux/show-coords /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/20-E.Coli-se-150-600-10-contigs.delta \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/20-E.Coli-se-150-600-10-contigs.coords_tmp \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_20-E.Coli-se-150-600-10-contigs.stderr
+  21 libs/MUMmer3.23-linux/show-snps -S -T -H /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/20-E.Coli-se-150-600-10-contigs.delta \
+     < /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/20-E.Coli-se-150-600-10-contigs.coords.headless \
+     > /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/nucmer_output/20-E.Coli-se-150-600-10-contigs.all_snps \
+     2> /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/contigs_report_20-E.Coli-se-150-600-10-contigs.stderr
+  22 Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_21-E.Coli-se-250-1000-10-contigs.tsv
+  22 Analysis is finished.
+
+  10 Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_09-E.Coli-pe-250-500-10-50-1-contigs.tsv
+  10 Analysis is finished.
+
+  9  Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_08-E.Coli-pe-250-500-10-200-1-contigs.tsv
+  9  Analysis is finished.
+
+  1  Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_00-E.Coli-pe-150-300-10-120-1-contigs.tsv
+  1  Analysis is finished.
+
+  12 Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_11-E.Coli-pe-250-750-10-75-1-contigs.tsv
+  12 Analysis is finished.
+
+  20 Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_19-E.Coli-se-150-450-10-contigs.tsv
+  20 Analysis is finished.
+
+  4  Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_03-E.Coli-pe-150-450-10-45-1-contigs.tsv
+  4  Analysis is finished.
+
+  5  Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_04-E.Coli-pe-150-600-10-240-1-contigs.tsv
+  5  Analysis is finished.
+
+  24 Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_23-E.Coli-se-250-750-10-contigs.tsv
+  24 Analysis is finished.
+
+  8  Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_07-E.Coli-pe-250-1000-10-400-1-contigs.tsv
+  8  Analysis is finished.
+
+  11 Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_10-E.Coli-pe-250-750-10-300-1-contigs.tsv
+  11 Analysis is finished.
+
+  2  Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_01-E.Coli-pe-150-300-10-30-1-contigs.tsv
+  2  Analysis is finished.
+
+  23 Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_22-E.Coli-se-250-500-10-contigs.tsv
+  23 Analysis is finished.
+
+  6  Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_05-E.Coli-pe-150-600-10-60-1-contigs.tsv
+  6  Analysis is finished.
+
+  7  Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_06-E.Coli-pe-250-1000-10-100-1-contigs.tsv
+  7  Analysis is finished.
+
+  3  Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_02-E.Coli-pe-150-450-10-180-1-contigs.tsv
+  3  Analysis is finished.
+
+  21 Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_20-E.Coli-se-150-600-10-contigs.tsv
+  21 Analysis is finished.
+
+  19 Alignments: ../output/combined_ecoli_redux2/contigs_reports/alignments_18-E.Coli-se-150-300-10-contigs.tsv
+  19 Analysis is finished.
+
+  Creating total report...
+    saved to /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Creating total report...
+    saved to /data/jordan/testing_assembly/output/combined_ecoli_redux2/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2015-03-02 11:09:01
+Running NA-NGA calculation...
+  1  00-E.Coli-pe-150-300-10-120-1-contigs, Largest alignment = 219018, NA50 = 51184, NGA50 = 51184, LA50 = 27, LGA50 = 27
+  2  01-E.Coli-pe-150-300-10-30-1-contigs, Largest alignment = 171589, NA50 = 64610, NGA50 = 64610, LA50 = 24, LGA50 = 24
+  3  02-E.Coli-pe-150-450-10-180-1-contigs, Largest alignment = 209421, NA50 = 71089, NGA50 = 70156, LA50 = 21, LGA50 = 22
+  4  03-E.Coli-pe-150-450-10-45-1-contigs, Largest alignment = 264571, NA50 = 109325, NGA50 = 109325, LA50 = 14, LGA50 = 14
+  5  04-E.Coli-pe-150-600-10-240-1-contigs, Largest alignment = 232559, NA50 = 77962, NGA50 = 77962, LA50 = 20, LGA50 = 20
+  6  05-E.Coli-pe-150-600-10-60-1-contigs, Largest alignment = 265067, NA50 = 96822, NGA50 = 96822, LA50 = 15, LGA50 = 15
+  7  06-E.Coli-pe-250-1000-10-100-1-contigs, Largest alignment = 284069, NA50 = 117744, NGA50 = 117744, LA50 = 12, LGA50 = 12
+  8  07-E.Coli-pe-250-1000-10-400-1-contigs, Largest alignment = 387695, NA50 = 108440, NGA50 = 108440, LA50 = 12, LGA50 = 12
+  9  08-E.Coli-pe-250-500-10-200-1-contigs, Largest alignment = 268141, NA50 = 72569, NGA50 = 71378, LA50 = 22, LGA50 = 23
+  10 09-E.Coli-pe-250-500-10-50-1-contigs, Largest alignment = 273808, NA50 = 109001, NGA50 = 109001, LA50 = 15, LGA50 = 15
+  11 10-E.Coli-pe-250-750-10-300-1-contigs, Largest alignment = 320356, NA50 = 117691, NGA50 = 117691, LA50 = 13, LGA50 = 13
+  12 11-E.Coli-pe-250-750-10-75-1-contigs, Largest alignment = 342695, NA50 = 112487, NGA50 = 112487, LA50 = 13, LGA50 = 13
+  13 12-E.Coli-pe-50-100-10-10-1-contigs, Largest alignment = 3828, NA50 = 610, NGA50 = None, LA50 = 15, LGA50 = None
+  14 13-E.Coli-pe-50-100-10-40-1-contigs, Largest alignment = 5736, NA50 = 971, NGA50 = None, LA50 = 9, LGA50 = None
+  15 14-E.Coli-pe-50-150-10-15-1-contigs, Largest alignment = 3818, NA50 = 823, NGA50 = None, LA50 = 17, LGA50 = None
+  16 15-E.Coli-pe-50-150-10-60-1-contigs, Largest alignment = 5559, NA50 = 785, NGA50 = None, LA50 = 13, LGA50 = None
+  17 16-E.Coli-pe-50-200-10-20-1-contigs, Largest alignment = 3820, NA50 = 609, NGA50 = None, LA50 = 25, LGA50 = None
+  18 17-E.Coli-pe-50-200-10-80-1-contigs, Largest alignment = 5606, NA50 = 773, NGA50 = None, LA50 = 13, LGA50 = None
+  19 18-E.Coli-se-150-300-10-contigs, Largest alignment = 185273, NA50 = 53536, NGA50 = 52604, LA50 = 28, LGA50 = 29
+  20 19-E.Coli-se-150-450-10-contigs, Largest alignment = 144265, NA50 = 57411, NGA50 = 56971, LA50 = 24, LGA50 = 25
+  21 20-E.Coli-se-150-600-10-contigs, Largest alignment = 173111, NA50 = 59219, NGA50 = 58912, LA50 = 23, LGA50 = 24
+  22 21-E.Coli-se-250-1000-10-contigs, Largest alignment = 209514, NA50 = 102053, NGA50 = 102053, LA50 = 16, LGA50 = 16
+  23 22-E.Coli-se-250-500-10-contigs, Largest alignment = 327254, NA50 = 95318, NGA50 = 95186, LA50 = 16, LGA50 = 17
+  24 23-E.Coli-se-250-750-10-contigs, Largest alignment = 210785, NA50 = 112706, NGA50 = 112706, LA50 = 15, LGA50 = 15
+  25 24-E.Coli-se-50-100-10-contigs, Largest alignment = 3444, NA50 = 670, NGA50 = None, LA50 = 824, LGA50 = None
+  26 25-E.Coli-se-50-150-10-contigs, Largest alignment = 3792, NA50 = 674, NGA50 = None, LA50 = 832, LGA50 = None
+  27 26-E.Coli-se-50-200-10-contigs, Largest alignment = 3309, NA50 = 671, NGA50 = None, LA50 = 834, LGA50 = None
+  Drawing cumulative plot...
+    saved to /data/jordan/testing_assembly/output/combined_ecoli_redux2/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /data/jordan/testing_assembly/output/combined_ecoli_redux2/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /data/jordan/testing_assembly/output/combined_ecoli_redux2/aligned_stats/NGAx_plot.pdf
+Done.
+
+2015-03-02 11:09:03
+Running Genome analyzer...
+  Loaded 4518 genes
+  NOTICE: Reference name in genes (U00096.3) does not match the name of the reference (gi|556503834|ref|NC_000913.3|_Escherichia_coli_str._K-12_substr._MG1655__complete_genome). QUAST will ignore this ussue and count as if they matched.
+  NOTICE: No file with operons provided. Use the -O option if you want to specify it.
+  1  00-E.Coli-pe-150-300-10-120-1-contigs
+  2  01-E.Coli-pe-150-300-10-30-1-contigs
+  3  02-E.Coli-pe-150-450-10-180-1-contigs
+  4  03-E.Coli-pe-150-450-10-45-1-contigs
+  5  04-E.Coli-pe-150-600-10-240-1-contigs
+  6  05-E.Coli-pe-150-600-10-60-1-contigs
+  7  06-E.Coli-pe-250-1000-10-100-1-contigs
+  8  07-E.Coli-pe-250-1000-10-400-1-contigs
+  9  08-E.Coli-pe-250-500-10-200-1-contigs
+  10 09-E.Coli-pe-250-500-10-50-1-contigs
+  11 10-E.Coli-pe-250-750-10-300-1-contigs
+  12 11-E.Coli-pe-250-750-10-75-1-contigs
+  13 12-E.Coli-pe-50-100-10-10-1-contigs
+  14 13-E.Coli-pe-50-100-10-40-1-contigs
+  15 14-E.Coli-pe-50-150-10-15-1-contigs
+  16 15-E.Coli-pe-50-150-10-60-1-contigs
+  17 16-E.Coli-pe-50-200-10-20-1-contigs
+  18 17-E.Coli-pe-50-200-10-80-1-contigs
+  19 18-E.Coli-se-150-300-10-contigs
+  20 19-E.Coli-se-150-450-10-contigs
+  21 20-E.Coli-se-150-600-10-contigs
+  22 21-E.Coli-se-250-1000-10-contigs
+  23 22-E.Coli-se-250-500-10-contigs
+  24 23-E.Coli-se-250-750-10-contigs
+  25 24-E.Coli-se-50-100-10-contigs
+  26 25-E.Coli-se-50-150-10-contigs
+  27 26-E.Coli-se-50-200-10-contigs
+  13 Analysis is finished.
+  14 Analysis is finished.
+  1  Analysis is finished.
+  16 Analysis is finished.
+  18 Analysis is finished.
+  5  Analysis is finished.
+  2  Analysis is finished.
+  15 Analysis is finished.
+  3  Analysis is finished.
+  4  Analysis is finished.
+  17 Analysis is finished.
+  12 Analysis is finished.
+  20 Analysis is finished.
+  8  Analysis is finished.
+  9  Analysis is finished.
+  7  Analysis is finished.
+  23 Analysis is finished.
+  11 Analysis is finished.
+  22 Analysis is finished.
+  6  Analysis is finished.
+  10 Analysis is finished.
+  21 Analysis is finished.
+  24 Analysis is finished.
+  19 Analysis is finished.
+  25 Analysis is finished.
+  26 Analysis is finished.
+  27 Analysis is finished.
+  Drawing genes cumulative plot...
+    saved to /data/jordan/testing_assembly/output/combined_ecoli_redux2/genome_stats/genes_cumulative_plot.pdf
+  Drawing # complete genes histogram...
+    saved to /data/jordan/testing_assembly/output/combined_ecoli_redux2/genome_stats/complete_genes_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /data/jordan/testing_assembly/output/combined_ecoli_redux2/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2015-03-02 11:09:19
+Drawing large plots...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating contig alignment plot...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2015-03-02 11:10:00
+RESULTS:
+  Text versions of total report are saved to /data/jordan/testing_assembly/output/combined_ecoli_redux2/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /data/jordan/testing_assembly/output/combined_ecoli_redux2/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /data/jordan/testing_assembly/output/combined_ecoli_redux2/report.html
+  PDF version (tables and plots) saved to /data/jordan/testing_assembly/output/combined_ecoli_redux2/report.pdf
+  Contig alignment plot: /data/jordan/testing_assembly/output/combined_ecoli_redux2/alignment.svg
+  Log saved to /data/jordan/testing_assembly/output/combined_ecoli_redux2/quast.log
+
+Finished: 2015-03-02 11:10:00
+Elapsed time: 0:01:39.309838
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
