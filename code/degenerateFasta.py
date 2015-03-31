@@ -14,6 +14,7 @@
 #   --gtf GTF        Reference annotation (GTF / GFFv2 format)
 #   --output OUTPUT  Output reference
 # 
+# --fasta Z:\temp\testing\PseudomonasFluorescensF113.fasta --gtf Z:\temp\testing\PseudomonasFluorescensF113.gff --output Z:\temp\testing\test.fasta
 
 import argparse
 import re
@@ -122,17 +123,19 @@ class FastaFramework:
         return ord(iupacHashRev[refineNuc])
     
     # Given a CDS start and stop index, and direction, calculate the degenerate codon for each read frame     
-    def calculateDMask(self, passStart, passEnd, passStrand):
+    def calculateDMask(self, passStart, passEnd, passStrand, passFrame):
         # Generate iteration indices by strand direction
         if passStrand == '+':
-            seqRange, step = range(passStart, passEnd, 3), 1
+            seqRange, step = range(passStart + passFrame, passEnd, 3), 1
         else:
-            seqRange, step = range(passEnd - 1, [None, passStart - 1][passStart > 0], -3), -1
+            seqRange, step = range(passEnd - 1 - passFrame, passStart - 1, -3), -1
                         
         # Iterate through each codon in the coding sequence                   
         for seqIdx in seqRange:
             # Calculate degenerate codon
-            dCodon = degenHash[self.contigs[self.selected]['seq'][seqIdx:seqIdx + 3 * step:step]]
+            codon = self.contigs[self.selected]['seq'][seqIdx:seqIdx + 3 * step:step]
+            if codon not in degenHash.keys(): continue
+            dCodon = degenHash[codon]
 
             # Iterate through each nucleotide in the codon
             for baseIdx in range(0, 3):
@@ -154,13 +157,18 @@ class FastaFramework:
 # Parse GTF line and return dictionary with relevant information
 def getRowData(passLine):
     gtfColumns = ('seqname', 'source', 'feature', 'first', 'last', 'score', 'strand', 'frame', 'attribute')
+        
+    # Parse line
+    gtfMatch = re.match('^(.*?)\\t(.*?)\\t(.*?)\\t(.*?)\\t(.*?)\\t(.*?)\\t(.*?)\\t(.*?)\\t(.*?)$', passLine)
     
     # Check for comment
-    if passLine[0] == '#': return
-    
-    # Parse line, load into dictionary
-    gtfMatch = re.match('^(.*?)\\t(.*?)\\t(.*?)\\t(.*?)\\t(.*?)\\t(.*?)\\t(.*?)\\t(.*?)\\t(.*?)$', passLine)
+    if not gtfMatch: return
+
+    # Load into dictionary
     gtfDictionary = dict(zip(gtfColumns, gtfMatch.groups()))
+    
+    # Fixup default frames
+    if gtfDictionary['frame'] == '.': gtfDictionary['frame'] = 0 
     
     return gtfDictionary
 
@@ -202,7 +210,7 @@ for currentLine in gtfHandle:
     if currentData['feature'] != 'CDS': continue;
 
     # Calculate the degenerate mask for the current CDS
-    fastaRef.calculateDMask(int(currentData['first'])-1, int(currentData['last']), currentData['strand'])
+    fastaRef.calculateDMask(int(currentData['first'])-1, int(currentData['last']), currentData['strand'], int(currentData['frame']))
 
 # Close GTF file
 gtfHandle.close()
