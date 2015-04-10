@@ -25,32 +25,37 @@ argParser.add_argument('--fasta', help="Reference sequence (FASTA format)")
 argParser.add_argument('--gtf', help="Reference annotation (GTF / GFFv2 format)")
 argParser.add_argument('--output', help="Output reference")
 
-degenHash = { 'TTT' : 'TTY', 'TTC' : 'TTY', 'TTA' : 'TTR', 'TTG' : 'TTR',
-              'CTT' : 'CTN', 'CTC' : 'CTN', 'CTA' : 'CTN', 'CTG' : 'CTN',
-              'ATT' : 'ATH', 'ATC' : 'ATH', 'ATA' : 'ATH', 'ATG' : 'ATG',
-              'GTT' : 'GTN', 'GTC' : 'GTN', 'GTA' : 'GTN', 'GTG' : 'GTN',
-          
-              'TCT' : 'TCN', 'TCC' : 'TCN', 'TCA' : 'TCN', 'TCG' : 'TCN',
-              'CCT' : 'CCN', 'CCC' : 'CCN', 'CCA' : 'CCN', 'CCG' : 'CCN',
-              'ACT' : 'ACN', 'ACC' : 'ACN', 'ACA' : 'ACN', 'ACG' : 'ACN',
-              'GCT' : 'GCN', 'GCC' : 'GCN', 'GCA' : 'GCN', 'GCG' : 'GCN',              
+degenHash =         { 'TTT' : 'TTY', 'TTC' : 'TTY', 'TTA' : 'TTR', 'TTG' : 'TTR',
+                      'CTT' : 'CTN', 'CTC' : 'CTN', 'CTA' : 'CTN', 'CTG' : 'CTN',
+                      'ATT' : 'ATH', 'ATC' : 'ATH', 'ATA' : 'ATH', 'ATG' : 'ATG',
+                      'GTT' : 'GTN', 'GTC' : 'GTN', 'GTA' : 'GTN', 'GTG' : 'GTN',
+                  
+                      'TCT' : 'TCN', 'TCC' : 'TCN', 'TCA' : 'TCN', 'TCG' : 'TCN',
+                      'CCT' : 'CCN', 'CCC' : 'CCN', 'CCA' : 'CCN', 'CCG' : 'CCN',
+                      'ACT' : 'ACN', 'ACC' : 'ACN', 'ACA' : 'ACN', 'ACG' : 'ACN',
+                      'GCT' : 'GCN', 'GCC' : 'GCN', 'GCA' : 'GCN', 'GCG' : 'GCN',              
+        
+                      'TAT' : 'TAY', 'TAC' : 'TAY', 'TAA' : 'TAR', 'TAG' : 'TAR',
+                      'CAT' : 'CAY', 'CAC' : 'CAY', 'CAA' : 'CAR', 'CAG' : 'CAR',
+                      'AAT' : 'AAY', 'AAC' : 'AAY', 'AAA' : 'AAR', 'AAG' : 'AAR',
+                      'GAT' : 'GAY', 'GAC' : 'GAY', 'GAA' : 'GAR', 'GAG' : 'GAR',                           
+        
+                      'TGT' : 'TGY', 'TGC' : 'TGY', 'TGA' : 'TGA', 'TGG' : 'TGG',
+                      'CGT' : 'CGN', 'CGC' : 'CGN', 'CGA' : 'CGN', 'CGG' : 'CGN',
+                      'AGT' : 'AGY', 'AGC' : 'AGY', 'AGA' : 'AGR', 'AGG' : 'AGR',
+                      'GGT' : 'GGN', 'GGC' : 'GGN', 'GGA' : 'GGN', 'GGG' : 'GGN',                           
+                    }
 
-              'TAT' : 'TAY', 'TAC' : 'TAY', 'TAA' : 'TAR', 'TAG' : 'TAR',
-              'CAT' : 'CAY', 'CAC' : 'CAY', 'CAA' : 'CAR', 'CAG' : 'CAR',
-              'AAT' : 'AAY', 'AAC' : 'AAY', 'AAA' : 'AAR', 'AAG' : 'AAR',
-              'GAT' : 'GAY', 'GAC' : 'GAY', 'GAA' : 'GAR', 'GAG' : 'GAR',                           
+iupacHash =         { 'A' : 'A', 'C' : 'C', 'G' : 'G', 'T' : 'T',
+                      'R' : 'AG', 'Y' : 'CT', 'S' : 'CG', 'W' : 'AT',
+                      'K' : 'GT', 'M' : 'AC', 'B' : 'CGT', 'D' : 'AGT',
+                      'H' : 'ACT', 'V' : 'ACG', 'N' : 'ACGT',
+                    }
 
-              'TGT' : 'TGY', 'TGC' : 'TGY', 'TGA' : 'TGA', 'TGG' : 'TGG',
-              'CGT' : 'CGN', 'CGC' : 'CGN', 'CGA' : 'CGN', 'CGG' : 'CGN',
-              'AGT' : 'AGY', 'AGC' : 'AGY', 'AGA' : 'AGR', 'AGG' : 'AGR',
-              'GGT' : 'GGN', 'GGC' : 'GGN', 'GGA' : 'GGN', 'GGG' : 'GGN',                           
-            }
-
-iupacHash = { 'A' : 'A', 'C' : 'C', 'G' : 'G', 'T' : 'T',
-              'R' : 'AG', 'Y' : 'CT', 'S' : 'CG', 'W' : 'AT',
-              'K' : 'GT', 'M' : 'AC', 'B' : 'CGT', 'D' : 'AGT',
-              'H' : 'ACT', 'V' : 'ACG', 'N' : 'ACGT',
-            }
+complementHash =    { 'A' : 'T', 'C' : 'G', 'G' : 'C', 'T' : 'A',
+                      'M' : 'K', 'R' : 'Y', 'W' : 'W', 'S' : 'S',
+                      'Y' : 'R', 'K' : 'M', 'V' : 'B', 'H' : 'D',
+                      'D' : 'H', 'B' : 'V', 'N' : 'N' }
 
 iupacHashRev = dict (zip(iupacHash.values(), iupacHash.keys()))
 
@@ -104,6 +109,16 @@ class FastaFramework:
     def getSequence(self):
         return self.contigs[self.selected]['seq']
     
+    def checkComplement(self, passSequence, passStep):
+        # Only complement reverse direction
+        if passStep == 1: return passSequence
+        
+        retSequence = ""
+        for nucleotide in passSequence:
+            retSequence += complementHash[nucleotide] 
+        
+        return retSequence
+    
     # Given two IUPAC codes, refine to the most ambiguous code that satisfies both constraints
     def refineDBase(self, passNew, passExist):
         # Check for existing mask values - if none present, use new nucleotide
@@ -132,10 +147,14 @@ class FastaFramework:
                         
         # Iterate through each codon in the coding sequence                   
         for seqIdx in seqRange:
-            # Calculate degenerate codon
+            # Obtain codon (complement if necessary)
             codon = self.contigs[self.selected]['seq'][seqIdx:seqIdx + 3 * step:step]
+            codon = self.checkComplement(codon, step)
+            
+            # Calculate degenerate codon (complement if necessary
             if codon not in degenHash.keys(): continue
             dCodon = degenHash[codon]
+            dCodon = self.checkComplement(dCodon, step) 
 
             # Iterate through each nucleotide in the codon
             for baseIdx in range(0, 3):
