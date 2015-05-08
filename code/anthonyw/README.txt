@@ -8,7 +8,7 @@ use with any program that requires a sequence and/or annotation file.
 --------------------------------------------------------------------------------------------
 
 Name: Protein Aligner (PALADIN)
-Language: C
+Language: C (Make/gcc environment)
 Description: This is the primary submission for the CS portion of the final project.
 
  (From main.c)
