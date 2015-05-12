@@ -1,0 +1,83 @@
+#!/usr/bin/perl -w
+# Guanwen Wang
+# get genome sequence using genome list
+# work related to degenerate genomes
+#------------------------------
+# Set input file name
+#------------------------------
+$ext = "fasta";
+#$ext = "fastd"; 
+
+$inputfastX  = "/thomas1/mcbs913/shared_data1/datasets/references/AcidovoraxAvenaeATCC19860/1-AcidovoraxCitrulliAAC00-1.$ext";
+
+#------------------------------
+# Set output file name
+#------------------------------
+$outputfile = "CDSList";
+
+#------------------------------
+# Set interval FastX output file name
+#------------------------------
+$localFastXCP = "1-AcidovoraxCitrulliAAC00-1CP.$ext";
+
+#------------------------------
+# Set CDS output file name
+#------------------------------
+$FastXCDS = "1-AcidovoraxCitrulliAAC00-1CDS.$ext";
+
+$ls = `ls $inputfastX`;
+if(!$ls){
+    die "Error... Can not find in current directory. Please check permissions";
+}
+
+#------------------------------
+# get CDS list
+#------------------------------
+$CDSList = $outputfile;
+open(FILEIN, "< $CDSList");
+$line = <FILEIN>; 
+$line =~ s/^\s+|\s+$//g;
+@tmp = split(/\n/, $line);
+
+@attribute = split(/\s/, $tmp[0]);
+
+close(FILEIN);
+
+#-------------------------------------
+# concatenate FASTA file to one file 
+#-------------------------------------
+
+open(FILEIN, "< $inputfastX");
+open(FILEOUT, "> $localFastXCP");
+$line = <FILEIN>;
+while( $line =  <FILEIN> ){
+
+    @seq = split(/\n/, $line);
+    if(length $seq[0]){    
+        print FILEOUT "$seq[0]";
+    }
+}
+close(FILEIN);
+close(FILEOUT);
+
+#-------------------------------------
+# save UTC sequence FASTA file to file 
+#-------------------------------------
+
+open(FILEIN, "< $localFastXCP");
+open(FILEOUT, "> $FastXCDS");
+
+$line = <FILEIN>;
+$size = $#attribute + 1;
+
+for ($index = 0 ; $index < $size ; $index +=2 ) {
+    $fromInd = $attribute[$index];
+    $toInd   = $attribute[$index + 1];
+    $sub = substr($line, $fromInd - 1, $toInd - $fromInd + 1);
+    print FILEOUT "$sub";
+}
+
+close(FILEIN);
+close(FILEOUT);
+
+exit;
