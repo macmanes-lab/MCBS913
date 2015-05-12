@@ -4,6 +4,7 @@ import urllib
 import os
 
 ###############################
+# Part of my team’s final submission
 # Guanwen Wang
 #
 # run in terminal:
