@@ -4,7 +4,7 @@ __author__ = 'Guanwen Wang'
 # Guanwen Not part of the final project
 import sys, os, fnmatch
 
-# Assembly for the pair ended genomes
+# get Assembly for the single and pair ended genomes
 
 class bcolors:
     HEADER = '\033[95m'
