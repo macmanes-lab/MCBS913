@@ -1,0 +1,44 @@
+#!/usr/bin/perl -w
+# Guanwen Wang
+# related to degenerate genome sequences
+#------------------------------
+#Set input file name
+#------------------------------
+
+$inputfasta  = "/thomas1/mcbs913/shared_data1/datasets/references/AcidovoraxAvenaeATCC19860/1-AcidovoraxCitrulliAAC00-1.fasta";
+$inputfastd  = "/thomas1/mcbs913/shared_data1/datasets/references/AcidovoraxAvenaeATCC19860/1-AcidovoraxCitrulliAAC00-1.fastd";
+$inputgff    = "/thomas1/mcbs913/shared_data1/datasets/references/AcidovoraxAvenaeATCC19860/1-AcidovoraxCitrulliAAC00-1.gff";
+
+#------------------------------
+#Set output file name
+#------------------------------
+$outputfile = "CDSList";
+
+$ls = `ls $inputfasta $inputfastd $inputgff`;
+if(!$ls){
+    die "Error... Can not find in current directory. Please check permissions";
+}
+
+
+open(FILEIN, "< $inputgff");
+open(FILEOUT, "> $outputfile");
+
+#load input file and find CDS  
+while( $line = <FILEIN> ){
+    if($line ne "\n"){
+        $line =~ s/^\s+|\s+$//g;
+        @tmp = split(/\n/, $line);
+        @attribute = split(/\s/, $tmp[0]);
+
+        if(length $attribute[2]){
+            if($attribute[2] eq "CDS"){
+                #print "0 = $attribute[0], 1 = $attribute[1], 2 = $attribute[2], 3 = $attribute[3], 4 = $attribute[4]\n\n";
+                print FILEOUT "$attribute[3] $attribute[4] ";
+            }
+        }
+    }
+}
+close (FILEIN);
+close (FILEOUT);
+
+exit;
