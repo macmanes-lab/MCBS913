@@ -1,0 +1,3 @@
+#!/bin/bash
+
+quast.py -R HalobacillusHalophilusDSM2266.fasta -G HalobacillusHalophilusDSM2266.gff -o QUAST_output/. Ha*/contigs.fasta
