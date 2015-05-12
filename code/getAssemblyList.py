@@ -1,7 +1,10 @@
 #!/usr/bin/env python
 __author__ = 'Guanwen Wang'
 
+# Guanwen Not part of the final project
 import sys, os, fnmatch
+
+# Assembly for the pair ended genomes
 
 class bcolors:
     HEADER = '\033[95m'
