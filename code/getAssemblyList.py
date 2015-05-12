@@ -6,6 +6,7 @@ import sys, os, fnmatch
 
 # get Assembly for the single and pair ended genomes
 
+# color class to highlight the warnings
 class bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
