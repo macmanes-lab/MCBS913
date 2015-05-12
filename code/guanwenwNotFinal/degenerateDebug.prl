@@ -1,0 +1,58 @@
+#!/usr/bin/perl -w
+# Guanwen Wang
+# To prove Toni's degenerate method has a bug and help to debug
+#------------------------------
+# Set input file name
+#------------------------------
+#$ext = "fasta";
+#$ext = "fastd"; 
+
+#$inputfastX  = "/thomas1/mcbs913/shared_data1/datasets/references/AcidovoraxAvenaeATCC19860/1-AcidovoraxCitrulliAA
+C00-1.$ext";
+
+#------------------------------
+# Set output file name
+#------------------------------
+#$outputfile = "CDSList";
+
+#------------------------------
+# Set interval FastX output file name
+#------------------------------
+#$localFastXCP = "1-AcidovoraxCitrulliAAC00-1CP.$ext";
+
+#------------------------------
+# Set CDS output file name
+#------------------------------
+#$FastXCDS = "1-AcidovoraxCitrulliAAC00-1CDS.$ext";
+#
+$FastACDS = "1-AcidovoraxCitrulliAAC00-1CDS.fasta";
+$FastDCDS = "1-AcidovoraxCitrulliAAC00-1CDS.fastd";
+
+$ls = `ls $FastACDS $FastDCDS`;
+if(!$ls){
+    die "Error... Can not find in current directory. Please check permissions";
+}
+#------------------------------
+
+open(FILEIN, "< $FastACDS");
+$FastAline = <FILEIN>;
+close(FILEIN);
+
+open(FILEIN, "< $FastDCDS");
+$FastDline = <FILEIN>;
+close(FILEIN);
+
+$same = 0;
+$total = length($FastDline);
+for($index = 0; $index < $total; $index +=1){
+
+    $a = substr($FastAline, $index, 1);
+    $d = substr($FastDline, $index, 1);
+    if($a eq $d){
+        $same += 1;
+    }
+}
+
+$rate = $same/$total; 
+print "Fasta : Fastd Same rate = $rate \n";
+exit;
