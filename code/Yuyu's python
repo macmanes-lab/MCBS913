@@ -1,0 +1,485 @@
+#!/usr/local/bin/python
+#
+
+
+import sys
+import re
+from optparse import OptionParser
+import matplotlib
+
+from pylab import *
+import numpy
+
+
+def create_parser():
+    """Creates the option parser used to parse through command-line args.
+    
+    Returns:
+        options (like a dict, I guess): contains user-specified arguments.
+        args (array): trailing arguments that are not paired with a flag.
+    
+    """
+    usage = "usage: %prog [options] arg"
+    parser = OptionParser(usage)
+
+    #SAM file argument
+    parser.add_option("-s", "--sam", dest="sam",
+                      help="read data from SAM file")
+
+    #coords file argument
+    parser.add_option("-c", "--coords", dest="coords",
+                      help="read data from COORDS file")
+    
+    #mismatches argument (contained within the SNP file)
+    parser.add_option("-m", "--mismatches", dest="mismatches",
+                      help="read mismatch data from SNP file")
+                      
+                      
+    options, args = parser.parse_args() 
+
+    #raise error if required arguments are not supplied by the user
+    if not options.mismatches:
+        parser.error("missing --mismatches argument.")
+    elif not options.coords:
+        parser.error("missing --coords argument.")
+    elif not options.sam:
+        parser.error("missing --sam argument.")
+    
+    return options, args
+   
+def parse_coords_file(coords_file): #coords file for alignning contig back to the reference
+    """Parses through *.coords file to get contig names and alignments.
+    
+    Returns:
+        contigs (dict): contains Contig objects representing contigs in the
+                        assembly. Each one has alignment info to the reference.                        
+    """
+    contigs = dict()
+    try:
+        f = open(coords_file, 'r')
+    except IOError as e:
+        print >> sys.stderr, "coords file does not exist: " + coords_file
+        exit(1)
+        
+    f.readline()
+    f.readline() #skip first two header lines of coords file
+    
+    for line in f:
+        elements = line.split("|") #sperate lines with "|" into array
+        
+        ref_start, ref_stop, = elements[0].rstrip().split(" ") #get the start pos and end pos of this contig in reference
+        name = elements[8].rstrip() #the last array element is name of the contig
+        name = re.sub(".*?(?=NODE)", '', name) #get a shorter name
+        c = Contig(name, ref_start, ref_stop) #build the Contig object
+        contigs[name] = c #name map to the tuble who has the same name, for contig dict, the name key can refer to name and alignment info
+
+    return contigs
+    
+def parse_sam_file(sam_file, contigs): #sam file maps reads to final contig
+    """Parses through *.sam file to generate Read objects and add to contigs."""
+    try:
+        f = open(sam_file, 'r')
+    except IOError as e:
+        print >> sys.stderr, "SAM file does not exist: " + sam_file
+        exit(1)
+        
+    for line in f:
+        if line[0] == '@':
+            continue
+        elements = line.split("\t")
+        read_name = elements[0]
+        
+        contig = contigs.get(elements[2])
+        if not contig:
+            #print 91;
+            continue
+        
+        aln_start = elements[3]
+        read = Read(read_name, contig.ref_start, contig.ref_stop, aln_start,elements[2])
+        contig.reads.append(read)
+        
+        
+def parse_mismatch_file(mismatch_file, contigs): #snp file shows us mismatches between reference and final contig
+    """Parses through mismatches/indels found in snp file. Adds to contigs."""
+    try:
+        f = open(mismatch_file, 'r')
+    except IOError as e:
+        print >> sys.stderr, "snp file does not exist: " + mismatch_file
+        exit(1)
+        
+   
+    for line in f:
+        elements = line.split("\t")
+        contig = contigs.get(elements[1])
+        if not contig:
+            continue
+            
+        contig.errors.append(int(elements[5]))
+
+
+def AnalyzeBadReads(badreads, sam_file):
+    try:
+        f = open(sam_file, 'r')
+    except IOError as e:
+        print >> sys.stderr, "SAM file does not exist: " + sam_file
+        exit(1)
+    seqOfBadArray=[]
+    
+    for badreadname in badreads:
+        
+        for line in f:
+            if line[0] == '@':
+               continue
+            
+            elements = line.split("\t")
+            read_name = elements[0]
+            seq=elements[9]
+            if badreadname==read_name: #if they are equal, get the read content( DNA seq)
+               seqOfBadArray.append(str(seq));
+               
+    return seqOfBadArray                 
+                  
+         
+
+
+
+        
+        
+          
+        
+    
+
+           
+class Contig(object):
+    """Object that represents a contig in the assembly.
+    
+    Attributes:
+        name (str): name of the contig.
+        ref_start (int): start of the contig's alignment to the reference.
+        ref_stop (int): stop of the contig's alignment to the reference.
+        reads (list): contains Read objects that align to this contig.
+        errors (list): list of errors in this contig, based on snp calls.         
+    """         
+    def __init__(self, name, ref_start, ref_stop):
+        self.name = name
+        self.ref_start = int(ref_start)
+        self.ref_stop = int(ref_stop)
+        self.reads = []
+        self.errors = []
+        self.size=int(ref_stop)-int(ref_start)
+        self.numOfBadReads=0;
+        self.numOfGoodReads=0;
+        self.badReadsRatio=-1;
+        self.numOfReads=0        
+        
+
+    
+               
+
+      
+        
+    def check_for_bad_alignment(self, verbose=False): #check for bad reads in the contig
+        """Iterates over each Read in read list. 
+        
+            If the Read is not aligned properly, do something...
+            
+        """ 
+        
+        # comparing the actual read start and alignment start pos
+        for read in self.reads:
+            
+            self.numOfReads=self.numOfReads+1
+            actual_read_start=read.read_ref_start
+            algn_start=(read.contig_ref_start)+(read.read_align_start)
+            if(abs(algn_start-actual_read_start)>10000):
+               
+               read.correct_alignment=False
+           
+            
+               #goodreads=goodreads+1;
+
+                                         
+        
+
+
+    def getBadReadsName(self, verbose=False): #check for bad reads in the contig
+        """Iterates over each Read in read list. 
+        
+        If the Read is not aligned properly, do something...
+            
+          """
+        # comparing the actual read start and alignment start pos
+        badReadsName=[]
+        for read in self.reads:
+            actual_read_start=read.read_ref_start
+            algn_start=(read.contig_ref_start)+(read.read_align_start)
+            if(abs(algn_start-actual_read_start)<=10000):
+              
+              badReadsName.append(str(read.getReadsName()));
+              #contig.errors.append(int(elements[5])) 
+       
+        return badReadsName; 
+                      
+               
+            
+                                         
+          
+          
+
+
+
+
+
+
+
+        
+               
+    def check_for_reads_near_errors(self, verbose=False):
+        reads_near_errors = 0
+        
+        for read in self.reads:
+            for error in self.errors:
+                read_start = read.read_align_start
+                if abs(read_start - error) >= 250:
+                    continue
+                
+                reads_near_errors += 1
+                read.near_error = True
+                
+        #don't give the user a report if we tell it to shut up.
+        if not verbose:
+            return
+        print(self.name + " has " + str(reads_near_errors) + 
+                " reads near errors.")
+    
+    
+    #really "bad reads" means that the reads are "way far" from
+    #where it should be and near mismatch area.         
+    def check_for_really_bad_reads(self, verbose=False):
+        really_bad_reads = 0
+        total_reads=0
+        for read in self.reads:
+            total_reads=total_reads+1
+            if read.near_error and not read.correct_alignment: 
+                really_bad_reads += 1
+                read.bad=True
+                self.numOfBadReads=self.numOfBadReads+1
+                 
+        
+        #don't give the user a report if we tell it to shut up.
+        
+        rate=float( really_bad_reads)/float(total_reads)
+        #print "total: "+str(total_reads)
+        #print "really bad :"+str(really_bad_reads)
+        self.badReadsRatio=rate
+        return rate
+        
+
+    def getNumOfReads(self):
+        number=0;
+        for read in self.reads:
+            
+            number=number+1
+        return number 
+
+    def getBad(self):
+        return self.numOfBadReads
+
+    
+         
+          
+     
+                
+
+        
+class Read(object):
+    """Object that represents a read in the assembly.
+    
+    Attributes:
+        name (str): name of the read (contains gi and positional information)
+        contig_ref_start (int): start of where the contig that this read is a
+                                part of aligns to the reference.
+                                
+        contig_ref_stop (int):  stop of where the contig that this read is a
+                                part of aligns to the reference.
+                                
+        read_ref_start (int):   start of where the read was generated from
+                                the reference.
+                                
+        read_ref_stop (int):    stop of where the read was generated from
+                                the reference.
+                                
+        read_align_start (int): start of where the read aligns to the contig
+                                that it is contained within.
+                                
+        read_align_stop (int): stop of where the read aligns to the contig
+                                that it is contained within.
+                                
+        gi (str): the gi of the organism that this read came from
+        correct_alignment(bool): True if, when this read aligns to a contig,
+                                 that the contig's boundaries are near where
+                                 the read SHOULD be in the reference.
+                                 Defaults to: True
+                                 
+        near_error (bool):      True if this read is located near snps (errors)
+                                in a contig. This may mean read is the source
+                                of the mismatch/indel in the contig.
+                                Defaults to: False
+                                
+                                
+        
+        
+    """       
+    def __init__(self, name, contig_ref_start, contig_ref_stop, aln_start,contigName):
+        self.name = name
+        self.contig_ref_start = int(contig_ref_start)
+        self.contig_ref_stop = int(contig_ref_stop)
+        self.read_align_start = int(aln_start)
+        self.gi = None
+        self.parse_name()
+        self.correct_alignment = True
+        self.near_error = False
+        self.contigName=contigName
+        self.bad=False 
+        
+    def parse_name(self):
+        """Parses the read's name to get positional information."""
+        m = re.match("gi:-:(\d*).*?:-:-(\d*):-:(\d*)", self.name)
+        self.gi = m.groups()[0]
+        self.read_ref_start = int(m.groups()[2])
+        
+
+    def getReadsName(self):
+        return self.name;  
+
+    def getBadReadsLocation(self):
+         if self.near_error and not self.correct_alignment:  
+            return self.read_ref_start 
+
+
+
+
+
+        
+
+#--------------------------- main --------------------------------------
+def main():
+    options, args = create_parser()
+    contigs = parse_coords_file(options.coords)
+    parse_sam_file(options.sam, contigs)
+    parse_mismatch_file(options.mismatches, contigs)
+    
+    
+   
+
+
+
+
+
+    # ----discovery relationship between contig size and number of reads on it---------------------
+
+    ContigSize=[]
+    NumberReads=[]
+    
+
+    for key in contigs:
+        #if contigs[key].size>50000:
+           ContigSize.append(int (contigs[key].size))
+           NumberReads.append(int (contigs[key].getNumOfReads()))
+    
+    figure(1)
+    
+    matplotlib.pyplot.scatter(ContigSize,NumberReads)
+    matplotlib.pyplot.xlabel('Contig Size')
+    matplotlib.pyplot.ylabel('Number of Reads')
+    matplotlib.pyplot.title('relationship between Contig size and Number of Reads')   
+    r=numpy.corrcoef(ContigSize,NumberReads)[0,1]
+    
+    (m,b)=numpy.polyfit(ContigSize,NumberReads,1) #get the k and b value for y=kx+b
+    yp = numpy.polyval([m,b],ContigSize)
+    matplotlib.pyplot.plot(ContigSize,yp)
+    matplotlib.pyplot.grid(True)
+    matplotlib.pyplot.text(max(ContigSize),m*max(ContigSize)+b+1000,'r='+str(r))
+    #matplotlib.pyplot.show()
+
+    # ----discovery relationship between contig size and its ratio of bad reads on it---------------------
+    badReadsR=[]
+    for key in contigs:
+        #if contigs[key].size>50000:
+           contigs[key].check_for_reads_near_errors(verbose=False)
+           contigs[key].check_for_bad_alignment(verbose=False) 
+           badReadsR.append(contigs[key].check_for_really_bad_reads(verbose=False))
+        #print contigs[key].check_for_really_bad_reads(verbose=False) 
+    figure(2)
+    matplotlib.pyplot.scatter(ContigSize,badReadsR)
+    matplotlib.pyplot.xlabel('Contig Size')
+    matplotlib.pyplot.ylabel('rate of BadReads')
+    matplotlib.pyplot.title('relationship between Contig size and bad Reads ratio')   
+    r=numpy.corrcoef(ContigSize,badReadsR)[0,1]
+    
+    (m,b)=numpy.polyfit(ContigSize,badReadsR,1) #get the k and b value for y=kx+b
+    #print m 
+    yp = numpy.polyval([m,b],ContigSize)
+    matplotlib.pyplot.plot(ContigSize,yp)
+    matplotlib.pyplot.grid(True)
+    matplotlib.pyplot.text(max(ContigSize),m*max(ContigSize)+b+1000,'r='+str(r))
+    matplotlib.pyplot.show()
+
+
+    #----------------print out some descriptive statistical result-------------------------------------
+    
+    contigsize=[] 
+    contigNumber=0
+    totalReads=0
+    totalBadReads=0
+    for key in contigs:
+       contigNumber=contigNumber+1
+       totalReads=totalReads+contigs[key].numOfReads
+       totalBadReads=totalBadReads+contigs[key].numOfBadReads
+    print "the total number of contigs is: "+str(contigNumber)
+    print "the total number of reads in these contigs is: "+str(totalReads)
+    print "the total bad reads are: "+str(totalBadReads)
+
+
+      
+
+    # ----------------find out contigs who have highest bad reads ratio----------------------------- 
+    #for key in contigs:
+     #   print str(contigs[key].name)+"     "+str(contigs[key].badReadsRatio)
+         
+    #------------------check whether those bad reads come from the same part of reference------------------
+    """
+    BadreadsLoc=[]
+    for key in contigs:
+        if key=="NODE_72_length_2411_cov_10.6191_ID_149":
+           for read in contigs[key].reads:
+               if read.bad:
+                  BadreadsLoc.append(int(read.read_ref_start))
+
+    
+
+    BadreadsLoc.sort();
+    counter=0
+    printstr=""
+    for ele in BadreadsLoc:
+        printstr=printstr+str(ele)+" "
+        counter=counter+1
+        if counter==7:
+           print printstr
+           printstr=""
+           counter=0
+   
+   #-----------------print out contig size--------------------------------------
+   
+    contigsize=[] 
+   
+    for key in contigs:
+       contigsize.append(contigs[key].size)
+   
+    contigsize.sort();
+    for ele in contigsize:
+       print ele
+   """ 
+#execute main if this script was run via command-line
+if __name__ == "__main__":
+    main()
