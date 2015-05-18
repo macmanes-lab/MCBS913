@@ -44,7 +44,7 @@ do
         echo $buildir${fastdArr[$count]}_jump_hs15      
 
 #          ./MosaikAligner -in $buildir${gename[$j]}_bestread.dat -out $outdir${fastdArr[$count]}_alignedRes.dat -ia $buildir${fastdArr[$count]}.dat -hs 15 -mm 4 -j $buildir${fastdArr[$count]}_jump_hs15 -p 10 -a
-nnse /opt/MOSAIK/src/networkFile/2.1.26.se.100.005.ann -annpe /opt/MOSAIK/src/networkFile/2.1.26.pe.100.0065.ann   
+#nnse /opt/MOSAIK/src/networkFile/2.1.26.se.100.005.ann -annpe /opt/MOSAIK/src/networkFile/2.1.26.pe.100.0065.ann   
 
 #        ./MosaikBuild -fr $refdir${gename[$j]}/$i -oa $buildir${fastdArr[$count]}.dat &
         ./MosaikJump -ia $buildir${fastdArr[$count]}.dat -out $buildir${fastdArr[$count]}_jump_hs15 -hs 15 -iupac&
