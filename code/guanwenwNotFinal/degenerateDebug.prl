@@ -8,7 +8,7 @@
 #$ext = "fastd"; 
 
 #$inputfastX  = "/thomas1/mcbs913/shared_data1/datasets/references/AcidovoraxAvenaeATCC19860/1-AcidovoraxCitrulliAA
-C00-1.$ext";
+#C00-1.$ext";
 
 #------------------------------
 # Set output file name
