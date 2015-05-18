@@ -16,7 +16,7 @@ import os
 # It will download .gff, .faa, .fna and store in the same directory.
 #
 # ftp://ftp.ncbi.nih.gov/genomes/Bacteria//Staphylococcus_pasteuri_SP1_uid226267/NC_022737.faa
-# ftp://ftp.ncbi.nih.gov/genomes/Bacteria///Mycobacterium_smegmatis_JS623_uid184820/NC_019966.gff
+# ftp://ftp.ncbi.nih.gov/genomes/Bacteria//Mycobacterium_smegmatis_JS623_uid184820/NC_019966.gff
 #
 '''
 
@@ -83,4 +83,4 @@ for line in file_content:
         if os.path.exists( path ):
             print('Successfully downloaded\n')
         else:
-            print('Failed Download\n')
+            print('Failed download\n')
