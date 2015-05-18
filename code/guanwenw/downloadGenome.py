@@ -1,9 +1,9 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 import sys, getopt
-import urllib
+import urllib.request
 import os
 
-###############################
+'''
 # Part of my team’s final submission
 # Guanwen Wang
 #
@@ -18,11 +18,12 @@ import os
 # ftp://ftp.ncbi.nih.gov/genomes/Bacteria//Staphylococcus_pasteuri_SP1_uid226267/NC_022737.faa
 # ftp://ftp.ncbi.nih.gov/genomes/Bacteria///Mycobacterium_smegmatis_JS623_uid184820/NC_019966.gff
 #
-###############################
+'''
 
 # Store input and output file names
 ifile=''
 ofile=''
+inputFile=''
 
 # Read command line args
 myopts, args = getopt.getopt(sys.argv[1:],"i:o:")
@@ -38,24 +39,20 @@ for o, a in myopts:
     # Display input and output file name passed as the args
     print ("Input file : %s and output file: %s" % (ifile,ofile) )
 
-
-if ifile != "":
+if ifile != "": 
     inputFile = ifile
-print inputFile
 
-i = 0
+i = 0 
 lastDirName = ""
 file_content = open(inputFile, 'r')
 for line in file_content:
-    #token = line.split('\"')
     token = line.split('\n')
     dirName = token[0].split('/')
-    #dirName = token[1].split('/')
     if dirName[6] == lastDirName:
-        i = i + 1
+        i = i + 1 
     else:
         lastDirName = dirName[6]
-        i = 0
+        i = 0 
 
     fileName = dirName[7].split('.')
     fileFaa = fileName[0]+".faa"
@@ -65,10 +62,25 @@ for line in file_content:
     ftp = token[0].split('.gff')
     urlPath = ftp[0]
     fullurl = [ftp[0]+".faa", ftp[0]+".fna", ftp[0]+".gff"]
-
     fileList = [fileFaa, fileFna, fileGff]
 
     dirList = [ dirName[6],'','']
+    #print (fullurl)
+    #print (fileList)
 
-    print fullurl
-    print fileList
+    if not os.path.exists( dirList[0] ):
+        os.mkdir( dirList[0], 0o755 );
+
+    for j in range(len(fileList)):
+        path = dirList[0] + '/' + str(i + 1) + '-' + dirList[0] + '_' + fileList[j]
+
+        print (path)
+        print (fullurl[j])
+
+        if not os.path.exists( path ):
+            urllib.request.urlretrieve( fullurl[j], path)
+
+        if os.path.exists( path ):
+            print('Successfully downloaded\n')
+        else:
+            print('Failed Download\n')
